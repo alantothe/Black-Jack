@@ -15,6 +15,7 @@ I would like to add gambling and multiple players but not sure if I can do that 
 * Insurance 
 * Ace has a value of 11 or 1 depending on the value of the hand. 
 * Push Rule 
+* Split Cards
 
 
 
