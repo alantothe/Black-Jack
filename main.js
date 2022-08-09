@@ -146,7 +146,7 @@ deal.addEventListener('click', function(event){
       if(result === DiamondJack ){
          dealerHand[0] = 10
          let dealerCard = document.createElement("img")
-         dealerCard.src="./PNG/JD.PNG" 
+         dealerCard.src="./PNG/JD.png" 
          dealerCard.setAttribute("width", "100px" )   
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -154,7 +154,7 @@ deal.addEventListener('click', function(event){
       if(result === DiamondQueen ){
          dealerHand[0] = 10
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/QD.PNG"   
+         dealerCard.src= "./PNG/QD.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -163,7 +163,7 @@ deal.addEventListener('click', function(event){
       if(result === DiamondKing ){
          dealerHand[0] = 10
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/KD.PNG"   
+         dealerCard.src= "./PNG/KD.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -172,7 +172,7 @@ deal.addEventListener('click', function(event){
       if(result === DiamondAce ){
          dealerHand[0] = 11
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/AD.PNG"
+         dealerCard.src= "./PNG/AD.png"
          dealerCard.setAttribute("width", "100px" )     
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -181,7 +181,7 @@ deal.addEventListener('click', function(event){
       if(result === Diamond2 ){
          dealerHand[0] = 2
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/2D.PNG"   
+         dealerCard.src= "./PNG/2D.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -190,7 +190,7 @@ deal.addEventListener('click', function(event){
       if(result === Diamond3 ){
          dealerHand[0] = 3
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/3D.PNG"   
+         dealerCard.src= "./PNG/3D.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -199,7 +199,7 @@ deal.addEventListener('click', function(event){
       if(result === Diamond4 ){
          dealerHand[0] = 4
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/4D.PNG"   
+         dealerCard.src= "./PNG/4D.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -208,7 +208,7 @@ deal.addEventListener('click', function(event){
       if(result === Diamond5 ){
          dealerHand[0] = 5
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/5D.PNG"   
+         dealerCard.src= "./PNG/5D.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -217,7 +217,7 @@ deal.addEventListener('click', function(event){
       if(result === Diamond6 ){
          dealerHand[0] = 6
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/6D.PNG"   
+         dealerCard.src= "./PNG/6D.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -226,7 +226,7 @@ deal.addEventListener('click', function(event){
       if(result === Diamond7 ){
          dealerHand[0] = 7
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/7D.PNG"   
+         dealerCard.src= "./PNG/7D.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -235,7 +235,7 @@ deal.addEventListener('click', function(event){
       if(result === Diamond8 ){
          dealerHand[0] = 8
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/8D.PNG"   
+         dealerCard.src= "./PNG/8D.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -244,7 +244,7 @@ deal.addEventListener('click', function(event){
       if(result === Diamond9 ){
          dealerHand[0] = 9
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/9D.PNG"   
+         dealerCard.src= "./PNG/9D.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -254,7 +254,7 @@ deal.addEventListener('click', function(event){
       if(result === Diamond10 ){
          dealerHand[0] = 10
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/10D.PNG"   
+         dealerCard.src= "./PNG/10D.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -266,7 +266,7 @@ deal.addEventListener('click', function(event){
        if(result === HeartJack ){
          dealerHand[0] = 10
          let dealerCard = document.createElement("img")
-         dealerCard.src="./PNG/JH.PNG" 
+         dealerCard.src="./PNG/JH.png" 
          dealerCard.setAttribute("width", "100px" )   
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -274,7 +274,7 @@ deal.addEventListener('click', function(event){
       if(result === HeartQueen ){
          dealerHand[0] = 10
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/QH.PNG"   
+         dealerCard.src= "./PNG/QH.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -283,7 +283,7 @@ deal.addEventListener('click', function(event){
       if(result === HeartKing ){
          dealerHand[0] = 10
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/KH.PNG"   
+         dealerCard.src= "./PNG/KH.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -292,7 +292,7 @@ deal.addEventListener('click', function(event){
       if(result === HeartAce ){
          dealerHand[0] = 11
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/AH.PNG"
+         dealerCard.src= "./PNG/AH.png"
          dealerCard.setAttribute("width", "100px" )     
          dealerHandDiv.appendChild(dealerCard)
       
@@ -300,7 +300,7 @@ deal.addEventListener('click', function(event){
       if(result === Heart2 ){
          dealerHand[0] = 2
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/2H.PNG"   
+         dealerCard.src= "./PNG/2H.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -309,7 +309,7 @@ deal.addEventListener('click', function(event){
       if(result === Heart3 ){
          dealerHand[0] = 3
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/3H.PNG"   
+         dealerCard.src= "./PNG/3H.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -318,7 +318,7 @@ deal.addEventListener('click', function(event){
       if(result === Heart4 ){
          dealerHand[0] = 4
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/4H.PNG"   
+         dealerCard.src= "./PNG/4H.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -327,7 +327,7 @@ deal.addEventListener('click', function(event){
       if(result === Heart5 ){
          dealerHand[0] = 5
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/5H.PNG"   
+         dealerCard.src= "./PNG/5H.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -336,7 +336,7 @@ deal.addEventListener('click', function(event){
       if(result === Heart6 ){
          dealerHand[0] = 6
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/6H.PNG"   
+         dealerCard.src= "./PNG/6H.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -345,7 +345,7 @@ deal.addEventListener('click', function(event){
       if(result === Heart7 ){
          dealerHand[0] = 7
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/7H.PNG"   
+         dealerCard.src= "./PNG/7H.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -354,7 +354,7 @@ deal.addEventListener('click', function(event){
       if(result === Heart8 ){
          dealerHand[0] = 8
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/8H.PNG"   
+         dealerCard.src= "./PNG/8H.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -363,7 +363,7 @@ deal.addEventListener('click', function(event){
       if(result === Heart9 ){
          dealerHand[0] = 9
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/9H.PNG"   
+         dealerCard.src= "./PNG/9H.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -373,7 +373,7 @@ deal.addEventListener('click', function(event){
       if(result === Heart10 ){
          dealerHand[0] = 10
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/10H.PNG"   
+         dealerCard.src= "./PNG/10H.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -384,7 +384,7 @@ deal.addEventListener('click', function(event){
       if(result === ClubJack ){
          dealerHand[0] = 10
          let dealerCard = document.createElement("img")
-         dealerCard.src="./PNG/JC.PNG" 
+         dealerCard.src="./PNG/JC.png" 
          dealerCard.setAttribute("width", "100px" )   
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -392,7 +392,7 @@ deal.addEventListener('click', function(event){
       if(result === ClubQueen ){
          dealerHand[0] = 10
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/QC.PNG"   
+         dealerCard.src= "./PNG/QC.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -401,7 +401,7 @@ deal.addEventListener('click', function(event){
       if(result === ClubKing ){
          dealerHand[0] = 10
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/KC.PNG"   
+         dealerCard.src= "./PNG/KC.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -410,7 +410,7 @@ deal.addEventListener('click', function(event){
       if(result === ClubAce ){
          dealerHand[0] = 11
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/AC.PNG"
+         dealerCard.src= "./PNG/AC.png"
          dealerCard.setAttribute("width", "100px" )     
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -419,7 +419,7 @@ deal.addEventListener('click', function(event){
       if(result === Club2 ){
          dealerHand[0] = 2
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/2C.PNG"   
+         dealerCard.src= "./PNG/2C.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -428,7 +428,7 @@ deal.addEventListener('click', function(event){
       if(result === Club3 ){
          dealerHand[0] = 3
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/3C.PNG"   
+         dealerCard.src= "./PNG/3C.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -437,7 +437,7 @@ deal.addEventListener('click', function(event){
       if(result === Club4 ){
          dealerHand[0] = 4
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/4C.PNG"   
+         dealerCard.src= "./PNG/4C.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -446,7 +446,7 @@ deal.addEventListener('click', function(event){
       if(result === Club5 ){
          dealerHand[0] = 5
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/5C.PNG"   
+         dealerCard.src= "./PNG/5C.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -455,7 +455,7 @@ deal.addEventListener('click', function(event){
       if(result === Club6 ){
          dealerHand[0] = 6
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/6C.PNG"   
+         dealerCard.src= "./PNG/6C.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -464,7 +464,7 @@ deal.addEventListener('click', function(event){
       if(result === Club7 ){
          dealerHand[0] = 7
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/7C.PNG"   
+         dealerCard.src= "./PNG/7C.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -473,7 +473,7 @@ deal.addEventListener('click', function(event){
       if(result === Club8 ){
          dealerHand[0] = 8
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/8C.PNG"   
+         dealerCard.src= "./PNG/8C.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -482,7 +482,7 @@ deal.addEventListener('click', function(event){
       if(result === Club9 ){
          dealerHand[0] = 9
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/9C.PNG"   
+         dealerCard.src= "./PNG/9C.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -492,7 +492,7 @@ deal.addEventListener('click', function(event){
       if(result === Club10 ){
          dealerHand[0] = 10
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/10C.PNG"   
+         dealerCard.src= "./PNG/10C.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -504,7 +504,7 @@ deal.addEventListener('click', function(event){
       if(result === SpadeJack ){
          dealerHand[0] = 10
          let dealerCard = document.createElement("img")
-         dealerCard.src="./PNG/JS.PNG" 
+         dealerCard.src="./PNG/JS.png" 
          dealerCard.setAttribute("width", "100px" )   
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -512,7 +512,7 @@ deal.addEventListener('click', function(event){
       if(result === SpadeQueen ){
          dealerHand[0] = 10
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/QS.PNG"   
+         dealerCard.src= "./PNG/QS.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -521,7 +521,7 @@ deal.addEventListener('click', function(event){
       if(result === SpadeKing ){
          dealerHand[0] = 10
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/KS.PNG"   
+         dealerCard.src= "./PNG/KS.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -530,7 +530,7 @@ deal.addEventListener('click', function(event){
       if(result === SpadeAce ){
          dealerHand[0] = 11
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/AS.PNG"
+         dealerCard.src= "./PNG/AS.png"
          dealerCard.setAttribute("width", "100px" )     
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -539,7 +539,7 @@ deal.addEventListener('click', function(event){
       if(result === Spade2 ){
          dealerHand[0] = 2
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/2S.PNG"   
+         dealerCard.src= "./PNG/2S.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -548,7 +548,7 @@ deal.addEventListener('click', function(event){
       if(result === Spade3 ){
          dealerHand[0] = 3
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/3S.PNG"   
+         dealerCard.src= "./PNG/3S.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -556,7 +556,7 @@ deal.addEventListener('click', function(event){
       if(result === Spade4 ){
          dealerHand[0] = 4
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/4S.PNG"   
+         dealerCard.src= "./PNG/4S.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -564,7 +564,7 @@ deal.addEventListener('click', function(event){
       if(result === Spade5 ){
          dealerHand[0] = 5
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/5C.PNG"   
+         dealerCard.src= "./PNG/5C.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -572,7 +572,7 @@ deal.addEventListener('click', function(event){
       if(result === Spade6 ){
          dealerHand[0] = 6
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/6S.PNG"   
+         dealerCard.src= "./PNG/6S.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -580,7 +580,7 @@ deal.addEventListener('click', function(event){
       if(result === Spade7 ){
          dealerHand[0] = 7
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/7S.PNG"   
+         dealerCard.src= "./PNG/7S.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -588,7 +588,7 @@ deal.addEventListener('click', function(event){
       if(result === Spade8 ){
          dealerHand[0] = 8
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/8S.PNG"   
+         dealerCard.src= "./PNG/8S.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -596,7 +596,7 @@ deal.addEventListener('click', function(event){
       if(result === Spade9 ){
          dealerHand[0] = 9
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/9S.PNG"   
+         dealerCard.src= "./PNG/9S.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -605,7 +605,7 @@ deal.addEventListener('click', function(event){
       if(result === Spade10 ){
          dealerHand[0] = 10
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/10S.PNG"   
+         dealerCard.src= "./PNG/10S.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;      
@@ -620,7 +620,7 @@ deal.addEventListener('click', function(event){
 
  //This adds the fake back card 
 let dealerCardFake = document.createElement("img")
-dealerCardFake.src="./PNG/Back.PNG" 
+dealerCardFake.src="./PNG/Back.png" 
 dealerCardFake.setAttribute("width", "102px" )   
 dealerHandDiv.appendChild(dealerCardFake)
 
@@ -640,7 +640,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === DiamondJack ){
          player1Hand[0] = 10
          let player1Card = document.createElement("img")
-         player1Card.src="./PNG/JD.PNG" 
+         player1Card.src="./PNG/JD.png" 
          player1Card.setAttribute("width", "100px" )   
          player1Div.appendChild(player1Card)
          break;
@@ -648,7 +648,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === DiamondQueen ){
          player1Hand[0] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/QD.PNG"   
+         player1Card.src= "./PNG/QD.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -657,7 +657,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === DiamondKing ){
          player1Hand[0] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/KD.PNG"   
+         player1Card.src= "./PNG/KD.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -666,7 +666,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === DiamondAce ){
          player1Hand[0] = 11
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/AD.PNG"
+         player1Card.src= "./PNG/AD.png"
          player1Card.setAttribute("width", "100px" )     
          player1Div.appendChild(player1Card)
          break;
@@ -675,7 +675,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Diamond2 ){
          player1Hand[0] = 2
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/2D.PNG"   
+         player1Card.src= "./PNG/2D.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -684,7 +684,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Diamond3 ){
          player1Hand[0] = 3
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/3D.PNG"   
+         player1Card.src= "./PNG/3D.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -693,7 +693,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Diamond4 ){
          player1Hand[0] = 4
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/4D.PNG"   
+         player1Card.src= "./PNG/4D.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -702,7 +702,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Diamond5 ){
          player1Hand[0] = 5
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/5D.PNG"   
+         player1Card.src= "./PNG/5D.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -711,7 +711,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Diamond6 ){
          player1Hand[0] = 6
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/6D.PNG"   
+         player1Card.src= "./PNG/6D.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -720,7 +720,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Diamond7 ){
          player1Hand[0] = 7
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/7D.PNG"   
+         player1Card.src= "./PNG/7D.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -729,7 +729,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Diamond8 ){
          player1Hand[0] = 8
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/8D.PNG"   
+         player1Card.src= "./PNG/8D.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -738,7 +738,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Diamond9 ){
          player1Hand[0] = 9
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/9D.PNG"   
+         player1Card.src= "./PNG/9D.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -748,7 +748,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Diamond10 ){
          player1Hand[0] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/10D.PNG"   
+         player1Card.src= "./PNG/10D.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -760,7 +760,7 @@ dealerHandDiv.appendChild(dealerCardFake)
        if(result === HeartJack ){
          player1Hand[0] = 10
          let player1Card = document.createElement("img")
-         player1Card.src="./PNG/JH.PNG" 
+         player1Card.src="./PNG/JH.png" 
          player1Card.setAttribute("width", "100px" )   
          player1Div.appendChild(player1Card)
          break;
@@ -768,7 +768,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === HeartQueen ){
          player1Hand[0] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/QH.PNG"   
+         player1Card.src= "./PNG/QH.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -777,7 +777,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === HeartKing ){
          player1Hand[0] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/KH.PNG"   
+         player1Card.src= "./PNG/KH.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -786,7 +786,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === HeartAce ){
          player1Hand[0] = 11
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/AH.PNG"
+         player1Card.src= "./PNG/AH.png"
          player1Card.setAttribute("width", "100px" )     
          player1Div.appendChild(player1Card)
       
@@ -794,7 +794,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Heart2 ){
          player1Hand[0] = 2
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/2H.PNG"   
+         player1Card.src= "./PNG/2H.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -803,7 +803,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Heart3 ){
          player1Hand[0] = 3
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/3H.PNG"   
+         player1Card.src= "./PNG/3H.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -812,7 +812,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Heart4 ){
          player1Hand[0] = 4
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/4H.PNG"   
+         player1Card.src= "./PNG/4H.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -821,7 +821,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Heart5 ){
          player1Hand[0] = 5
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/5H.PNG"   
+         player1Card.src= "./PNG/5H.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -830,7 +830,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Heart6 ){
          player1Hand[0] = 6
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/6H.PNG"   
+         player1Card.src= "./PNG/6H.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -839,7 +839,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Heart7 ){
          player1Hand[0] = 7
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/7H.PNG"   
+         player1Card.src= "./PNG/7H.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -848,7 +848,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Heart8 ){
          player1Hand[0] = 8
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/8H.PNG"   
+         player1Card.src= "./PNG/8H.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -857,7 +857,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Heart9 ){
          player1Hand[0] = 9
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/9H.PNG"   
+         player1Card.src= "./PNG/9H.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -867,7 +867,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Heart10 ){
          player1Hand[0] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/10H.PNG"   
+         player1Card.src= "./PNG/10H.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -878,7 +878,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === ClubJack ){
          player1Hand[0] = 10
          let player1Card = document.createElement("img")
-         player1Card.src="./PNG/JC.PNG" 
+         player1Card.src="./PNG/JC.png" 
          player1Card.setAttribute("width", "100px" )   
          player1Div.appendChild(player1Card)
          break;
@@ -886,7 +886,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === ClubQueen ){
          player1Hand[0] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/QC.PNG"   
+         player1Card.src= "./PNG/QC.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -895,7 +895,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === ClubKing ){
          player1Hand[0] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/KC.PNG"   
+         player1Card.src= "./PNG/KC.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -904,7 +904,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === ClubAce ){
          player1Hand[0] = 11
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/AC.PNG"
+         player1Card.src= "./PNG/AC.png"
          player1Card.setAttribute("width", "100px" )     
          player1Div.appendChild(player1Card)
          break;
@@ -913,7 +913,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Club2 ){
          player1Hand[0] = 2
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/2C.PNG"   
+         player1Card.src= "./PNG/2C.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -922,7 +922,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Club3 ){
          player1Hand[0] = 3
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/3C.PNG"   
+         player1Card.src= "./PNG/3C.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -931,7 +931,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Club4 ){
          player1Hand[0] = 4
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/4C.PNG"   
+         player1Card.src= "./PNG/4C.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -940,7 +940,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Club5 ){
          player1Hand[0] = 5
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/5C.PNG"   
+         player1Card.src= "./PNG/5C.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -949,7 +949,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Club6 ){
          player1Hand[0] = 6
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/6C.PNG"   
+         player1Card.src= "./PNG/6C.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -958,7 +958,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Club7 ){
          player1Hand[0] = 7
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/7C.PNG"   
+         player1Card.src= "./PNG/7C.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -967,7 +967,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Club8 ){
          player1Hand[0] = 8
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/8C.PNG"   
+         player1Card.src= "./PNG/8C.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -976,7 +976,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Club9 ){
          player1Hand[0] = 9
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/9C.PNG"   
+         player1Card.src= "./PNG/9C.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -986,7 +986,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Club10 ){
          player1Hand[0] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/10C.PNG"   
+         player1Card.src= "./PNG/10C.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -998,7 +998,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === SpadeJack ){
          player1Hand[0] = 10
          let player1Card = document.createElement("img")
-         player1Card.src="./PNG/JS.PNG" 
+         player1Card.src="./PNG/JS.png" 
          player1Card.setAttribute("width", "100px" )   
          player1Div.appendChild(player1Card)
          break;
@@ -1006,7 +1006,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === SpadeQueen ){
          player1Hand[0] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/QS.PNG"   
+         player1Card.src= "./PNG/QS.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1015,7 +1015,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === SpadeKing ){
          player1Hand[0] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/KS.PNG"   
+         player1Card.src= "./PNG/KS.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1024,7 +1024,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === SpadeAce ){
          player1Hand[0] = 11
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/AS.PNG"
+         player1Card.src= "./PNG/AS.png"
          player1Card.setAttribute("width", "100px" )     
          player1Div.appendChild(player1Card)
          break;
@@ -1033,7 +1033,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Spade2 ){
          player1Hand[0] = 2
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/2S.PNG"   
+         player1Card.src= "./PNG/2S.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1042,7 +1042,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Spade3 ){
          player1Hand[0] = 3
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/3S.PNG"   
+         player1Card.src= "./PNG/3S.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1050,7 +1050,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Spade4 ){
          player1Hand[0] = 4
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/4S.PNG"   
+         player1Card.src= "./PNG/4S.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1058,7 +1058,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Spade5 ){
          player1Hand[0] = 5
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/5C.PNG"   
+         player1Card.src= "./PNG/5C.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1066,7 +1066,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Spade6 ){
          player1Hand[0] = 6
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/6S.PNG"   
+         player1Card.src= "./PNG/6S.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1074,7 +1074,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Spade7 ){
          player1Hand[0] = 7
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/7S.PNG"   
+         player1Card.src= "./PNG/7S.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1082,7 +1082,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Spade8 ){
          player1Hand[0] = 8
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/8S.PNG"   
+         player1Card.src= "./PNG/8S.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1090,7 +1090,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Spade9 ){
          player1Hand[0] = 9
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/9S.PNG"   
+         player1Card.src= "./PNG/9S.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1099,7 +1099,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Spade10 ){
          player1Hand[0] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/10S.PNG"   
+         player1Card.src= "./PNG/10S.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;      
@@ -1119,7 +1119,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === DiamondJack ){
          player1Hand[1] = 10
          let player1Card = document.createElement("img")
-         player1Card.src="./PNG/JD.PNG" 
+         player1Card.src="./PNG/JD.png" 
          player1Card.setAttribute("width", "100px" )   
          player1Div.appendChild(player1Card)
          break;
@@ -1127,7 +1127,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === DiamondQueen ){
          player1Hand[1] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/QD.PNG"   
+         player1Card.src= "./PNG/QD.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1136,7 +1136,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === DiamondKing ){
          player1Hand[1] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/KD.PNG"   
+         player1Card.src= "./PNG/KD.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1145,7 +1145,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === DiamondAce ){
          player1Hand[1] = 11
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/AD.PNG"
+         player1Card.src= "./PNG/AD.png"
          player1Card.setAttribute("width", "100px" )     
          player1Div.appendChild(player1Card)
          break;
@@ -1154,7 +1154,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Diamond2 ){
          player1Hand[1] = 2
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/2D.PNG"   
+         player1Card.src= "./PNG/2D.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1163,7 +1163,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Diamond3 ){
          player1Hand[1] = 3
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/3D.PNG"   
+         player1Card.src= "./PNG/3D.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1172,7 +1172,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Diamond4 ){
          player1Hand[1] = 4
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/4D.PNG"   
+         player1Card.src= "./PNG/4D.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1181,7 +1181,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Diamond5 ){
          player1Hand[1] = 5
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/5D.PNG"   
+         player1Card.src= "./PNG/5D.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1190,7 +1190,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Diamond6 ){
          player1Hand[1] = 6
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/6D.PNG"   
+         player1Card.src= "./PNG/6D.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1199,7 +1199,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Diamond7 ){
          player1Hand[1] = 7
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/7D.PNG"   
+         player1Card.src= "./PNG/7D.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1208,7 +1208,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Diamond8 ){
          player1Hand[1] = 8
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/8D.PNG"   
+         player1Card.src= "./PNG/8D.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1217,7 +1217,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Diamond9 ){
          player1Hand[1] = 9
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/9D.PNG"   
+         player1Card.src= "./PNG/9D.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1227,7 +1227,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Diamond10 ){
          player1Hand[1] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/10D.PNG"   
+         player1Card.src= "./PNG/10D.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1239,7 +1239,7 @@ dealerHandDiv.appendChild(dealerCardFake)
        if(result === HeartJack ){
          player1Hand[1] = 10
          let player1Card = document.createElement("img")
-         player1Card.src="./PNG/JH.PNG" 
+         player1Card.src="./PNG/JH.png" 
          player1Card.setAttribute("width", "100px" )   
          player1Div.appendChild(player1Card)
          break;
@@ -1247,7 +1247,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === HeartQueen ){
          player1Hand[1] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/QH.PNG"   
+         player1Card.src= "./PNG/QH.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1256,7 +1256,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === HeartKing ){
          player1Hand[1] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/KH.PNG"   
+         player1Card.src= "./PNG/KH.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1265,7 +1265,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === HeartAce ){
          player1Hand[1] = 11
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/AH.PNG"
+         player1Card.src= "./PNG/AH.png"
          player1Card.setAttribute("width", "100px" )     
          player1Div.appendChild(player1Card)
       
@@ -1273,7 +1273,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Heart2 ){
          player1Hand[1] = 2
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/2H.PNG"   
+         player1Card.src= "./PNG/2H.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1282,7 +1282,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Heart3 ){
          player1Hand[1] = 3
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/3H.PNG"   
+         player1Card.src= "./PNG/3H.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1291,7 +1291,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Heart4 ){
          player1Hand[1] = 4
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/4H.PNG"   
+         player1Card.src= "./PNG/4H.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1300,7 +1300,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Heart5 ){
          player1Hand[1] = 5
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/5H.PNG"   
+         player1Card.src= "./PNG/5H.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1309,7 +1309,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Heart6 ){
          player1Hand[1] = 6
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/6H.PNG"   
+         player1Card.src= "./PNG/6H.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1318,7 +1318,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Heart7 ){
          player1Hand[1] = 7
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/7H.PNG"   
+         player1Card.src= "./PNG/7H.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1327,7 +1327,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Heart8 ){
          player1Hand[1] = 8
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/8H.PNG"   
+         player1Card.src= "./PNG/8H.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1336,7 +1336,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Heart9 ){
          player1Hand[1] = 9
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/9H.PNG"   
+         player1Card.src= "./PNG/9H.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1346,7 +1346,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Heart10 ){
          player1Hand[1] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/10H.PNG"   
+         player1Card.src= "./PNG/10H.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1357,7 +1357,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === ClubJack ){
          player1Hand[1] = 10
          let player1Card = document.createElement("img")
-         player1Card.src="./PNG/JC.PNG" 
+         player1Card.src="./PNG/JC.png" 
          player1Card.setAttribute("width", "100px" )   
          player1Div.appendChild(player1Card)
          break;
@@ -1365,7 +1365,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === ClubQueen ){
          player1Hand[1] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/QC.PNG"   
+         player1Card.src= "./PNG/QC.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1374,7 +1374,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === ClubKing ){
          player1Hand[1] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/KC.PNG"   
+         player1Card.src= "./PNG/KC.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1383,7 +1383,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === ClubAce ){
          player1Hand[1] = 11
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/AC.PNG"
+         player1Card.src= "./PNG/AC.png"
          player1Card.setAttribute("width", "100px" )     
          player1Div.appendChild(player1Card)
          break;
@@ -1392,7 +1392,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Club2 ){
          player1Hand[1] = 2
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/2C.PNG"   
+         player1Card.src= "./PNG/2C.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1401,7 +1401,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Club3 ){
          player1Hand[1] = 3
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/3C.PNG"   
+         player1Card.src= "./PNG/3C.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1410,7 +1410,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Club4 ){
          player1Hand[1] = 4
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/4C.PNG"   
+         player1Card.src= "./PNG/4C.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1419,7 +1419,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Club5 ){
          player1Hand[1] = 5
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/5C.PNG"   
+         player1Card.src= "./PNG/5C.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1428,7 +1428,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Club6 ){
          player1Hand[1] = 6
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/6C.PNG"   
+         player1Card.src= "./PNG/6C.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1437,7 +1437,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Club7 ){
          player1Hand[1] = 7
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/7C.PNG"   
+         player1Card.src= "./PNG/7C.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1446,7 +1446,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Club8 ){
          player1Hand[1] = 8
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/8C.PNG"   
+         player1Card.src= "./PNG/8C.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1455,7 +1455,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Club9 ){
          player1Hand[1] = 9
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/9C.PNG"   
+         player1Card.src= "./PNG/9C.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1465,7 +1465,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Club10 ){
          player1Hand[1] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/10C.PNG"   
+         player1Card.src= "./PNG/10C.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1477,7 +1477,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === SpadeJack ){
          player1Hand[1] = 10
          let player1Card = document.createElement("img")
-         player1Card.src="./PNG/JS.PNG" 
+         player1Card.src="./PNG/JS.png" 
          player1Card.setAttribute("width", "100px" )   
          player1Div.appendChild(player1Card)
          break;
@@ -1485,7 +1485,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === SpadeQueen ){
          player1Hand[1] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/QS.PNG"   
+         player1Card.src= "./PNG/QS.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1494,7 +1494,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === SpadeKing ){
          player1Hand[1] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/KS.PNG"   
+         player1Card.src= "./PNG/KS.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1503,7 +1503,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === SpadeAce ){
          player1Hand[1] = 11
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/AS.PNG"
+         player1Card.src= "./PNG/AS.png"
          player1Card.setAttribute("width", "100px" )     
          player1Div.appendChild(player1Card)
          break;
@@ -1512,7 +1512,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Spade2 ){
          player1Hand[1] = 2
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/2S.PNG"   
+         player1Card.src= "./PNG/2S.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1521,7 +1521,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Spade3 ){
          player1Hand[1] = 3
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/3S.PNG"   
+         player1Card.src= "./PNG/3S.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1529,7 +1529,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Spade4 ){
          player1Hand[1] = 4
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/4S.PNG"   
+         player1Card.src= "./PNG/4S.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1537,7 +1537,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Spade5 ){
          player1Hand[1] = 5
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/5C.PNG"   
+         player1Card.src= "./PNG/5C.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1545,7 +1545,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Spade6 ){
          player1Hand[1] = 6
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/6S.PNG"   
+         player1Card.src= "./PNG/6S.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1553,7 +1553,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Spade7 ){
          player1Hand[1] = 7
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/7S.PNG"   
+         player1Card.src= "./PNG/7S.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1561,7 +1561,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Spade8 ){
          player1Hand[1] = 8
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/8S.PNG"   
+         player1Card.src= "./PNG/8S.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1569,7 +1569,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Spade9 ){
          player1Hand[1] = 9
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/9S.PNG"   
+         player1Card.src= "./PNG/9S.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -1578,7 +1578,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       if(result === Spade10 ){
          player1Hand[1] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/10S.PNG"   
+         player1Card.src= "./PNG/10S.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;      
@@ -1662,7 +1662,7 @@ stand.addEventListener('click', function(){
       if(result === DiamondJack ){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
-         dealerCard.src="./PNG/JD.PNG" 
+         dealerCard.src="./PNG/JD.png" 
          dealerCard.setAttribute("width", "100px" )   
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1670,7 +1670,7 @@ stand.addEventListener('click', function(){
       if(result === DiamondQueen ){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/QD.PNG"   
+         dealerCard.src= "./PNG/QD.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1679,7 +1679,7 @@ stand.addEventListener('click', function(){
       if(result === DiamondKing ){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/KD.PNG"   
+         dealerCard.src= "./PNG/KD.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1688,7 +1688,7 @@ stand.addEventListener('click', function(){
       if(result === DiamondAce ){
          dealerHand[1] = 11
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/AD.PNG"
+         dealerCard.src= "./PNG/AD.png"
          dealerCard.setAttribute("width", "100px" )     
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1697,7 +1697,7 @@ stand.addEventListener('click', function(){
       if(result === Diamond2 ){
          dealerHand[1] = 2
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/2D.PNG"   
+         dealerCard.src= "./PNG/2D.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1706,7 +1706,7 @@ stand.addEventListener('click', function(){
       if(result === Diamond3 ){
          dealerHand[1] = 3
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/3D.PNG"   
+         dealerCard.src= "./PNG/3D.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1715,7 +1715,7 @@ stand.addEventListener('click', function(){
       if(result === Diamond4 ){
          dealerHand[1] = 4
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/4D.PNG"   
+         dealerCard.src= "./PNG/4D.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1724,7 +1724,7 @@ stand.addEventListener('click', function(){
       if(result === Diamond5 ){
          dealerHand[1] = 5
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/5D.PNG"   
+         dealerCard.src= "./PNG/5D.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1733,7 +1733,7 @@ stand.addEventListener('click', function(){
       if(result === Diamond6 ){
          dealerHand[1] = 6
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/6D.PNG"   
+         dealerCard.src= "./PNG/6D.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1742,7 +1742,7 @@ stand.addEventListener('click', function(){
       if(result === Diamond7 ){
          dealerHand[1] = 7
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/7D.PNG"   
+         dealerCard.src= "./PNG/7D.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1751,7 +1751,7 @@ stand.addEventListener('click', function(){
       if(result === Diamond8 ){
          dealerHand[1] = 8
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/8D.PNG"   
+         dealerCard.src= "./PNG/8D.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1760,7 +1760,7 @@ stand.addEventListener('click', function(){
       if(result === Diamond9 ){
          dealerHand[1] = 9
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/9D.PNG"   
+         dealerCard.src= "./PNG/9D.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1770,7 +1770,7 @@ stand.addEventListener('click', function(){
       if(result === Diamond10 ){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/10D.PNG"   
+         dealerCard.src= "./PNG/10D.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1782,7 +1782,7 @@ stand.addEventListener('click', function(){
        if(result === HeartJack ){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
-         dealerCard.src="./PNG/JH.PNG" 
+         dealerCard.src="./PNG/JH.png" 
          dealerCard.setAttribute("width", "100px" )   
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1790,7 +1790,7 @@ stand.addEventListener('click', function(){
       if(result === HeartQueen ){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/QH.PNG"   
+         dealerCard.src= "./PNG/QH.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1799,7 +1799,7 @@ stand.addEventListener('click', function(){
       if(result === HeartKing ){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/KH.PNG"   
+         dealerCard.src= "./PNG/KH.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1808,7 +1808,7 @@ stand.addEventListener('click', function(){
       if(result === HeartAce ){
          dealerHand[1] = 11
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/AH.PNG"
+         dealerCard.src= "./PNG/AH.png"
          dealerCard.setAttribute("width", "100px" )     
          dealerHandDiv.appendChild(dealerCard)
       
@@ -1816,7 +1816,7 @@ stand.addEventListener('click', function(){
       if(result === Heart2 ){
          dealerHand[1] = 2
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/2H.PNG"   
+         dealerCard.src= "./PNG/2H.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1825,7 +1825,7 @@ stand.addEventListener('click', function(){
       if(result === Heart3 ){
          dealerHand[1] = 3
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/3H.PNG"   
+         dealerCard.src= "./PNG/3H.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1834,7 +1834,7 @@ stand.addEventListener('click', function(){
       if(result === Heart4 ){
          dealerHand[1] = 4
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/4H.PNG"   
+         dealerCard.src= "./PNG/4H.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1843,7 +1843,7 @@ stand.addEventListener('click', function(){
       if(result === Heart5 ){
          dealerHand[1] = 5
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/5H.PNG"   
+         dealerCard.src= "./PNG/5H.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1852,7 +1852,7 @@ stand.addEventListener('click', function(){
       if(result === Heart6 ){
          dealerHand[1] = 6
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/6H.PNG"   
+         dealerCard.src= "./PNG/6H.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1861,7 +1861,7 @@ stand.addEventListener('click', function(){
       if(result === Heart7 ){
          dealerHand[1] = 7
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/7H.PNG"   
+         dealerCard.src= "./PNG/7H.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1870,7 +1870,7 @@ stand.addEventListener('click', function(){
       if(result === Heart8 ){
          dealerHand[1] = 8
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/8H.PNG"   
+         dealerCard.src= "./PNG/8H.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1879,7 +1879,7 @@ stand.addEventListener('click', function(){
       if(result === Heart9 ){
          dealerHand[1] = 9
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/9H.PNG"   
+         dealerCard.src= "./PNG/9H.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1889,7 +1889,7 @@ stand.addEventListener('click', function(){
       if(result === Heart10 ){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/10H.PNG"   
+         dealerCard.src= "./PNG/10H.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1900,7 +1900,7 @@ stand.addEventListener('click', function(){
       if(result === ClubJack ){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
-         dealerCard.src="./PNG/JC.PNG" 
+         dealerCard.src="./PNG/JC.png" 
          dealerCard.setAttribute("width", "100px" )   
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1908,7 +1908,7 @@ stand.addEventListener('click', function(){
       if(result === ClubQueen ){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/QC.PNG"   
+         dealerCard.src= "./PNG/QC.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1917,7 +1917,7 @@ stand.addEventListener('click', function(){
       if(result === ClubKing ){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/KC.PNG"   
+         dealerCard.src= "./PNG/KC.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1926,7 +1926,7 @@ stand.addEventListener('click', function(){
       if(result === ClubAce ){
          dealerHand[1] = 11
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/AC.PNG"
+         dealerCard.src= "./PNG/AC.png"
          dealerCard.setAttribute("width", "100px" )     
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1935,7 +1935,7 @@ stand.addEventListener('click', function(){
       if(result === Club2 ){
          dealerHand[1] = 2
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/2C.PNG"   
+         dealerCard.src= "./PNG/2C.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1944,7 +1944,7 @@ stand.addEventListener('click', function(){
       if(result === Club3 ){
          dealerHand[1] = 3
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/3C.PNG"   
+         dealerCard.src= "./PNG/3C.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1953,7 +1953,7 @@ stand.addEventListener('click', function(){
       if(result === Club4 ){
          dealerHand[1] = 4
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/4C.PNG"   
+         dealerCard.src= "./PNG/4C.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1962,7 +1962,7 @@ stand.addEventListener('click', function(){
       if(result === Club5 ){
          dealerHand[1] = 5
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/5C.PNG"   
+         dealerCard.src= "./PNG/5C.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1971,7 +1971,7 @@ stand.addEventListener('click', function(){
       if(result === Club6 ){
          dealerHand[1] = 6
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/6C.PNG"   
+         dealerCard.src= "./PNG/6C.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1980,7 +1980,7 @@ stand.addEventListener('click', function(){
       if(result === Club7 ){
          dealerHand[1] = 7
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/7C.PNG"   
+         dealerCard.src= "./PNG/7C.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1989,7 +1989,7 @@ stand.addEventListener('click', function(){
       if(result === Club8 ){
          dealerHand[1] = 8
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/8C.PNG"   
+         dealerCard.src= "./PNG/8C.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -1998,7 +1998,7 @@ stand.addEventListener('click', function(){
       if(result === Club9 ){
          dealerHand[1] = 9
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/9C.PNG"   
+         dealerCard.src= "./PNG/9C.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -2008,7 +2008,7 @@ stand.addEventListener('click', function(){
       if(result === Club10 ){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/10C.PNG"   
+         dealerCard.src= "./PNG/10C.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -2020,7 +2020,7 @@ stand.addEventListener('click', function(){
       if(result === SpadeJack ){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
-         dealerCard.src="./PNG/JS.PNG" 
+         dealerCard.src="./PNG/JS.png" 
          dealerCard.setAttribute("width", "100px" )   
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -2028,7 +2028,7 @@ stand.addEventListener('click', function(){
       if(result === SpadeQueen ){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/QS.PNG"   
+         dealerCard.src= "./PNG/QS.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -2037,7 +2037,7 @@ stand.addEventListener('click', function(){
       if(result === SpadeKing ){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/KS.PNG"   
+         dealerCard.src= "./PNG/KS.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -2046,7 +2046,7 @@ stand.addEventListener('click', function(){
       if(result === SpadeAce ){
          dealerHand[1] = 11
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/AS.PNG"
+         dealerCard.src= "./PNG/AS.png"
          dealerCard.setAttribute("width", "100px" )     
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -2055,7 +2055,7 @@ stand.addEventListener('click', function(){
       if(result === Spade2 ){
          dealerHand[1] = 2
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/2S.PNG"   
+         dealerCard.src= "./PNG/2S.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -2064,7 +2064,7 @@ stand.addEventListener('click', function(){
       if(result === Spade3 ){
          dealerHand[1] = 3
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/3S.PNG"   
+         dealerCard.src= "./PNG/3S.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -2072,7 +2072,7 @@ stand.addEventListener('click', function(){
       if(result === Spade4 ){
          dealerHand[1] = 4
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/4S.PNG"   
+         dealerCard.src= "./PNG/4S.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -2080,7 +2080,7 @@ stand.addEventListener('click', function(){
       if(result === Spade5 ){
          dealerHand[1] = 5
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/5C.PNG"   
+         dealerCard.src= "./PNG/5C.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -2088,7 +2088,7 @@ stand.addEventListener('click', function(){
       if(result === Spade6 ){
          dealerHand[1] = 6
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/6S.PNG"   
+         dealerCard.src= "./PNG/6S.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -2096,7 +2096,7 @@ stand.addEventListener('click', function(){
       if(result === Spade7 ){
          dealerHand[1] = 7
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/7S.PNG"   
+         dealerCard.src= "./PNG/7S.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -2104,7 +2104,7 @@ stand.addEventListener('click', function(){
       if(result === Spade8 ){
          dealerHand[1] = 8
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/8S.PNG"   
+         dealerCard.src= "./PNG/8S.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -2112,7 +2112,7 @@ stand.addEventListener('click', function(){
       if(result === Spade9 ){
          dealerHand[1] = 9
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/9S.PNG"   
+         dealerCard.src= "./PNG/9S.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;
@@ -2121,7 +2121,7 @@ stand.addEventListener('click', function(){
       if(result === Spade10 ){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
-         dealerCard.src= "./PNG/10S.PNG"   
+         dealerCard.src= "./PNG/10S.png"   
          dealerCard.setAttribute("width", "100px" )  
          dealerHandDiv.appendChild(dealerCard)
          break;      
@@ -2174,7 +2174,7 @@ stand.addEventListener('click', function(){
          if(result === DiamondJack ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
-            dealerCard.src="./PNG/JD.PNG" 
+            dealerCard.src="./PNG/JD.png" 
             dealerCard.setAttribute("width", "100px" )   
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2182,7 +2182,7 @@ stand.addEventListener('click', function(){
          if(result === DiamondQueen ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/QD.PNG"   
+            dealerCard.src= "./PNG/QD.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2191,7 +2191,7 @@ stand.addEventListener('click', function(){
          if(result === DiamondKing ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/KD.PNG"   
+            dealerCard.src= "./PNG/KD.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2200,7 +2200,7 @@ stand.addEventListener('click', function(){
          if(result === DiamondAce ){
             dealerHand[dealerHand.length - 1] = 11
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/AD.PNG"
+            dealerCard.src= "./PNG/AD.png"
             dealerCard.setAttribute("width", "100px" )     
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2209,7 +2209,7 @@ stand.addEventListener('click', function(){
          if(result === Diamond2 ){
             dealerHand[dealerHand.length - 1] = 2
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/2D.PNG"   
+            dealerCard.src= "./PNG/2D.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2218,7 +2218,7 @@ stand.addEventListener('click', function(){
          if(result === Diamond3 ){
             dealerHand[dealerHand.length - 1] = 3
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/3D.PNG"   
+            dealerCard.src= "./PNG/3D.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2227,7 +2227,7 @@ stand.addEventListener('click', function(){
          if(result === Diamond4 ){
             dealerHand[dealerHand.length - 1] = 4
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/4D.PNG"   
+            dealerCard.src= "./PNG/4D.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2236,7 +2236,7 @@ stand.addEventListener('click', function(){
          if(result === Diamond5 ){
             dealerHand[dealerHand.length - 1] = 5
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/5D.PNG"   
+            dealerCard.src= "./PNG/5D.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2245,7 +2245,7 @@ stand.addEventListener('click', function(){
          if(result === Diamond6 ){
             dealerHand[dealerHand.length - 1] = 6
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/6D.PNG"   
+            dealerCard.src= "./PNG/6D.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2254,7 +2254,7 @@ stand.addEventListener('click', function(){
          if(result === Diamond7 ){
             dealerHand[dealerHand.length - 1] = 7
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/7D.PNG"   
+            dealerCard.src= "./PNG/7D.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2263,7 +2263,7 @@ stand.addEventListener('click', function(){
          if(result === Diamond8 ){
             dealerHand[dealerHand.length - 1] = 8
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/8D.PNG"   
+            dealerCard.src= "./PNG/8D.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2272,7 +2272,7 @@ stand.addEventListener('click', function(){
          if(result === Diamond9 ){
             dealerHand[dealerHand.length - 1] = 9
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/9D.PNG"   
+            dealerCard.src= "./PNG/9D.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2282,7 +2282,7 @@ stand.addEventListener('click', function(){
          if(result === Diamond10 ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/10D.PNG"   
+            dealerCard.src= "./PNG/10D.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2294,7 +2294,7 @@ stand.addEventListener('click', function(){
           if(result === HeartJack ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
-            dealerCard.src="./PNG/JH.PNG" 
+            dealerCard.src="./PNG/JH.png" 
             dealerCard.setAttribute("width", "100px" )   
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2302,7 +2302,7 @@ stand.addEventListener('click', function(){
          if(result === HeartQueen ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/QH.PNG"   
+            dealerCard.src= "./PNG/QH.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2311,7 +2311,7 @@ stand.addEventListener('click', function(){
          if(result === HeartKing ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/KH.PNG"   
+            dealerCard.src= "./PNG/KH.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2320,7 +2320,7 @@ stand.addEventListener('click', function(){
          if(result === HeartAce ){
             dealerHand[dealerHand.length - 1] = 11
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/AH.PNG"
+            dealerCard.src= "./PNG/AH.png"
             dealerCard.setAttribute("width", "100px" )     
             dealerHandDiv.appendChild(dealerCard)
          
@@ -2328,7 +2328,7 @@ stand.addEventListener('click', function(){
          if(result === Heart2 ){
             dealerHand[dealerHand.length - 1] = 2
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/2H.PNG"   
+            dealerCard.src= "./PNG/2H.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2337,7 +2337,7 @@ stand.addEventListener('click', function(){
          if(result === Heart3 ){
             dealerHand[dealerHand.length - 1] = 3
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/3H.PNG"   
+            dealerCard.src= "./PNG/3H.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2346,7 +2346,7 @@ stand.addEventListener('click', function(){
          if(result === Heart4 ){
             dealerHand[dealerHand.length - 1] = 4
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/4H.PNG"   
+            dealerCard.src= "./PNG/4H.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2355,7 +2355,7 @@ stand.addEventListener('click', function(){
          if(result === Heart5 ){
             dealerHand[dealerHand.length - 1] = 5
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/5H.PNG"   
+            dealerCard.src= "./PNG/5H.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2364,7 +2364,7 @@ stand.addEventListener('click', function(){
          if(result === Heart6 ){
             dealerHand[dealerHand.length - 1] = 6
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/6H.PNG"   
+            dealerCard.src= "./PNG/6H.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2373,7 +2373,7 @@ stand.addEventListener('click', function(){
          if(result === Heart7 ){
             dealerHand[dealerHand.length - 1] = 7
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/7H.PNG"   
+            dealerCard.src= "./PNG/7H.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2382,7 +2382,7 @@ stand.addEventListener('click', function(){
          if(result === Heart8 ){
             dealerHand[dealerHand.length - 1] = 8
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/8H.PNG"   
+            dealerCard.src= "./PNG/8H.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2391,7 +2391,7 @@ stand.addEventListener('click', function(){
          if(result === Heart9 ){
             dealerHand[dealerHand.length - 1] = 9
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/9H.PNG"   
+            dealerCard.src= "./PNG/9H.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2401,7 +2401,7 @@ stand.addEventListener('click', function(){
          if(result === Heart10 ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/10H.PNG"   
+            dealerCard.src= "./PNG/10H.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2412,7 +2412,7 @@ stand.addEventListener('click', function(){
          if(result === ClubJack ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
-            dealerCard.src="./PNG/JC.PNG" 
+            dealerCard.src="./PNG/JC.png" 
             dealerCard.setAttribute("width", "100px" )   
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2420,7 +2420,7 @@ stand.addEventListener('click', function(){
          if(result === ClubQueen ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/QC.PNG"   
+            dealerCard.src= "./PNG/QC.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2429,7 +2429,7 @@ stand.addEventListener('click', function(){
          if(result === ClubKing ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/KC.PNG"   
+            dealerCard.src= "./PNG/KC.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2438,7 +2438,7 @@ stand.addEventListener('click', function(){
          if(result === ClubAce ){
             dealerHand[dealerHand.length - 1] = 11
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/AC.PNG"
+            dealerCard.src= "./PNG/AC.png"
             dealerCard.setAttribute("width", "100px" )     
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2447,7 +2447,7 @@ stand.addEventListener('click', function(){
          if(result === Club2 ){
             dealerHand[dealerHand.length - 1] = 2
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/2C.PNG"   
+            dealerCard.src= "./PNG/2C.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2456,7 +2456,7 @@ stand.addEventListener('click', function(){
          if(result === Club3 ){
             dealerHand[dealerHand.length - 1] = 3
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/3C.PNG"   
+            dealerCard.src= "./PNG/3C.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2465,7 +2465,7 @@ stand.addEventListener('click', function(){
          if(result === Club4 ){
             dealerHand[dealerHand.length - 1] = 4
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/4C.PNG"   
+            dealerCard.src= "./PNG/4C.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2474,7 +2474,7 @@ stand.addEventListener('click', function(){
          if(result === Club5 ){
             dealerHand[dealerHand.length - 1] = 5
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/5C.PNG"   
+            dealerCard.src= "./PNG/5C.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2483,7 +2483,7 @@ stand.addEventListener('click', function(){
          if(result === Club6 ){
             dealerHand[dealerHand.length - 1] = 6
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/6C.PNG"   
+            dealerCard.src= "./PNG/6C.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2492,7 +2492,7 @@ stand.addEventListener('click', function(){
          if(result === Club7 ){
             dealerHand[dealerHand.length - 1] = 7
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/7C.PNG"   
+            dealerCard.src= "./PNG/7C.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2501,7 +2501,7 @@ stand.addEventListener('click', function(){
          if(result === Club8 ){
             dealerHand[dealerHand.length - 1] = 8
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/8C.PNG"   
+            dealerCard.src= "./PNG/8C.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2510,7 +2510,7 @@ stand.addEventListener('click', function(){
          if(result === Club9 ){
             dealerHand[dealerHand.length - 1] = 9
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/9C.PNG"   
+            dealerCard.src= "./PNG/9C.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2520,7 +2520,7 @@ stand.addEventListener('click', function(){
          if(result === Club10 ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/10C.PNG"   
+            dealerCard.src= "./PNG/10C.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2532,7 +2532,7 @@ stand.addEventListener('click', function(){
          if(result === SpadeJack ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
-            dealerCard.src="./PNG/JS.PNG" 
+            dealerCard.src="./PNG/JS.png" 
             dealerCard.setAttribute("width", "100px" )   
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2540,7 +2540,7 @@ stand.addEventListener('click', function(){
          if(result === SpadeQueen ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/QS.PNG"   
+            dealerCard.src= "./PNG/QS.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2549,7 +2549,7 @@ stand.addEventListener('click', function(){
          if(result === SpadeKing ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/KS.PNG"   
+            dealerCard.src= "./PNG/KS.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2558,7 +2558,7 @@ stand.addEventListener('click', function(){
          if(result === SpadeAce ){
             dealerHand[dealerHand.length - 1] = 11
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/AS.PNG"
+            dealerCard.src= "./PNG/AS.png"
             dealerCard.setAttribute("width", "100px" )     
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2567,7 +2567,7 @@ stand.addEventListener('click', function(){
          if(result === Spade2 ){
             dealerHand[dealerHand.length - 1] = 2
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/2S.PNG"   
+            dealerCard.src= "./PNG/2S.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2576,7 +2576,7 @@ stand.addEventListener('click', function(){
          if(result === Spade3 ){
             dealerHand[dealerHand.length - 1] = 3
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/3S.PNG"   
+            dealerCard.src= "./PNG/3S.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2584,7 +2584,7 @@ stand.addEventListener('click', function(){
          if(result === Spade4 ){
             dealerHand[dealerHand.length - 1] = 4
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/4S.PNG"   
+            dealerCard.src= "./PNG/4S.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2592,7 +2592,7 @@ stand.addEventListener('click', function(){
          if(result === Spade5 ){
             dealerHand[dealerHand.length - 1] = 5
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/5C.PNG"   
+            dealerCard.src= "./PNG/5C.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2600,7 +2600,7 @@ stand.addEventListener('click', function(){
          if(result === Spade6 ){
             dealerHand[dealerHand.length - 1] = 6
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/6S.PNG"   
+            dealerCard.src= "./PNG/6S.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2608,7 +2608,7 @@ stand.addEventListener('click', function(){
          if(result === Spade7 ){
             dealerHand[dealerHand.length - 1] = 7
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/7S.PNG"   
+            dealerCard.src= "./PNG/7S.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2616,7 +2616,7 @@ stand.addEventListener('click', function(){
          if(result === Spade8 ){
             dealerHand[dealerHand.length - 1] = 8
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/8S.PNG"   
+            dealerCard.src= "./PNG/8S.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2624,7 +2624,7 @@ stand.addEventListener('click', function(){
          if(result === Spade9 ){
             dealerHand[dealerHand.length - 1] = 9
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/9S.PNG"   
+            dealerCard.src= "./PNG/9S.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2633,7 +2633,7 @@ stand.addEventListener('click', function(){
          if(result === Spade10 ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/10S.PNG"   
+            dealerCard.src= "./PNG/10S.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;      
@@ -2704,7 +2704,7 @@ stand.addEventListener('click', function(){
          if(result === DiamondJack ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
-            dealerCard.src="./PNG/JD.PNG" 
+            dealerCard.src="./PNG/JD.png" 
             dealerCard.setAttribute("width", "100px" )   
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2712,7 +2712,7 @@ stand.addEventListener('click', function(){
          if(result === DiamondQueen ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/QD.PNG"   
+            dealerCard.src= "./PNG/QD.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2721,7 +2721,7 @@ stand.addEventListener('click', function(){
          if(result === DiamondKing ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/KD.PNG"   
+            dealerCard.src= "./PNG/KD.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2730,7 +2730,7 @@ stand.addEventListener('click', function(){
          if(result === DiamondAce ){
             dealerHand[dealerHand.length - 1] = 11
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/AD.PNG"
+            dealerCard.src= "./PNG/AD.png"
             dealerCard.setAttribute("width", "100px" )     
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2739,7 +2739,7 @@ stand.addEventListener('click', function(){
          if(result === Diamond2 ){
             dealerHand[dealerHand.length - 1] = 2
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/2D.PNG"   
+            dealerCard.src= "./PNG/2D.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2748,7 +2748,7 @@ stand.addEventListener('click', function(){
          if(result === Diamond3 ){
             dealerHand[dealerHand.length - 1] = 3
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/3D.PNG"   
+            dealerCard.src= "./PNG/3D.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2757,7 +2757,7 @@ stand.addEventListener('click', function(){
          if(result === Diamond4 ){
             dealerHand[dealerHand.length - 1] = 4
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/4D.PNG"   
+            dealerCard.src= "./PNG/4D.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2766,7 +2766,7 @@ stand.addEventListener('click', function(){
          if(result === Diamond5 ){
             dealerHand[dealerHand.length - 1] = 5
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/5D.PNG"   
+            dealerCard.src= "./PNG/5D.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2775,7 +2775,7 @@ stand.addEventListener('click', function(){
          if(result === Diamond6 ){
             dealerHand[dealerHand.length - 1] = 6
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/6D.PNG"   
+            dealerCard.src= "./PNG/6D.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2784,7 +2784,7 @@ stand.addEventListener('click', function(){
          if(result === Diamond7 ){
             dealerHand[dealerHand.length - 1] = 7
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/7D.PNG"   
+            dealerCard.src= "./PNG/7D.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2793,7 +2793,7 @@ stand.addEventListener('click', function(){
          if(result === Diamond8 ){
             dealerHand[dealerHand.length - 1] = 8
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/8D.PNG"   
+            dealerCard.src= "./PNG/8D.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2802,7 +2802,7 @@ stand.addEventListener('click', function(){
          if(result === Diamond9 ){
             dealerHand[dealerHand.length - 1] = 9
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/9D.PNG"   
+            dealerCard.src= "./PNG/9D.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2812,7 +2812,7 @@ stand.addEventListener('click', function(){
          if(result === Diamond10 ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/10D.PNG"   
+            dealerCard.src= "./PNG/10D.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2824,7 +2824,7 @@ stand.addEventListener('click', function(){
           if(result === HeartJack ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
-            dealerCard.src="./PNG/JH.PNG" 
+            dealerCard.src="./PNG/JH.png" 
             dealerCard.setAttribute("width", "100px" )   
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2832,7 +2832,7 @@ stand.addEventListener('click', function(){
          if(result === HeartQueen ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/QH.PNG"   
+            dealerCard.src= "./PNG/QH.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2841,7 +2841,7 @@ stand.addEventListener('click', function(){
          if(result === HeartKing ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/KH.PNG"   
+            dealerCard.src= "./PNG/KH.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2850,7 +2850,7 @@ stand.addEventListener('click', function(){
          if(result === HeartAce ){
             dealerHand[dealerHand.length - 1] = 11
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/AH.PNG"
+            dealerCard.src= "./PNG/AH.png"
             dealerCard.setAttribute("width", "100px" )     
             dealerHandDiv.appendChild(dealerCard)
          
@@ -2858,7 +2858,7 @@ stand.addEventListener('click', function(){
          if(result === Heart2 ){
             dealerHand[dealerHand.length - 1] = 2
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/2H.PNG"   
+            dealerCard.src= "./PNG/2H.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2867,7 +2867,7 @@ stand.addEventListener('click', function(){
          if(result === Heart3 ){
             dealerHand[dealerHand.length - 1] = 3
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/3H.PNG"   
+            dealerCard.src= "./PNG/3H.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2876,7 +2876,7 @@ stand.addEventListener('click', function(){
          if(result === Heart4 ){
             dealerHand[dealerHand.length - 1] = 4
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/4H.PNG"   
+            dealerCard.src= "./PNG/4H.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2885,7 +2885,7 @@ stand.addEventListener('click', function(){
          if(result === Heart5 ){
             dealerHand[dealerHand.length - 1] = 5
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/5H.PNG"   
+            dealerCard.src= "./PNG/5H.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2894,7 +2894,7 @@ stand.addEventListener('click', function(){
          if(result === Heart6 ){
             dealerHand[dealerHand.length - 1] = 6
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/6H.PNG"   
+            dealerCard.src= "./PNG/6H.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2903,7 +2903,7 @@ stand.addEventListener('click', function(){
          if(result === Heart7 ){
             dealerHand[dealerHand.length - 1] = 7
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/7H.PNG"   
+            dealerCard.src= "./PNG/7H.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2912,7 +2912,7 @@ stand.addEventListener('click', function(){
          if(result === Heart8 ){
             dealerHand[dealerHand.length - 1] = 8
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/8H.PNG"   
+            dealerCard.src= "./PNG/8H.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2921,7 +2921,7 @@ stand.addEventListener('click', function(){
          if(result === Heart9 ){
             dealerHand[dealerHand.length - 1] = 9
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/9H.PNG"   
+            dealerCard.src= "./PNG/9H.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2931,7 +2931,7 @@ stand.addEventListener('click', function(){
          if(result === Heart10 ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/10H.PNG"   
+            dealerCard.src= "./PNG/10H.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2942,7 +2942,7 @@ stand.addEventListener('click', function(){
          if(result === ClubJack ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
-            dealerCard.src="./PNG/JC.PNG" 
+            dealerCard.src="./PNG/JC.png" 
             dealerCard.setAttribute("width", "100px" )   
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2950,7 +2950,7 @@ stand.addEventListener('click', function(){
          if(result === ClubQueen ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/QC.PNG"   
+            dealerCard.src= "./PNG/QC.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2959,7 +2959,7 @@ stand.addEventListener('click', function(){
          if(result === ClubKing ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/KC.PNG"   
+            dealerCard.src= "./PNG/KC.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2968,7 +2968,7 @@ stand.addEventListener('click', function(){
          if(result === ClubAce ){
             dealerHand[dealerHand.length - 1] = 11
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/AC.PNG"
+            dealerCard.src= "./PNG/AC.png"
             dealerCard.setAttribute("width", "100px" )     
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2977,7 +2977,7 @@ stand.addEventListener('click', function(){
          if(result === Club2 ){
             dealerHand[dealerHand.length - 1] = 2
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/2C.PNG"   
+            dealerCard.src= "./PNG/2C.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2986,7 +2986,7 @@ stand.addEventListener('click', function(){
          if(result === Club3 ){
             dealerHand[dealerHand.length - 1] = 3
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/3C.PNG"   
+            dealerCard.src= "./PNG/3C.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -2995,7 +2995,7 @@ stand.addEventListener('click', function(){
          if(result === Club4 ){
             dealerHand[dealerHand.length - 1] = 4
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/4C.PNG"   
+            dealerCard.src= "./PNG/4C.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -3004,7 +3004,7 @@ stand.addEventListener('click', function(){
          if(result === Club5 ){
             dealerHand[dealerHand.length - 1] = 5
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/5C.PNG"   
+            dealerCard.src= "./PNG/5C.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -3013,7 +3013,7 @@ stand.addEventListener('click', function(){
          if(result === Club6 ){
             dealerHand[dealerHand.length - 1] = 6
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/6C.PNG"   
+            dealerCard.src= "./PNG/6C.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -3022,7 +3022,7 @@ stand.addEventListener('click', function(){
          if(result === Club7 ){
             dealerHand[dealerHand.length - 1] = 7
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/7C.PNG"   
+            dealerCard.src= "./PNG/7C.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -3031,7 +3031,7 @@ stand.addEventListener('click', function(){
          if(result === Club8 ){
             dealerHand[dealerHand.length - 1] = 8
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/8C.PNG"   
+            dealerCard.src= "./PNG/8C.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -3040,7 +3040,7 @@ stand.addEventListener('click', function(){
          if(result === Club9 ){
             dealerHand[dealerHand.length - 1] = 9
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/9C.PNG"   
+            dealerCard.src= "./PNG/9C.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -3050,7 +3050,7 @@ stand.addEventListener('click', function(){
          if(result === Club10 ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/10C.PNG"   
+            dealerCard.src= "./PNG/10C.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -3062,7 +3062,7 @@ stand.addEventListener('click', function(){
          if(result === SpadeJack ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
-            dealerCard.src="./PNG/JS.PNG" 
+            dealerCard.src="./PNG/JS.png" 
             dealerCard.setAttribute("width", "100px" )   
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -3070,7 +3070,7 @@ stand.addEventListener('click', function(){
          if(result === SpadeQueen ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/QS.PNG"   
+            dealerCard.src= "./PNG/QS.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -3079,7 +3079,7 @@ stand.addEventListener('click', function(){
          if(result === SpadeKing ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/KS.PNG"   
+            dealerCard.src= "./PNG/KS.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -3088,7 +3088,7 @@ stand.addEventListener('click', function(){
          if(result === SpadeAce ){
             dealerHand[dealerHand.length - 1] = 11
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/AS.PNG"
+            dealerCard.src= "./PNG/AS.png"
             dealerCard.setAttribute("width", "100px" )     
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -3097,7 +3097,7 @@ stand.addEventListener('click', function(){
          if(result === Spade2 ){
             dealerHand[dealerHand.length - 1] = 2
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/2S.PNG"   
+            dealerCard.src= "./PNG/2S.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -3106,7 +3106,7 @@ stand.addEventListener('click', function(){
          if(result === Spade3 ){
             dealerHand[dealerHand.length - 1] = 3
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/3S.PNG"   
+            dealerCard.src= "./PNG/3S.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -3114,7 +3114,7 @@ stand.addEventListener('click', function(){
          if(result === Spade4 ){
             dealerHand[dealerHand.length - 1] = 4
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/4S.PNG"   
+            dealerCard.src= "./PNG/4S.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -3122,7 +3122,7 @@ stand.addEventListener('click', function(){
          if(result === Spade5 ){
             dealerHand[dealerHand.length - 1] = 5
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/5C.PNG"   
+            dealerCard.src= "./PNG/5C.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -3130,7 +3130,7 @@ stand.addEventListener('click', function(){
          if(result === Spade6 ){
             dealerHand[dealerHand.length - 1] = 6
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/6S.PNG"   
+            dealerCard.src= "./PNG/6S.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -3138,7 +3138,7 @@ stand.addEventListener('click', function(){
          if(result === Spade7 ){
             dealerHand[dealerHand.length - 1] = 7
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/7S.PNG"   
+            dealerCard.src= "./PNG/7S.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -3146,7 +3146,7 @@ stand.addEventListener('click', function(){
          if(result === Spade8 ){
             dealerHand[dealerHand.length - 1] = 8
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/8S.PNG"   
+            dealerCard.src= "./PNG/8S.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -3154,7 +3154,7 @@ stand.addEventListener('click', function(){
          if(result === Spade9 ){
             dealerHand[dealerHand.length - 1] = 9
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/9S.PNG"   
+            dealerCard.src= "./PNG/9S.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;
@@ -3163,7 +3163,7 @@ stand.addEventListener('click', function(){
          if(result === Spade10 ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
-            dealerCard.src= "./PNG/10S.PNG"   
+            dealerCard.src= "./PNG/10S.png"   
             dealerCard.setAttribute("width", "100px" )  
             dealerHandDiv.appendChild(dealerCard)
             break;      
@@ -3289,7 +3289,7 @@ hit.addEventListener('click', function(event){
       if(result === DiamondJack ){
          player1Hand[player1Hand.length - 1] = 10
          let player1Card = document.createElement("img")
-         player1Card.src="./PNG/JD.PNG" 
+         player1Card.src="./PNG/JD.png" 
          player1Card.setAttribute("width", "100px" )   
          player1Div.appendChild(player1Card)
          break;
@@ -3297,7 +3297,7 @@ hit.addEventListener('click', function(event){
       if(result === DiamondQueen ){
          player1Hand[player1Hand.length - 1] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/QD.PNG"   
+         player1Card.src= "./PNG/QD.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3306,7 +3306,7 @@ hit.addEventListener('click', function(event){
       if(result === DiamondKing ){
          player1Hand[player1Hand.length - 1] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/KD.PNG"   
+         player1Card.src= "./PNG/KD.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3315,7 +3315,7 @@ hit.addEventListener('click', function(event){
       if(result === DiamondAce ){
          player1Hand[player1Hand.length - 1] = 11
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/AD.PNG"
+         player1Card.src= "./PNG/AD.png"
          player1Card.setAttribute("width", "100px" )     
          player1Div.appendChild(player1Card)
          break;
@@ -3324,7 +3324,7 @@ hit.addEventListener('click', function(event){
       if(result === Diamond2 ){
          player1Hand[player1Hand.length - 1] = 2
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/2D.PNG"   
+         player1Card.src= "./PNG/2D.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3333,7 +3333,7 @@ hit.addEventListener('click', function(event){
       if(result === Diamond3 ){
          player1Hand[player1Hand.length - 1] = 3
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/3D.PNG"   
+         player1Card.src= "./PNG/3D.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3342,7 +3342,7 @@ hit.addEventListener('click', function(event){
       if(result === Diamond4 ){
          player1Hand[player1Hand.length - 1] = 4
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/4D.PNG"   
+         player1Card.src= "./PNG/4D.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3351,7 +3351,7 @@ hit.addEventListener('click', function(event){
       if(result === Diamond5 ){
          player1Hand[player1Hand.length - 1] = 5
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/5D.PNG"   
+         player1Card.src= "./PNG/5D.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3360,7 +3360,7 @@ hit.addEventListener('click', function(event){
       if(result === Diamond6 ){
          player1Hand[player1Hand.length - 1] = 6
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/6D.PNG"   
+         player1Card.src= "./PNG/6D.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3369,7 +3369,7 @@ hit.addEventListener('click', function(event){
       if(result === Diamond7 ){
          player1Hand[player1Hand.length - 1] = 7
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/7D.PNG"   
+         player1Card.src= "./PNG/7D.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3378,7 +3378,7 @@ hit.addEventListener('click', function(event){
       if(result === Diamond8 ){
          player1Hand[player1Hand.length - 1] = 8
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/8D.PNG"   
+         player1Card.src= "./PNG/8D.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3387,7 +3387,7 @@ hit.addEventListener('click', function(event){
       if(result === Diamond9 ){
          player1Hand[player1Hand.length - 1] = 9
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/9D.PNG"   
+         player1Card.src= "./PNG/9D.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3397,7 +3397,7 @@ hit.addEventListener('click', function(event){
       if(result === Diamond10 ){
          player1Hand[player1Hand.length - 1] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/10D.PNG"   
+         player1Card.src= "./PNG/10D.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3409,7 +3409,7 @@ hit.addEventListener('click', function(event){
        if(result === HeartJack ){
          player1Hand[player1Hand.length - 1] = 10
          let player1Card = document.createElement("img")
-         player1Card.src="./PNG/JH.PNG" 
+         player1Card.src="./PNG/JH.png" 
          player1Card.setAttribute("width", "100px" )   
          player1Div.appendChild(player1Card)
          break;
@@ -3417,7 +3417,7 @@ hit.addEventListener('click', function(event){
       if(result === HeartQueen ){
          player1Hand[player1Hand.length - 1] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/QH.PNG"   
+         player1Card.src= "./PNG/QH.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3426,7 +3426,7 @@ hit.addEventListener('click', function(event){
       if(result === HeartKing ){
          player1Hand[player1Hand.length - 1] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/KH.PNG"   
+         player1Card.src= "./PNG/KH.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3435,7 +3435,7 @@ hit.addEventListener('click', function(event){
       if(result === HeartAce ){
          player1Hand[player1Hand.length - 1] = 11
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/AH.PNG"
+         player1Card.src= "./PNG/AH.png"
          player1Card.setAttribute("width", "100px" )     
          player1Div.appendChild(player1Card)
       
@@ -3443,7 +3443,7 @@ hit.addEventListener('click', function(event){
       if(result === Heart2 ){
          player1Hand[player1Hand.length - 1] = 2
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/2H.PNG"   
+         player1Card.src= "./PNG/2H.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3452,7 +3452,7 @@ hit.addEventListener('click', function(event){
       if(result === Heart3 ){
          player1Hand[player1Hand.length - 1] = 3
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/3H.PNG"   
+         player1Card.src= "./PNG/3H.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3461,7 +3461,7 @@ hit.addEventListener('click', function(event){
       if(result === Heart4 ){
          player1Hand[player1Hand.length - 1] = 4
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/4H.PNG"   
+         player1Card.src= "./PNG/4H.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3470,7 +3470,7 @@ hit.addEventListener('click', function(event){
       if(result === Heart5 ){
          player1Hand[player1Hand.length - 1] = 5
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/5H.PNG"   
+         player1Card.src= "./PNG/5H.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3479,7 +3479,7 @@ hit.addEventListener('click', function(event){
       if(result === Heart6 ){
          player1Hand[player1Hand.length - 1] = 6
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/6H.PNG"   
+         player1Card.src= "./PNG/6H.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3488,7 +3488,7 @@ hit.addEventListener('click', function(event){
       if(result === Heart7 ){
          player1Hand[player1Hand.length - 1] = 7
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/7H.PNG"   
+         player1Card.src= "./PNG/7H.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3497,7 +3497,7 @@ hit.addEventListener('click', function(event){
       if(result === Heart8 ){
          player1Hand[player1Hand.length - 1] = 8
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/8H.PNG"   
+         player1Card.src= "./PNG/8H.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3506,7 +3506,7 @@ hit.addEventListener('click', function(event){
       if(result === Heart9 ){
          player1Hand[player1Hand.length - 1] = 9
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/9H.PNG"   
+         player1Card.src= "./PNG/9H.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3516,7 +3516,7 @@ hit.addEventListener('click', function(event){
       if(result === Heart10 ){
          player1Hand[player1Hand.length - 1] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/10H.PNG"   
+         player1Card.src= "./PNG/10H.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3527,7 +3527,7 @@ hit.addEventListener('click', function(event){
       if(result === ClubJack ){
          player1Hand[player1Hand.length - 1] = 10
          let player1Card = document.createElement("img")
-         player1Card.src="./PNG/JC.PNG" 
+         player1Card.src="./PNG/JC.png" 
          player1Card.setAttribute("width", "100px" )   
          player1Div.appendChild(player1Card)
          break;
@@ -3535,7 +3535,7 @@ hit.addEventListener('click', function(event){
       if(result === ClubQueen ){
          player1Hand[player1Hand.length - 1] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/QC.PNG"   
+         player1Card.src= "./PNG/QC.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3544,7 +3544,7 @@ hit.addEventListener('click', function(event){
       if(result === ClubKing ){
          player1Hand[player1Hand.length - 1] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/KC.PNG"   
+         player1Card.src= "./PNG/KC.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3553,7 +3553,7 @@ hit.addEventListener('click', function(event){
       if(result === ClubAce ){
          player1Hand[player1Hand.length - 1] = 11
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/AC.PNG"
+         player1Card.src= "./PNG/AC.png"
          player1Card.setAttribute("width", "100px" )     
          player1Div.appendChild(player1Card)
          break;
@@ -3562,7 +3562,7 @@ hit.addEventListener('click', function(event){
       if(result === Club2 ){
          player1Hand[player1Hand.length - 1] = 2
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/2C.PNG"   
+         player1Card.src= "./PNG/2C.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3571,7 +3571,7 @@ hit.addEventListener('click', function(event){
       if(result === Club3 ){
          player1Hand[player1Hand.length - 1] = 3
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/3C.PNG"   
+         player1Card.src= "./PNG/3C.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3580,7 +3580,7 @@ hit.addEventListener('click', function(event){
       if(result === Club4 ){
          player1Hand[player1Hand.length - 1] = 4
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/4C.PNG"   
+         player1Card.src= "./PNG/4C.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3589,7 +3589,7 @@ hit.addEventListener('click', function(event){
       if(result === Club5 ){
          player1Hand[player1Hand.length - 1] = 5
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/5C.PNG"   
+         player1Card.src= "./PNG/5C.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3598,7 +3598,7 @@ hit.addEventListener('click', function(event){
       if(result === Club6 ){
          player1Hand[player1Hand.length - 1] = 6
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/6C.PNG"   
+         player1Card.src= "./PNG/6C.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3607,7 +3607,7 @@ hit.addEventListener('click', function(event){
       if(result === Club7 ){
          player1Hand[player1Hand.length - 1] = 7
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/7C.PNG"   
+         player1Card.src= "./PNG/7C.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3616,7 +3616,7 @@ hit.addEventListener('click', function(event){
       if(result === Club8 ){
          player1Hand[player1Hand.length - 1] = 8
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/8C.PNG"   
+         player1Card.src= "./PNG/8C.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3625,7 +3625,7 @@ hit.addEventListener('click', function(event){
       if(result === Club9 ){
          player1Hand[player1Hand.length - 1] = 9
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/9C.PNG"   
+         player1Card.src= "./PNG/9C.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3635,7 +3635,7 @@ hit.addEventListener('click', function(event){
       if(result === Club10 ){
          player1Hand[player1Hand.length - 1] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/10C.PNG"   
+         player1Card.src= "./PNG/10C.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3647,7 +3647,7 @@ hit.addEventListener('click', function(event){
       if(result === SpadeJack ){
          player1Hand[player1Hand.length - 1] = 10
          let player1Card = document.createElement("img")
-         player1Card.src="./PNG/JS.PNG" 
+         player1Card.src="./PNG/JS.png" 
          player1Card.setAttribute("width", "100px" )   
          player1Div.appendChild(player1Card)
          break;
@@ -3655,7 +3655,7 @@ hit.addEventListener('click', function(event){
       if(result === SpadeQueen ){
          player1Hand[player1Hand.length - 1] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/QS.PNG"   
+         player1Card.src= "./PNG/QS.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3664,7 +3664,7 @@ hit.addEventListener('click', function(event){
       if(result === SpadeKing ){
          player1Hand[player1Hand.length - 1] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/KS.PNG"   
+         player1Card.src= "./PNG/KS.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3673,7 +3673,7 @@ hit.addEventListener('click', function(event){
       if(result === SpadeAce ){
          player1Hand[player1Hand.length - 1] = 11
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/AS.PNG"
+         player1Card.src= "./PNG/AS.png"
          player1Card.setAttribute("width", "100px" )     
          player1Div.appendChild(player1Card)
          break;
@@ -3682,7 +3682,7 @@ hit.addEventListener('click', function(event){
       if(result === Spade2 ){
          player1Hand[player1Hand.length - 1] = 2
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/2S.PNG"   
+         player1Card.src= "./PNG/2S.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3691,7 +3691,7 @@ hit.addEventListener('click', function(event){
       if(result === Spade3 ){
          player1Hand[player1Hand.length - 1] = 3
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/3S.PNG"   
+         player1Card.src= "./PNG/3S.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3699,7 +3699,7 @@ hit.addEventListener('click', function(event){
       if(result === Spade4 ){
          player1Hand[player1Hand.length - 1] = 4
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/4S.PNG"   
+         player1Card.src= "./PNG/4S.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3707,7 +3707,7 @@ hit.addEventListener('click', function(event){
       if(result === Spade5 ){
          player1Hand[player1Hand.length - 1] = 5
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/5C.PNG"   
+         player1Card.src= "./PNG/5C.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3715,7 +3715,7 @@ hit.addEventListener('click', function(event){
       if(result === Spade6 ){
          player1Hand[player1Hand.length - 1] = 6
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/6S.PNG"   
+         player1Card.src= "./PNG/6S.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3723,7 +3723,7 @@ hit.addEventListener('click', function(event){
       if(result === Spade7 ){
          player1Hand[player1Hand.length - 1] = 7
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/7S.PNG"   
+         player1Card.src= "./PNG/7S.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3731,7 +3731,7 @@ hit.addEventListener('click', function(event){
       if(result === Spade8 ){
          player1Hand[player1Hand.length - 1] = 8
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/8S.PNG"   
+         player1Card.src= "./PNG/8S.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3739,7 +3739,7 @@ hit.addEventListener('click', function(event){
       if(result === Spade9 ){
          player1Hand[player1Hand.length - 1] = 9
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/9S.PNG"   
+         player1Card.src= "./PNG/9S.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;
@@ -3748,7 +3748,7 @@ hit.addEventListener('click', function(event){
       if(result === Spade10 ){
          player1Hand[player1Hand.length - 1] = 10
          let player1Card = document.createElement("img")
-         player1Card.src= "./PNG/10S.PNG"   
+         player1Card.src= "./PNG/10S.png"   
          player1Card.setAttribute("width", "100px" )  
          player1Div.appendChild(player1Card)
          break;      
@@ -3822,6 +3822,9 @@ hit.addEventListener('click', function(event){
 )
    }
 )
+
+
+console.log("nothing")
 
 
 // stand.addEventListener('click', function(){
