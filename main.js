@@ -3824,7 +3824,7 @@ hit.addEventListener('click', function(event){
 )
 
 
-console.log("nothing")
+console.log("nothing 2")
 
 
 // stand.addEventListener('click', function(){
