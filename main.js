@@ -74,6 +74,9 @@ let Shoe = SpadeArray.concat(DiamondArray, HeartArray, ClubArray)
 
 
 
+//------------------------------------------------------------------------------------------------------------------------------------------------
+
+//!Draw Function
 function DrawCard(Deal){ 
 
 let firstCard = Deal[Math.floor(Math.random() * Deal.length)]
@@ -94,51 +97,26 @@ let hand = firstCard
 
 return hand 
 }
-
-
 //! Hands
 console.log(Shoe)
-
 let dealerHand = []
-
 let player1Hand = []
-
-
 //! Query Selector  
-
 let deal = document.querySelector("#deal")
 let dealerHandDiv = document.querySelector("#dealer-cards") 
 let player1Div = document.querySelector("#player1-cards") 
 let hit = document.querySelector("#hit")
 let stand = document.querySelector("#stand")
-
-
-//!!
-
-
-
-
 //! Event Listeners 
-
-
-//disable deal button after click
-
-
 deal.addEventListener('click', function(event){
    
    event.preventDefault()
    deal.remove()
-
-
-   
-
-  
-
-   //This is pushing the 1st card from the desk into dealer hand but its a string. 
+//This is pushing the 1st card from the desk into dealer hand but its a string. 
    dealerHand.push(DrawCard(Shoe))
 
   
-  //This For loop will  change the string into a number & add photos into the div
+//This For loop will  change the string into a number & add photos into the div
    for (let i=0; i < dealerHand.length; i++ ){
       let result = dealerHand[i]
       
@@ -614,25 +592,14 @@ deal.addEventListener('click', function(event){
 
       
    }
-   
-   
-   
-
- //This adds the fake back card 
+//This adds the fake back card 
 let dealerCardFake = document.createElement("img")
 dealerCardFake.src="./PNG/Back.png" 
 dealerCardFake.setAttribute("width", "102px" )   
 dealerHandDiv.appendChild(dealerCardFake)
-
-   
-   
-
-
-
-
-   //This is pushing the 1st card from the desk into player 1 hand but its a string. 
+//This is pushing the 1st card from the desk into player 1 hand but its a string. 
    player1Hand.push(DrawCard(Shoe))
-   //This For loop will  change the 1st string into a number & add photos into the div
+//This For loop will  change the 1st string into a number & add photos into the div
    for (let i=0; i < player1Hand.length; i++ ){
       let result = player1Hand[i]
       
@@ -1587,29 +1554,18 @@ dealerHandDiv.appendChild(dealerCardFake)
   
       
    }
+//!Hands
+console.log(`The Dealers Hand is: ${dealerHand}`)
+console.log(`Player Hand is: ${player1Hand}`)
 
-
- 
-
-   
-   //!Hands
-   
-   console.log(`The Dealers Hand is: ${dealerHand}`)
-   console.log(`Player Hand is: ${player1Hand}`)
-   
-
-  //! Adds Hand Values 
-  let dealerSum = 0 
-  let playerSum = 0
-
-
-
-  for (let i=0; i< dealerHand.length; i++ ){
+ //! Adds Hand Values 
+let dealerSum = 0 
+let playerSum = 0
+for (let i=0; i< dealerHand.length; i++ ){
 
    dealerSum += dealerHand[i];
  }
-
-  for (let i=0; i< player1Hand.length; i++ ){
+for (let i=0; i< player1Hand.length; i++ ){
 
    playerSum += player1Hand[i];
    
@@ -1617,11 +1573,11 @@ dealerHandDiv.appendChild(dealerCardFake)
 
 }
 
-console.log(`Player Hand Sum :${playerSum}`)
+console.log(`Player Hand Sum: ${playerSum}`)
+console.log(`Dealer Hand Sum: ${dealerSum}`)
 
 
 //! If Player Hits Black Jack on Turn 1 
-
 if (playerSum === 21){
 
 
@@ -1643,16 +1599,11 @@ if (playerSum === 21){
 
 }
 
-
-
-
-
-//Stand
-
+//!Stand
 stand.addEventListener('click', function(){
    //Removes Fake Back Card
    dealerCardFake.remove()
-   // Draws Deals Real 2nd Card
+   // Draws Dealers Real 2nd Card
    dealerHand.push(DrawCard(Shoe))
    // Below gives 2nd Card a picture 
    for (let i=1; i < dealerHand.length; i++ ){
@@ -2152,18 +2103,22 @@ stand.addEventListener('click', function(){
 
 
   // Based on the two cards the dealer "bot" will act accordingly   
-   if(dealerSum === playerSum) {
-      alert("Push !")
-      console.log("The Dealer Hand  has: " + dealerHand + "Sum :" + dealerSum)
-   }
-   else if( dealerSum === 21){
+
+   if( dealerSum === 21){
+
+      if(dealerSum === playerSum) {
+         alert("Push !")
+         console.log(`The Dealer Hand  has: ${dealerHand}Sum : ${dealerSum}`)
+      } 
+      else{
       alert("Dealer Wins! Black Jack")
       console.log(`Dealer Hand is : ${dealerHand}`)
+      }
    }
    
    else if (dealerSum <= 16 ){
       console.log("Dealer Hits")
-      alert("Dealer Hits!")
+      
       //Below Dealers 3rd Card will be drawn
       dealerHand.push(DrawCard(Shoe))
       //Below Gives 3rd Card a picture 
@@ -2648,6 +2603,8 @@ stand.addEventListener('click', function(){
       
          
       }
+
+      //Adds the Dealers Hand
       let dealerSum = 0 
       let playerSum = 0
     
@@ -2676,22 +2633,17 @@ stand.addEventListener('click', function(){
 
 
       // Based on the three cards the dealer "bot" will act accordingly   
-      if(dealerSum === playerSum) {
-         alert("Push !")
-         console.log("The Dealer Hand  has: " + dealerHand + "Sum :" + dealerSum)
-      }
-      else if( dealerSum === 21){
-         alert("Black Jack")
-         if(dealerSum === playerSum){
-            console.log("Push!")
-            console.log("The Dealer Hand  has" + dealerHand + " Sum :" + dealerSum)
-         }
+
+      if( dealerSum === 21){
+
+         if(dealerSum === playerSum) {
+            alert("Push !")
+            console.log(`The Dealer Hand  has: ${dealerHand}Sum : ${dealerSum}`)
+         } 
          else{
-            console.log("Dealer Wins")
-            alert("Dealer Wins!")
+         alert("Dealer Wins! Black Jack")
+         console.log(`Dealer Hand is : ${dealerHand}`)
          }
-      
-        
       }
       else if (dealerSum <= 16 ){
       //Below Dealers 4rd Card will be drawn
@@ -3199,6 +3151,561 @@ stand.addEventListener('click', function(){
 
 
     console.log("The Dealer Hand  has: " + dealerHand + "Sum :" + dealerSum)
+    if(dealerSum === playerSum) {
+      alert("Push !")
+      console.log("The Dealer Hand  has: " + dealerHand + "Sum :" + dealerSum)
+   }
+   else if( dealerSum === 21){
+      alert("Black Jack")
+      if(dealerSum === playerSum){
+         console.log("Push!")
+         console.log("The Dealer Hand  has" + dealerHand + " Sum :" + dealerSum)
+      }
+      else{
+         console.log("Dealer Wins")
+         alert("Dealer Wins!")
+      }
+   
+     
+   }
+   else if (dealerSum <= 16 ){
+   //Below Dealers 5th Card will be drawn
+   dealerHand.push(DrawCard(Shoe))
+   //Below Gives 5th Card a picture 
+   for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
+      let result = dealerHand[i]
+      
+      //Diamonds//
+      if(result === DiamondJack ){
+         dealerHand[dealerHand.length - 1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src="./PNG/JD.png" 
+         dealerCard.setAttribute("width", "100px" )   
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+      if(result === DiamondQueen ){
+         dealerHand[dealerHand.length - 1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/QD.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+   
+      }
+      if(result === DiamondKing ){
+         dealerHand[dealerHand.length - 1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/KD.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+        
+      }
+      if(result === DiamondAce ){
+         dealerHand[dealerHand.length - 1] = 11
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/AD.png"
+         dealerCard.setAttribute("width", "100px" )     
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Diamond2 ){
+         dealerHand[dealerHand.length - 1] = 2
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/2D.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+   
+      }
+      if(result === Diamond3 ){
+         dealerHand[dealerHand.length - 1] = 3
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/3D.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+    
+      }
+      if(result === Diamond4 ){
+         dealerHand[dealerHand.length - 1] = 4
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/4D.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Diamond5 ){
+         dealerHand[dealerHand.length - 1] = 5
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/5D.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Diamond6 ){
+         dealerHand[dealerHand.length - 1] = 6
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/6D.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Diamond7 ){
+         dealerHand[dealerHand.length - 1] = 7
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/7D.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Diamond8 ){
+         dealerHand[dealerHand.length - 1] = 8
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/8D.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Diamond9 ){
+         dealerHand[dealerHand.length - 1] = 9
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/9D.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+   
+      if(result === Diamond10 ){
+         dealerHand[dealerHand.length - 1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/10D.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      
+       //Hearts//
+   
+       if(result === HeartJack ){
+         dealerHand[dealerHand.length - 1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src="./PNG/JH.png" 
+         dealerCard.setAttribute("width", "100px" )   
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+      if(result === HeartQueen ){
+         dealerHand[dealerHand.length - 1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/QH.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+   
+      }
+      if(result === HeartKing ){
+         dealerHand[dealerHand.length - 1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/KH.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+        
+      }
+      if(result === HeartAce ){
+         dealerHand[dealerHand.length - 1] = 11
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/AH.png"
+         dealerCard.setAttribute("width", "100px" )     
+         dealerHandDiv.appendChild(dealerCard)
+      
+      }
+      if(result === Heart2 ){
+         dealerHand[dealerHand.length - 1] = 2
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/2H.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+   
+      }
+      if(result === Heart3 ){
+         dealerHand[dealerHand.length - 1] = 3
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/3H.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+    
+      }
+      if(result === Heart4 ){
+         dealerHand[dealerHand.length - 1] = 4
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/4H.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Heart5 ){
+         dealerHand[dealerHand.length - 1] = 5
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/5H.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Heart6 ){
+         dealerHand[dealerHand.length - 1] = 6
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/6H.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Heart7 ){
+         dealerHand[dealerHand.length - 1] = 7
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/7H.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Heart8 ){
+         dealerHand[dealerHand.length - 1] = 8
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/8H.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Heart9 ){
+         dealerHand[dealerHand.length - 1] = 9
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/9H.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+   
+      if(result === Heart10 ){
+         dealerHand[dealerHand.length - 1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/10H.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+       //Club//
+   
+      if(result === ClubJack ){
+         dealerHand[dealerHand.length - 1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src="./PNG/JC.png" 
+         dealerCard.setAttribute("width", "100px" )   
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+      if(result === ClubQueen ){
+         dealerHand[dealerHand.length - 1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/QC.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+   
+      }
+      if(result === ClubKing ){
+         dealerHand[dealerHand.length - 1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/KC.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+        
+      }
+      if(result === ClubAce ){
+         dealerHand[dealerHand.length - 1] = 11
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/AC.png"
+         dealerCard.setAttribute("width", "100px" )     
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Club2 ){
+         dealerHand[dealerHand.length - 1] = 2
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/2C.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+   
+      }
+      if(result === Club3 ){
+         dealerHand[dealerHand.length - 1] = 3
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/3C.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+    
+      }
+      if(result === Club4 ){
+         dealerHand[dealerHand.length - 1] = 4
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/4C.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Club5 ){
+         dealerHand[dealerHand.length - 1] = 5
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/5C.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Club6 ){
+         dealerHand[dealerHand.length - 1] = 6
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/6C.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Club7 ){
+         dealerHand[dealerHand.length - 1] = 7
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/7C.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Club8 ){
+         dealerHand[dealerHand.length - 1] = 8
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/8C.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Club9 ){
+         dealerHand[dealerHand.length - 1] = 9
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/9C.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+   
+      if(result === Club10 ){
+         dealerHand[dealerHand.length - 1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/10C.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      } 
+      
+      //Spade//
+      
+      if(result === SpadeJack ){
+         dealerHand[dealerHand.length - 1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src="./PNG/JS.png" 
+         dealerCard.setAttribute("width", "100px" )   
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+      if(result === SpadeQueen ){
+         dealerHand[dealerHand.length - 1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/QS.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+   
+      }
+      if(result === SpadeKing ){
+         dealerHand[dealerHand.length - 1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/KS.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+        
+      }
+      if(result === SpadeAce ){
+         dealerHand[dealerHand.length - 1] = 11
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/AS.png"
+         dealerCard.setAttribute("width", "100px" )     
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Spade2 ){
+         dealerHand[dealerHand.length - 1] = 2
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/2S.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+   
+      }
+      if(result === Spade3 ){
+         dealerHand[dealerHand.length - 1] = 3
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/3S.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+      if(result === Spade4 ){
+         dealerHand[dealerHand.length - 1] = 4
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/4S.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+      if(result === Spade5 ){
+         dealerHand[dealerHand.length - 1] = 5
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/5C.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+      if(result === Spade6 ){
+         dealerHand[dealerHand.length - 1] = 6
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/6S.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+      if(result === Spade7 ){
+         dealerHand[dealerHand.length - 1] = 7
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/7S.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+      if(result === Spade8 ){
+         dealerHand[dealerHand.length - 1] = 8
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/8S.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+      if(result === Spade9 ){
+         dealerHand[dealerHand.length - 1] = 9
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/9S.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+   
+      if(result === Spade10 ){
+         dealerHand[dealerHand.length - 1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/10S.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;      
+      } 
+
+      else{
+
+
+
+      }
+   
+   
+      
+   }
+   //Below adds the hand
+   let dealerSum = 0 
+   let playerSum = 0
+ 
+ 
+ 
+   for (let i=0; i< dealerHand.length; i++ ){
+ 
+    dealerSum += dealerHand[i];
+  }
+ 
+   for (let i=0; i< player1Hand.length; i++ ){
+ 
+    playerSum += player1Hand[i];
+    
+ 
+ 
+ }
+
+
+ console.log("The Dealer Hand  has: " + dealerHand + "Sum :" + dealerSum)
+
+ 
+
+   
+
+
+
+
+   }
+   else if ( dealerSum >= 17 && dealerSum <=20 && dealerSum > playerSum){
+      console.log("Dealer wins")
+      
+      alert("Dealer Wins!")
+
+      console.log("The Dealer Hand  has" + dealerHand + " Sum :" + dealerSum)
+
+   }
+   else if(dealerSum >= 17 && dealerSum <=20 && dealerSum < playerSum  ){
+
+      alert("Player 1 Wins!")
+
+      console.log("The Dealer Hand  has" + dealerHand + " Sum : " + dealerSum)
+
+   }
+   else if(dealerSum > 21){
+      console.log("Dealer Bust")
+      alert("Dealer Bust")
+      console.log("The Dealer Hand  has" + dealerHand + " Sum : " + dealerSum)
+   }
+
+
+
 
       
 
@@ -3263,13 +3770,7 @@ stand.addEventListener('click', function(){
 
 
 })
-
-
-
-
-
-
-
+//!Hit
 hit.addEventListener('click', function(event){
 
    event.preventDefault()
@@ -3780,16 +4281,1020 @@ hit.addEventListener('click', function(event){
       console.log(`Player 1 Hand: ${player1Hand}`)
    }
    else if(playerSum === 21){
+
+      
+
+       //Removes Fake Back Card
+   dealerCardFake.remove()
+   // Draws Dealers Real 2nd Card
+   dealerHand.push(DrawCard(Shoe))
+   // Below gives 2nd Card a picture 
+   for (let i=1; i < dealerHand.length; i++ ){
+      let result = dealerHand[i]
+      
+      //Diamonds//
+      if(result === DiamondJack ){
+         dealerHand[1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src="./PNG/JD.png" 
+         dealerCard.setAttribute("width", "100px" )   
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+      if(result === DiamondQueen ){
+         dealerHand[1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/QD.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+   
+      }
+      if(result === DiamondKing ){
+         dealerHand[1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/KD.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+        
+      }
+      if(result === DiamondAce ){
+         dealerHand[1] = 11
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/AD.png"
+         dealerCard.setAttribute("width", "100px" )     
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Diamond2 ){
+         dealerHand[1] = 2
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/2D.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+   
+      }
+      if(result === Diamond3 ){
+         dealerHand[1] = 3
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/3D.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+    
+      }
+      if(result === Diamond4 ){
+         dealerHand[1] = 4
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/4D.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Diamond5 ){
+         dealerHand[1] = 5
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/5D.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Diamond6 ){
+         dealerHand[1] = 6
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/6D.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Diamond7 ){
+         dealerHand[1] = 7
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/7D.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Diamond8 ){
+         dealerHand[1] = 8
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/8D.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Diamond9 ){
+         dealerHand[1] = 9
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/9D.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+   
+      if(result === Diamond10 ){
+         dealerHand[1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/10D.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      
+       //Hearts//
+   
+       if(result === HeartJack ){
+         dealerHand[1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src="./PNG/JH.png" 
+         dealerCard.setAttribute("width", "100px" )   
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+      if(result === HeartQueen ){
+         dealerHand[1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/QH.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+   
+      }
+      if(result === HeartKing ){
+         dealerHand[1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/KH.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+        
+      }
+      if(result === HeartAce ){
+         dealerHand[1] = 11
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/AH.png"
+         dealerCard.setAttribute("width", "100px" )     
+         dealerHandDiv.appendChild(dealerCard)
+      
+      }
+      if(result === Heart2 ){
+         dealerHand[1] = 2
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/2H.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+   
+      }
+      if(result === Heart3 ){
+         dealerHand[1] = 3
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/3H.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+    
+      }
+      if(result === Heart4 ){
+         dealerHand[1] = 4
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/4H.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Heart5 ){
+         dealerHand[1] = 5
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/5H.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Heart6 ){
+         dealerHand[1] = 6
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/6H.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Heart7 ){
+         dealerHand[1] = 7
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/7H.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Heart8 ){
+         dealerHand[1] = 8
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/8H.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Heart9 ){
+         dealerHand[1] = 9
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/9H.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+   
+      if(result === Heart10 ){
+         dealerHand[1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/10H.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+       //Club//
+   
+      if(result === ClubJack ){
+         dealerHand[1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src="./PNG/JC.png" 
+         dealerCard.setAttribute("width", "100px" )   
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+      if(result === ClubQueen ){
+         dealerHand[1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/QC.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+   
+      }
+      if(result === ClubKing ){
+         dealerHand[1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/KC.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+        
+      }
+      if(result === ClubAce ){
+         dealerHand[1] = 11
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/AC.png"
+         dealerCard.setAttribute("width", "100px" )     
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Club2 ){
+         dealerHand[1] = 2
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/2C.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+   
+      }
+      if(result === Club3 ){
+         dealerHand[1] = 3
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/3C.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+    
+      }
+      if(result === Club4 ){
+         dealerHand[1] = 4
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/4C.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Club5 ){
+         dealerHand[1] = 5
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/5C.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Club6 ){
+         dealerHand[1] = 6
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/6C.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Club7 ){
+         dealerHand[1] = 7
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/7C.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Club8 ){
+         dealerHand[1] = 8
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/8C.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Club9 ){
+         dealerHand[1] = 9
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/9C.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+   
+      if(result === Club10 ){
+         dealerHand[1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/10C.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      } 
+      
+      //Spade//
+      
+      if(result === SpadeJack ){
+         dealerHand[1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src="./PNG/JS.png" 
+         dealerCard.setAttribute("width", "100px" )   
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+      if(result === SpadeQueen ){
+         dealerHand[1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/QS.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+   
+      }
+      if(result === SpadeKing ){
+         dealerHand[1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/KS.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+        
+      }
+      if(result === SpadeAce ){
+         dealerHand[1] = 11
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/AS.png"
+         dealerCard.setAttribute("width", "100px" )     
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Spade2 ){
+         dealerHand[1] = 2
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/2S.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+   
+      }
+      if(result === Spade3 ){
+         dealerHand[1] = 3
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/3S.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+      if(result === Spade4 ){
+         dealerHand[1] = 4
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/4S.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+      if(result === Spade5 ){
+         dealerHand[1] = 5
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/5C.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+      if(result === Spade6 ){
+         dealerHand[1] = 6
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/6S.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+      if(result === Spade7 ){
+         dealerHand[1] = 7
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/7S.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+      if(result === Spade8 ){
+         dealerHand[1] = 8
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/8S.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+      if(result === Spade9 ){
+         dealerHand[1] = 9
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/9S.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+   
+      if(result === Spade10 ){
+         dealerHand[1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/10S.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;      
+      } 
+   
+   
+      
+   }
+   // Below Adds Hands
+   let dealerSum = 0 
+   let playerSum = 0
+ 
+ 
+ 
+   for (let i=0; i< dealerHand.length; i++ ){
+ 
+    dealerSum += dealerHand[i];
+  }
+ 
+   for (let i=0; i< player1Hand.length; i++ ){
+ 
+    playerSum += player1Hand[i];
+    
+ 
+ 
+ }
+ if(dealerHand != 21){
+
       console.log("BlackJack!")
       alert("Black Jack Player 1 Wins!")
       console.log(`Player 1 Hand: ${player1Hand}`)
+ }
    }
 
    else{
-      console.log("Busted Your Hand: " + playerSum)
+
       alert("Busted Dealer Wins")
+
+       //Removes Fake Back Card
+   dealerCardFake.remove()
+   // Draws Dealers Real 2nd Card
+   dealerHand.push(DrawCard(Shoe))
+   // Below gives 2nd Card a picture 
+   for (let i=1; i < dealerHand.length; i++ ){
+      let result = dealerHand[i]
       
+      //Diamonds//
+      if(result === DiamondJack ){
+         dealerHand[1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src="./PNG/JD.png" 
+         dealerCard.setAttribute("width", "100px" )   
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+      if(result === DiamondQueen ){
+         dealerHand[1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/QD.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+   
+      }
+      if(result === DiamondKing ){
+         dealerHand[1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/KD.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+        
+      }
+      if(result === DiamondAce ){
+         dealerHand[1] = 11
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/AD.png"
+         dealerCard.setAttribute("width", "100px" )     
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Diamond2 ){
+         dealerHand[1] = 2
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/2D.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+   
+      }
+      if(result === Diamond3 ){
+         dealerHand[1] = 3
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/3D.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+    
+      }
+      if(result === Diamond4 ){
+         dealerHand[1] = 4
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/4D.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Diamond5 ){
+         dealerHand[1] = 5
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/5D.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Diamond6 ){
+         dealerHand[1] = 6
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/6D.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Diamond7 ){
+         dealerHand[1] = 7
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/7D.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Diamond8 ){
+         dealerHand[1] = 8
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/8D.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Diamond9 ){
+         dealerHand[1] = 9
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/9D.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+   
+      if(result === Diamond10 ){
+         dealerHand[1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/10D.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      
+       //Hearts//
+   
+       if(result === HeartJack ){
+         dealerHand[1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src="./PNG/JH.png" 
+         dealerCard.setAttribute("width", "100px" )   
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+      if(result === HeartQueen ){
+         dealerHand[1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/QH.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+   
+      }
+      if(result === HeartKing ){
+         dealerHand[1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/KH.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+        
+      }
+      if(result === HeartAce ){
+         dealerHand[1] = 11
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/AH.png"
+         dealerCard.setAttribute("width", "100px" )     
+         dealerHandDiv.appendChild(dealerCard)
+      
+      }
+      if(result === Heart2 ){
+         dealerHand[1] = 2
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/2H.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+   
+      }
+      if(result === Heart3 ){
+         dealerHand[1] = 3
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/3H.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+    
+      }
+      if(result === Heart4 ){
+         dealerHand[1] = 4
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/4H.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Heart5 ){
+         dealerHand[1] = 5
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/5H.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Heart6 ){
+         dealerHand[1] = 6
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/6H.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Heart7 ){
+         dealerHand[1] = 7
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/7H.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Heart8 ){
+         dealerHand[1] = 8
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/8H.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Heart9 ){
+         dealerHand[1] = 9
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/9H.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+   
+      if(result === Heart10 ){
+         dealerHand[1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/10H.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+       //Club//
+   
+      if(result === ClubJack ){
+         dealerHand[1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src="./PNG/JC.png" 
+         dealerCard.setAttribute("width", "100px" )   
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+      if(result === ClubQueen ){
+         dealerHand[1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/QC.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+   
+      }
+      if(result === ClubKing ){
+         dealerHand[1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/KC.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+        
+      }
+      if(result === ClubAce ){
+         dealerHand[1] = 11
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/AC.png"
+         dealerCard.setAttribute("width", "100px" )     
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Club2 ){
+         dealerHand[1] = 2
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/2C.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+   
+      }
+      if(result === Club3 ){
+         dealerHand[1] = 3
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/3C.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+    
+      }
+      if(result === Club4 ){
+         dealerHand[1] = 4
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/4C.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Club5 ){
+         dealerHand[1] = 5
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/5C.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Club6 ){
+         dealerHand[1] = 6
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/6C.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Club7 ){
+         dealerHand[1] = 7
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/7C.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Club8 ){
+         dealerHand[1] = 8
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/8C.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Club9 ){
+         dealerHand[1] = 9
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/9C.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+   
+      if(result === Club10 ){
+         dealerHand[1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/10C.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      } 
+      
+      //Spade//
+      
+      if(result === SpadeJack ){
+         dealerHand[1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src="./PNG/JS.png" 
+         dealerCard.setAttribute("width", "100px" )   
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+      if(result === SpadeQueen ){
+         dealerHand[1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/QS.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+   
+      }
+      if(result === SpadeKing ){
+         dealerHand[1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/KS.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+        
+      }
+      if(result === SpadeAce ){
+         dealerHand[1] = 11
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/AS.png"
+         dealerCard.setAttribute("width", "100px" )     
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      
+      }
+      if(result === Spade2 ){
+         dealerHand[1] = 2
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/2S.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+   
+      }
+      if(result === Spade3 ){
+         dealerHand[1] = 3
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/3S.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+      if(result === Spade4 ){
+         dealerHand[1] = 4
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/4S.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+      if(result === Spade5 ){
+         dealerHand[1] = 5
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/5C.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+      if(result === Spade6 ){
+         dealerHand[1] = 6
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/6S.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+      if(result === Spade7 ){
+         dealerHand[1] = 7
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/7S.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+      if(result === Spade8 ){
+         dealerHand[1] = 8
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/8S.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+      if(result === Spade9 ){
+         dealerHand[1] = 9
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/9S.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;
+      }
+   
+      if(result === Spade10 ){
+         dealerHand[1] = 10
+         let dealerCard = document.createElement("img")
+         dealerCard.src= "./PNG/10S.png"   
+         dealerCard.setAttribute("width", "100px" )  
+         dealerHandDiv.appendChild(dealerCard)
+         break;      
+      } 
+   
+   
+      
+   }
+   // Below Adds Hands
+   let dealerSum = 0 
+   let playerSum = 0
  
+ 
+ 
+   for (let i=0; i< dealerHand.length; i++ ){
+ 
+    dealerSum += dealerHand[i];
+  }
+ 
+   for (let i=0; i< player1Hand.length; i++ ){
+ 
+    playerSum += player1Hand[i];
+    
+ 
+ 
+ }
+      
+ console.log("Busted Your Hand: " + playerSum)
+ console.log("Dealers Hand: " + dealerHand)
 
         
 
@@ -3820,28 +5325,15 @@ hit.addEventListener('click', function(event){
   
 
 )
-   }
+}
 )
 
 
-console.log("nothing 2")
-
-
-// stand.addEventListener('click', function(){
-//    alert("yo")
-// })
 
 
 
 
 
-
-
-//   console.log(`The Total of the Dealers Hand is :${dealerSum}`)
-
-//   console.log(`The Total of the Player Hand is :${playerSum}`)
-
-//   console.log(dealerHand)
 
 
 
