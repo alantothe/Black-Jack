@@ -107,6 +107,8 @@ let dealerHandDiv = document.querySelector("#dealer-cards")
 let player1Div = document.querySelector("#player1-cards") 
 let hit = document.querySelector("#hit")
 let stand = document.querySelector("#stand")
+let dealerSumTrackerDiv = document.querySelector("#dealer-sum-tracker")
+let playerOneSumTrackerDiv = document.querySelector("#player1-sum-tracker")
 //! Event Listeners 
 deal.addEventListener('click', function(event){
    
@@ -2161,6 +2163,17 @@ console.log(`Player 1 Hand Sum is : ${playerSum}`)
 
 }
 
+//This section will be for creating an element that will track of the dealer and player 1 sum .
+let dealerSumTracker = document.createElement("p")
+dealerSumTrackerDiv.appendChild(dealerSumTracker)
+dealerSumTracker.innerText = dealerSum
+
+
+let playerOneSumTracker = document.createElement("p")
+playerOneSumTrackerDiv.appendChild(playerOneSumTracker)
+playerOneSumTracker.innerText =playerSum
+
+
 
 //!Hit
 hit.addEventListener('click', function(event){
@@ -2171,7 +2184,6 @@ hit.addEventListener('click', function(event){
    
    player1Hand.push(DrawCard(Shoe))
 
-  
    
 
  //This For loop will  change the new string into a number & add photos into the div
@@ -3302,6 +3314,119 @@ hit.addEventListener('click', function(event){
  }
    }
   else if( playerSum > 21){
+   //Looks for an ACE in Player 1 Hand and subtracts 10 from the total sum // Remove if this is causing problems for Aces
+   for (let i=0; i< player1Hand.length; i++ ){
+
+      
+      
+      if(player1Hand[0]=== 11){
+         console.log("1st Card Ace")
+
+         if(playerSum > 21){
+            playerSum = playerSum - 10
+            console.log(`Player 1 Hand is : ${player1Hand}`)
+            console.log(`Player 1 Hand Sum is : ${playerSum}`)
+            break;
+            
+         }
+         console.log(playerSum)
+         
+         
+      }
+      if(player1Hand[1]=== 11){
+         console.log("2nd Card Ace")
+
+         if(playerSum > 21){
+            playerSum = playerSum - 10
+            console.log(`Player 1 Hand is : ${player1Hand}`)
+            console.log(`Player 1 Hand Sum is : ${playerSum}`)
+            break;
+            
+         }
+         console.log(playerSum)
+         
+         
+      }
+      if(player1Hand[2]=== 11){
+         console.log("3rd Card Ace")
+
+         if(playerSum > 21){
+            playerSum = playerSum - 10
+            console.log(`Player 1 Hand is : ${player1Hand}`)
+            console.log(`Player 1 Hand Sum is : ${playerSum}`)
+            break;
+            
+         }
+         console.log(playerSum)
+         
+         
+      }
+      if(player1Hand[3]=== 11){
+         console.log("4th Card Ace")
+
+         if(playerSum > 21){
+            playerSum = playerSum - 10
+            console.log(`Player 1 Hand is : ${player1Hand}`)
+            console.log(`Player 1 Hand Sum is : ${playerSum}`)
+            break;
+            
+         }
+         console.log(playerSum)
+         
+         
+      }
+      if(player1Hand[4]=== 11){
+         console.log("5th Card Ace")
+
+         if(playerSum > 21){
+            playerSum = playerSum - 10
+            console.log(`Player 1 Hand is : ${player1Hand}`)
+            console.log(`Player 1 Hand Sum is : ${playerSum}`)
+            break;
+            
+         }
+         console.log(playerSum)
+         
+         
+      }
+      if(player1Hand[5]=== 11){
+         console.log("6th Card Ace")
+
+         if(playerSum > 21){
+            playerSum = playerSum - 10
+            console.log(`Player 1 Hand is : ${player1Hand}`)
+            console.log(`Player 1 Hand Sum is : ${playerSum}`)
+            break;
+            
+         }
+         console.log(playerSum)
+         
+         
+      }
+      if(player1Hand[6]=== 11){
+         console.log("7th Card Ace")
+
+         if(playerSum > 21){
+            playerSum = playerSum - 10
+            console.log(`Player 1 Hand is : ${player1Hand}`)
+            console.log(`Player 1 Hand Sum is : ${playerSum}`)
+            break;
+            
+         }
+         console.log(playerSum)
+         
+         
+      }
+
+    
+   
+   
+   
+      
+   
+   
+   }
+
    console.log("Player 1 Cards: ")
    console.log(player1Hand)
    console.log("Player 1 Hand Total")
@@ -3790,6 +3915,11 @@ hit.addEventListener('click', function(event){
       }
    
 }
+
+playerOneSumTracker.innerText = playerSum
+dealerSumTracker.innerText =dealerSum
+
+
 }
 
 
@@ -4535,6 +4665,7 @@ for (let i=0; i< dealerHand.length; i++ ){
          console.log(`Dealer Hand Sum is : ${dealerSum}`)
          console.log(`Player 1 Hand is : ${player1Hand}`)
          console.log(`Player 1 Hand Sum is : ${playerSum}`)
+         dealerSumTracker.innerText =dealerSum
       } 
       else{
       alert("Dealer Wins! Black Jack")
@@ -4542,6 +4673,7 @@ for (let i=0; i< dealerHand.length; i++ ){
       console.log(`Dealer Hand Sum is : ${dealerSum}`)
       console.log(`Player 1 Hand is : ${player1Hand}`)
       console.log(`Player 1 Hand Sum is : ${playerSum}`)
+      dealerSumTracker.innerText =dealerSum
       }
    }
    //-----------------------------------------------------------------------------2 Cards  
@@ -5037,6 +5169,7 @@ for (let i=0; i< dealerHand.length; i++ ){
     
        dealerSum += dealerHand[i];
      }
+     dealerSumTracker.innerText =dealerSum
 
 // search for Ace in Dealer hand and minus 10 if there is an ACE 
 for (let i=0; i< dealerHand.length; i++ ){
@@ -5166,6 +5299,7 @@ for (let i=0; i< dealerHand.length; i++ ){
             console.log(player1Hand)
             console.log(`Player 1 Hand Sum is: `)
             console.log(playerSum)
+            dealerSumTracker.innerText =dealerSum
          } 
          else{
          alert("Dealer Wins! Black Jack")
@@ -5177,6 +5311,7 @@ for (let i=0; i< dealerHand.length; i++ ){
          console.log(player1Hand)
          console.log(`Player 1 Hand Sum is: `)
          console.log(playerSum)
+         dealerSumTracker.innerText =dealerSum
          }
       }
       //----------------------------------------------------------------------------- 3 Cards 
@@ -5803,6 +5938,7 @@ for (let i=0; i< dealerHand.length; i++ ){
          console.log(`Dealer Hand Sum is : ${dealerSum}`)
          console.log(`Player 1 Hand is : ${player1Hand}`)
          console.log(`Player 1 Hand Sum is : ${playerSum}`)
+         dealerSumTracker.innerText =dealerSum
       }
       else{
          console.log("Dealer Wins")
@@ -5811,6 +5947,7 @@ for (let i=0; i< dealerHand.length; i++ ){
          console.log(`Dealer Hand Sum is : ${dealerSum}`)
          console.log(`Player 1 Hand is : ${player1Hand}`)
          console.log(`Player 1 Hand Sum is : ${playerSum}`)
+         dealerSumTracker.innerText =dealerSum
       }
    
      
@@ -6437,6 +6574,7 @@ else if( dealerSum === 21){
       console.log(`Dealer Hand Sum is : ${dealerSum}`)
       console.log(`Player 1 Hand is : ${player1Hand}`)
       console.log(`Player 1 Hand Sum is : ${playerSum}`)
+      dealerSumTracker.innerText =dealerSum
    }
    else{
       console.log("Dealer Wins")
@@ -6445,6 +6583,7 @@ else if( dealerSum === 21){
       console.log(`Dealer Hand Sum is : ${dealerSum}`)
       console.log(`Player 1 Hand is : ${player1Hand}`)
       console.log(`Player 1 Hand Sum is : ${playerSum}`)
+      dealerSumTracker.innerText =dealerSum
    }
 
   
@@ -7060,6 +7199,7 @@ if(dealerSum === playerSum) {
    console.log(`Dealer Hand Sum is : ${dealerSum}`)
    console.log(`Player 1 Hand is : ${player1Hand}`)
    console.log(`Player 1 Hand Sum is : ${playerSum}`)
+   dealerSumTracker.innerText =dealerSum
 }
 //----------------------------------------------------------------------------- 6 Cards
 else if( dealerSum === 21){
@@ -7070,6 +7210,7 @@ else if( dealerSum === 21){
       console.log(`Dealer Hand Sum is : ${dealerSum}`)
       console.log(`Player 1 Hand is : ${player1Hand}`)
       console.log(`Player 1 Hand Sum is : ${playerSum}`)
+      dealerSumTracker.innerText =dealerSum
    }
    else{
       console.log("Dealer Wins")
@@ -7078,6 +7219,7 @@ else if( dealerSum === 21){
       console.log(`Dealer Hand Sum is : ${dealerSum}`)
       console.log(`Player 1 Hand is : ${player1Hand}`)
       console.log(`Player 1 Hand Sum is : ${playerSum}`)
+      dealerSumTracker.innerText =dealerSum
    }
 
   
@@ -7585,6 +7727,7 @@ else if ( dealerSum >= 17 && dealerSum <=20 && dealerSum > playerSum){
    console.log(`Dealer Hand Sum is : ${dealerSum}`)
    console.log(`Player 1 Hand is : ${player1Hand}`)
    console.log(`Player 1 Hand Sum is : ${playerSum}`)
+   dealerSumTracker.innerText =dealerSum
 
 }
 //----------------------------------------------------------------------------- 6 Cards
@@ -7596,6 +7739,7 @@ else if(dealerSum >= 17 && dealerSum <=20 && dealerSum < playerSum  ){
    console.log(`Dealer Hand Sum is : ${dealerSum}`)
    console.log(`Player 1 Hand is : ${player1Hand}`)
    console.log(`Player 1 Hand Sum is : ${playerSum}`)
+   dealerSumTracker.innerText =dealerSum
 
 }
 //----------------------------------------------------------------------------- 6 Cards
@@ -7605,6 +7749,7 @@ else if(dealerSum > 21){
  console.log(`Dealer Hand Sum is : ${dealerSum}`)
  
  console.log(`Player 1 Hand Sum is : ${playerSum}`)
+ dealerSumTracker.innerText =dealerSum
 }
 }
 //-----------------------------------------------------------------------------  5 Cards
@@ -7617,6 +7762,7 @@ else if ( dealerSum >= 17 && dealerSum <=20 && dealerSum > playerSum){
    console.log(`Dealer Hand Sum is : ${dealerSum}`)
    console.log(`Player 1 Hand is : ${player1Hand}`)
    console.log(`Player 1 Hand Sum is : ${playerSum}`)
+   dealerSumTracker.innerText =dealerSum
 
 }
 //----------------------------------------------------------------------------- 5 Cards
@@ -7628,6 +7774,7 @@ else if(dealerSum >= 17 && dealerSum <=20 && dealerSum < playerSum  ){
    console.log(`Dealer Hand Sum is : ${dealerSum}`)
    console.log(`Player 1 Hand is : ${player1Hand}`)
    console.log(`Player 1 Hand Sum is : ${playerSum}`)
+   dealerSumTracker.innerText =dealerSum
 
 }
 //-----------------------------------------------------------------------------  5 Cards
@@ -7637,6 +7784,7 @@ else if(dealerSum > 21){
    console.log(`Dealer Hand Sum is : ${dealerSum}`)
  
    console.log(`Player 1 Hand Sum is : ${playerSum}`)
+   dealerSumTracker.innerText =dealerSum
 }
 //----------------------------------------------------------------------------- 5 Cards 
 else if(dealerSum === playerSum) {
@@ -7649,6 +7797,7 @@ else if(dealerSum === playerSum) {
    console.log(player1Hand)
    console.log(`Player 1 Hand Sum is: `)
    console.log(playerSum)
+   dealerSumTracker.innerText =dealerSum
 } 
 //-----------------------------------------------------------------------------  4 cards
 
@@ -7665,6 +7814,7 @@ else if(dealerSum === playerSum) {
       console.log(`Dealer Hand Sum is : ${dealerSum}`)
       console.log(`Player 1 Hand is : ${player1Hand}`)
       console.log(`Player 1 Hand Sum is : ${playerSum}`)
+      dealerSumTracker.innerText =dealerSum
 
    }
    //-----------------------------------------------------------------------------  4 Cards
@@ -7677,6 +7827,7 @@ else if(dealerSum === playerSum) {
       console.log(`Dealer Hand Sum is : ${dealerSum}`)
       console.log(`Player 1 Hand is : ${player1Hand}`)
       console.log(`Player 1 Hand Sum is : ${playerSum}`)
+      dealerSumTracker.innerText =dealerSum
 
    }
    //-----------------------------------------------------------------------------  4 Cards
@@ -7688,6 +7839,7 @@ else if(dealerSum === playerSum) {
       console.log(`Dealer Hand Sum is : ${dealerSum}`)
  
       console.log(`Player 1 Hand Sum is : ${playerSum}`)
+      dealerSumTracker.innerText =dealerSum
       
    }
    //-----------------------------------------------------------------------------  4 Cards
@@ -7701,6 +7853,7 @@ else if(dealerSum === playerSum) {
       console.log(player1Hand)
       console.log(`Player 1 Hand Sum is: `)
       console.log(playerSum)
+      dealerSumTracker.innerText =dealerSum
    } 
    //-----------------------------------------------------------------------------  4 cards
 
@@ -7729,6 +7882,7 @@ else if(dealerSum === playerSum) {
          console.log(player1Hand)
          console.log(`Player 1 Hand Sum is: `)
          console.log(playerSum)
+         dealerSumTracker.innerText =dealerSum
    
       }
       //----------------------------------------------------------------------------- 3 Cards 
@@ -7745,6 +7899,7 @@ else if(dealerSum === playerSum) {
          console.log(player1Hand)
          console.log(`Player 1 Hand Sum is: `)
          console.log(playerSum)
+         dealerSumTracker.innerText =dealerSum
    
       }
       //-----------------------------------------------------------------------------  3 Cards
@@ -7754,10 +7909,12 @@ else if(dealerSum === playerSum) {
                console.log(`Dealer Hand Sum is : ${dealerSum}`)
  
                console.log(`Player 1 Hand Sum is : ${playerSum}`)
+               dealerSumTracker.innerText =dealerSum
       }
       //-----------------------------------------------------------------------------  3 cards
       else if(dealerSum === playerSum) {
          alert("Push !")
+         console.log("Push!")
          console.log(`Dealer Hand is: `)
          console.log(dealerHand)
          console.log(`Dealer Hand Sum is: `)
@@ -7766,6 +7923,7 @@ else if(dealerSum === playerSum) {
          console.log(player1Hand)
          console.log(`Player 1 Hand Sum is: `)
          console.log(playerSum)
+         dealerSumTracker.innerText =dealerSum
       } 
       //-----------------------------------------------------------------------------  3 cards
       
@@ -7784,6 +7942,7 @@ else if(dealerSum === playerSum) {
       console.log(player1Hand)
       console.log(`Player 1 Hand Sum is: `)
       console.log(playerSum)
+      dealerSumTracker.innerText =dealerSum
 
    }
    //----------------------------------------------------------------------------- 2 Cards 
@@ -7799,6 +7958,7 @@ else if(dealerSum === playerSum) {
       console.log(player1Hand)
       console.log(`Player 1 Hand Sum is: `)
       console.log(playerSum)
+      dealerSumTracker.innerText =dealerSum
    }
    //----------------------------------------------------------------------------- 2 Cards  
    else if(dealerSum === playerSum) {
@@ -7807,10 +7967,12 @@ else if(dealerSum === playerSum) {
       console.log(`Dealer Hand Sum is : ${dealerSum}`)
       console.log(`Player 1 Hand is : ${player1Hand}`)
       console.log(`Player 1 Hand Sum is : ${playerSum}`)
+      dealerSumTracker.innerText =dealerSum
    } 
    //----------------------------------------------------------------------------- 2 Cards  
    
-
+  
+   
 
 
 

@@ -110,3 +110,12 @@
       
       
       }
+
+
+      //----------------------------------------------------------------------------- 6 Cards
+
+
+    
+      console.log(`Dealer Hand Sum is : ${dealerSum}`)
+ 
+      console.log(`Player 1 Hand Sum is : ${playerSum}`)
