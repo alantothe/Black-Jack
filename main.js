@@ -127,7 +127,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src="./PNG/JD.png" 
-         dealerCard.setAttribute("width", "100px" )   
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")   
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -135,7 +136,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/QD.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
   
@@ -144,7 +146,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/KD.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
         
@@ -153,7 +156,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 11
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/AD.png"
-         dealerCard.setAttribute("width", "100px" )     
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")     
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -162,7 +166,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 2
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/2D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
    
@@ -171,7 +176,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 3
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/3D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
     
@@ -180,7 +186,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 4
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/4D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -189,7 +196,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 5
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/5D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -198,7 +206,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 6
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/6D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -207,7 +216,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 7
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/7D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -216,7 +226,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 8
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/8D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -225,7 +236,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 9
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/9D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -235,7 +247,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/10D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -247,7 +260,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src="./PNG/JH.png" 
-         dealerCard.setAttribute("width", "100px" )   
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")   
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -255,7 +269,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/QH.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
   
@@ -264,7 +279,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/KH.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
         
@@ -273,7 +289,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 11
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/AH.png"
-         dealerCard.setAttribute("width", "100px" )     
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")     
          dealerHandDiv.appendChild(dealerCard)
       
       }
@@ -281,7 +298,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 2
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/2H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
    
@@ -290,7 +308,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 3
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/3H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
     
@@ -299,7 +318,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 4
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/4H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -308,7 +328,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 5
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/5H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -317,7 +338,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 6
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/6H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -326,7 +348,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 7
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/7H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -335,7 +358,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 8
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/8H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -344,7 +368,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 9
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/9H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -354,7 +379,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/10H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -365,7 +391,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src="./PNG/JC.png" 
-         dealerCard.setAttribute("width", "100px" )   
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")   
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -373,7 +400,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/QC.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
   
@@ -382,7 +410,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/KC.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
         
@@ -391,7 +420,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 11
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/AC.png"
-         dealerCard.setAttribute("width", "100px" )     
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")     
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -400,7 +430,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 2
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/2C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
    
@@ -409,7 +440,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 3
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/3C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
     
@@ -418,7 +450,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 4
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/4C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -427,7 +460,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 5
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/5C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -436,7 +470,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 6
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/6C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -445,7 +480,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 7
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/7C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -454,7 +490,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 8
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/8C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -463,7 +500,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 9
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/9C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -473,7 +511,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/10C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -485,7 +524,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src="./PNG/JS.png" 
-         dealerCard.setAttribute("width", "100px" )   
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")   
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -493,7 +533,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/QS.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
   
@@ -502,7 +543,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/KS.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
         
@@ -511,7 +553,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 11
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/AS.png"
-         dealerCard.setAttribute("width", "100px" )     
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")     
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -520,7 +563,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 2
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/2S.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
    
@@ -529,7 +573,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 3
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/3S.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -537,7 +582,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 4
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/4S.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -545,7 +591,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 5
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/5C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -553,7 +600,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 6
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/6S.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -561,7 +609,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 7
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/7S.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -569,7 +618,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 8
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/8S.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -577,7 +627,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 9
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/9S.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -586,7 +637,8 @@ deal.addEventListener('click', function(event){
          dealerHand[0] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/10S.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;      
       } 
@@ -610,7 +662,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 10
          let player1Card = document.createElement("img")
          player1Card.src="./PNG/JD.png" 
-         player1Card.setAttribute("width", "100px" )   
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")   
          player1Div.appendChild(player1Card)
          break;
       }
@@ -618,7 +671,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/QD.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
   
@@ -627,7 +681,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/KD.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
         
@@ -636,7 +691,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 11
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/AD.png"
-         player1Card.setAttribute("width", "100px" )     
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")     
          player1Div.appendChild(player1Card)
          break;
       
@@ -645,7 +701,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 2
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/2D.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
    
@@ -654,7 +711,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 3
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/3D.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
     
@@ -663,7 +721,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 4
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/4D.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -672,7 +731,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 5
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/5D.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -681,7 +741,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 6
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/6D.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -690,7 +751,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 7
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/7D.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -699,7 +761,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 8
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/8D.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -708,7 +771,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 9
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/9D.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -718,7 +782,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/10D.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -730,7 +795,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 10
          let player1Card = document.createElement("img")
          player1Card.src="./PNG/JH.png" 
-         player1Card.setAttribute("width", "100px" )   
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")   
          player1Div.appendChild(player1Card)
          break;
       }
@@ -738,7 +804,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/QH.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
   
@@ -747,7 +814,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/KH.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
         
@@ -756,7 +824,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 11
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/AH.png"
-         player1Card.setAttribute("width", "100px" )     
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")     
          player1Div.appendChild(player1Card)
       
       }
@@ -764,7 +833,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 2
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/2H.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
    
@@ -773,7 +843,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 3
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/3H.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
     
@@ -782,7 +853,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 4
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/4H.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -791,7 +863,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 5
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/5H.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -800,7 +873,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 6
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/6H.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -809,7 +883,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 7
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/7H.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -818,7 +893,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 8
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/8H.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -827,7 +903,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 9
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/9H.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -837,7 +914,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/10H.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -848,7 +926,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 10
          let player1Card = document.createElement("img")
          player1Card.src="./PNG/JC.png" 
-         player1Card.setAttribute("width", "100px" )   
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")   
          player1Div.appendChild(player1Card)
          break;
       }
@@ -856,7 +935,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/QC.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
   
@@ -865,7 +945,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/KC.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
         
@@ -874,7 +955,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 11
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/AC.png"
-         player1Card.setAttribute("width", "100px" )     
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")     
          player1Div.appendChild(player1Card)
          break;
       
@@ -883,7 +965,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 2
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/2C.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
    
@@ -892,7 +975,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 3
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/3C.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
     
@@ -901,7 +985,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 4
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/4C.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -910,7 +995,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 5
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/5C.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -919,7 +1005,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 6
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/6C.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -928,7 +1015,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 7
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/7C.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -937,7 +1025,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 8
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/8C.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -946,7 +1035,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 9
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/9C.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -956,7 +1046,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/10C.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -968,7 +1059,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 10
          let player1Card = document.createElement("img")
          player1Card.src="./PNG/JS.png" 
-         player1Card.setAttribute("width", "100px" )   
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")   
          player1Div.appendChild(player1Card)
          break;
       }
@@ -976,7 +1068,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/QS.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
   
@@ -985,7 +1078,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/KS.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
         
@@ -994,7 +1088,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 11
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/AS.png"
-         player1Card.setAttribute("width", "100px" )     
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")     
          player1Div.appendChild(player1Card)
          break;
       
@@ -1003,7 +1098,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 2
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/2S.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
    
@@ -1012,7 +1108,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 3
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/3S.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       }
@@ -1020,7 +1117,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 4
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/4S.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       }
@@ -1028,7 +1126,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 5
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/5C.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       }
@@ -1036,7 +1135,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 6
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/6S.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       }
@@ -1044,7 +1144,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 7
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/7S.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       }
@@ -1052,7 +1153,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 8
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/8S.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       }
@@ -1060,7 +1162,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 9
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/9S.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       }
@@ -1069,7 +1172,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[0] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/10S.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;      
       } 
@@ -1089,7 +1193,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 10
          let player1Card = document.createElement("img")
          player1Card.src="./PNG/JD.png" 
-         player1Card.setAttribute("width", "100px" )   
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")   
          player1Div.appendChild(player1Card)
          break;
       }
@@ -1097,7 +1202,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/QD.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
   
@@ -1106,7 +1212,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/KD.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
         
@@ -1115,7 +1222,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 11
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/AD.png"
-         player1Card.setAttribute("width", "100px" )     
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")     
          player1Div.appendChild(player1Card)
          break;
       
@@ -1124,7 +1232,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 2
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/2D.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
    
@@ -1133,7 +1242,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 3
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/3D.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
     
@@ -1142,7 +1252,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 4
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/4D.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -1151,7 +1262,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 5
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/5D.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -1160,7 +1272,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 6
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/6D.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -1169,7 +1282,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 7
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/7D.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -1178,7 +1292,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 8
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/8D.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -1187,7 +1302,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 9
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/9D.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -1197,7 +1313,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/10D.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -1209,7 +1326,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 10
          let player1Card = document.createElement("img")
          player1Card.src="./PNG/JH.png" 
-         player1Card.setAttribute("width", "100px" )   
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")   
          player1Div.appendChild(player1Card)
          break;
       }
@@ -1217,7 +1335,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/QH.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
   
@@ -1226,7 +1345,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/KH.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
         
@@ -1235,7 +1355,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 11
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/AH.png"
-         player1Card.setAttribute("width", "100px" )     
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")     
          player1Div.appendChild(player1Card)
       
       }
@@ -1243,7 +1364,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 2
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/2H.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
    
@@ -1252,7 +1374,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 3
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/3H.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
     
@@ -1261,7 +1384,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 4
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/4H.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -1270,7 +1394,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 5
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/5H.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -1279,7 +1404,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 6
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/6H.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -1288,7 +1414,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 7
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/7H.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -1297,7 +1424,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 8
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/8H.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -1306,7 +1434,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 9
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/9H.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -1316,7 +1445,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/10H.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -1327,7 +1457,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 10
          let player1Card = document.createElement("img")
          player1Card.src="./PNG/JC.png" 
-         player1Card.setAttribute("width", "100px" )   
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")   
          player1Div.appendChild(player1Card)
          break;
       }
@@ -1335,7 +1466,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/QC.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
   
@@ -1344,7 +1476,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/KC.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
         
@@ -1353,7 +1486,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 11
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/AC.png"
-         player1Card.setAttribute("width", "100px" )     
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")     
          player1Div.appendChild(player1Card)
          break;
       
@@ -1362,7 +1496,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 2
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/2C.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
    
@@ -1371,7 +1506,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 3
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/3C.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
     
@@ -1380,7 +1516,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 4
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/4C.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -1389,7 +1526,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 5
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/5C.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -1398,7 +1536,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 6
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/6C.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -1407,7 +1546,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 7
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/7C.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -1416,7 +1556,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 8
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/8C.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -1425,7 +1566,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 9
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/9C.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -1435,7 +1577,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/10C.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -1447,7 +1590,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 10
          let player1Card = document.createElement("img")
          player1Card.src="./PNG/JS.png" 
-         player1Card.setAttribute("width", "100px" )   
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")   
          player1Div.appendChild(player1Card)
          break;
       }
@@ -1455,7 +1599,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/QS.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
   
@@ -1464,7 +1609,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/KS.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
         
@@ -1473,7 +1619,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 11
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/AS.png"
-         player1Card.setAttribute("width", "100px" )     
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")     
          player1Div.appendChild(player1Card)
          break;
       
@@ -1482,7 +1629,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 2
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/2S.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
    
@@ -1491,7 +1639,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 3
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/3S.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       }
@@ -1499,7 +1648,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 4
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/4S.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       }
@@ -1507,7 +1657,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 5
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/5C.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       }
@@ -1515,7 +1666,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 6
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/6S.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       }
@@ -1523,7 +1675,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 7
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/7S.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       }
@@ -1531,7 +1684,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 8
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/8S.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       }
@@ -1539,7 +1693,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 9
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/9S.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       }
@@ -1548,7 +1703,8 @@ dealerHandDiv.appendChild(dealerCardFake)
          player1Hand[1] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/10S.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;      
       } 
@@ -1657,7 +1813,8 @@ if (playerSum === 21){
           dealerHand[1] = 10
           let dealerCard = document.createElement("img")
           dealerCard.src="./PNG/JD.png" 
-          dealerCard.setAttribute("width", "100px" )   
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")   
           dealerHandDiv.appendChild(dealerCard)
           break;
        }
@@ -1665,7 +1822,8 @@ if (playerSum === 21){
           dealerHand[1] = 10
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/QD.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
     
@@ -1674,7 +1832,8 @@ if (playerSum === 21){
           dealerHand[1] = 10
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/KD.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
          
@@ -1683,7 +1842,8 @@ if (playerSum === 21){
           dealerHand[1] = 11
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/AD.png"
-          dealerCard.setAttribute("width", "100px" )     
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")     
           dealerHandDiv.appendChild(dealerCard)
           break;
        
@@ -1692,7 +1852,8 @@ if (playerSum === 21){
           dealerHand[1] = 2
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/2D.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
     
@@ -1701,7 +1862,8 @@ if (playerSum === 21){
           dealerHand[1] = 3
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/3D.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
      
@@ -1710,7 +1872,8 @@ if (playerSum === 21){
           dealerHand[1] = 4
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/4D.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
        
@@ -1719,7 +1882,8 @@ if (playerSum === 21){
           dealerHand[1] = 5
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/5D.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
        
@@ -1728,7 +1892,8 @@ if (playerSum === 21){
           dealerHand[1] = 6
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/6D.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
        
@@ -1737,7 +1902,8 @@ if (playerSum === 21){
           dealerHand[1] = 7
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/7D.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
        
@@ -1746,7 +1912,8 @@ if (playerSum === 21){
           dealerHand[1] = 8
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/8D.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
        
@@ -1755,7 +1922,8 @@ if (playerSum === 21){
           dealerHand[1] = 9
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/9D.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
        
@@ -1765,7 +1933,8 @@ if (playerSum === 21){
           dealerHand[1] = 10
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/10D.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
        
@@ -1777,7 +1946,8 @@ if (playerSum === 21){
           dealerHand[1] = 10
           let dealerCard = document.createElement("img")
           dealerCard.src="./PNG/JH.png" 
-          dealerCard.setAttribute("width", "100px" )   
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")   
           dealerHandDiv.appendChild(dealerCard)
           break;
        }
@@ -1785,7 +1955,8 @@ if (playerSum === 21){
           dealerHand[1] = 10
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/QH.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
     
@@ -1794,7 +1965,8 @@ if (playerSum === 21){
           dealerHand[1] = 10
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/KH.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
          
@@ -1803,7 +1975,8 @@ if (playerSum === 21){
           dealerHand[1] = 11
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/AH.png"
-          dealerCard.setAttribute("width", "100px" )     
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")     
           dealerHandDiv.appendChild(dealerCard)
        
        }
@@ -1811,7 +1984,8 @@ if (playerSum === 21){
           dealerHand[1] = 2
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/2H.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
     
@@ -1820,7 +1994,8 @@ if (playerSum === 21){
           dealerHand[1] = 3
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/3H.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
      
@@ -1829,7 +2004,8 @@ if (playerSum === 21){
           dealerHand[1] = 4
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/4H.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
        
@@ -1838,7 +2014,8 @@ if (playerSum === 21){
           dealerHand[1] = 5
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/5H.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
        
@@ -1847,7 +2024,8 @@ if (playerSum === 21){
           dealerHand[1] = 6
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/6H.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
        
@@ -1856,7 +2034,8 @@ if (playerSum === 21){
           dealerHand[1] = 7
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/7H.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
        
@@ -1865,7 +2044,8 @@ if (playerSum === 21){
           dealerHand[1] = 8
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/8H.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
        
@@ -1874,7 +2054,8 @@ if (playerSum === 21){
           dealerHand[1] = 9
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/9H.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
        
@@ -1884,7 +2065,8 @@ if (playerSum === 21){
           dealerHand[1] = 10
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/10H.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
        
@@ -1895,7 +2077,8 @@ if (playerSum === 21){
           dealerHand[1] = 10
           let dealerCard = document.createElement("img")
           dealerCard.src="./PNG/JC.png" 
-          dealerCard.setAttribute("width", "100px" )   
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")   
           dealerHandDiv.appendChild(dealerCard)
           break;
        }
@@ -1903,7 +2086,8 @@ if (playerSum === 21){
           dealerHand[1] = 10
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/QC.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
     
@@ -1912,7 +2096,8 @@ if (playerSum === 21){
           dealerHand[1] = 10
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/KC.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
          
@@ -1921,7 +2106,8 @@ if (playerSum === 21){
           dealerHand[1] = 11
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/AC.png"
-          dealerCard.setAttribute("width", "100px" )     
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")     
           dealerHandDiv.appendChild(dealerCard)
           break;
        
@@ -1930,7 +2116,8 @@ if (playerSum === 21){
           dealerHand[1] = 2
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/2C.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
     
@@ -1939,7 +2126,8 @@ if (playerSum === 21){
           dealerHand[1] = 3
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/3C.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
      
@@ -1948,7 +2136,8 @@ if (playerSum === 21){
           dealerHand[1] = 4
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/4C.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
        
@@ -1957,7 +2146,8 @@ if (playerSum === 21){
           dealerHand[1] = 5
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/5C.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
        
@@ -1966,7 +2156,8 @@ if (playerSum === 21){
           dealerHand[1] = 6
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/6C.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
        
@@ -1975,7 +2166,8 @@ if (playerSum === 21){
           dealerHand[1] = 7
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/7C.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
        
@@ -1984,7 +2176,8 @@ if (playerSum === 21){
           dealerHand[1] = 8
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/8C.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
        
@@ -1993,7 +2186,8 @@ if (playerSum === 21){
           dealerHand[1] = 9
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/9C.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
        
@@ -2003,7 +2197,8 @@ if (playerSum === 21){
           dealerHand[1] = 10
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/10C.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
        
@@ -2015,7 +2210,8 @@ if (playerSum === 21){
           dealerHand[1] = 10
           let dealerCard = document.createElement("img")
           dealerCard.src="./PNG/JS.png" 
-          dealerCard.setAttribute("width", "100px" )   
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")   
           dealerHandDiv.appendChild(dealerCard)
           break;
        }
@@ -2023,7 +2219,8 @@ if (playerSum === 21){
           dealerHand[1] = 10
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/QS.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
     
@@ -2032,7 +2229,8 @@ if (playerSum === 21){
           dealerHand[1] = 10
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/KS.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
          
@@ -2041,7 +2239,8 @@ if (playerSum === 21){
           dealerHand[1] = 11
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/AS.png"
-          dealerCard.setAttribute("width", "100px" )     
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")     
           dealerHandDiv.appendChild(dealerCard)
           break;
        
@@ -2050,7 +2249,8 @@ if (playerSum === 21){
           dealerHand[1] = 2
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/2S.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
     
@@ -2059,7 +2259,8 @@ if (playerSum === 21){
           dealerHand[1] = 3
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/3S.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
        }
@@ -2067,7 +2268,8 @@ if (playerSum === 21){
           dealerHand[1] = 4
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/4S.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
        }
@@ -2075,7 +2277,8 @@ if (playerSum === 21){
           dealerHand[1] = 5
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/5C.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
        }
@@ -2083,7 +2286,8 @@ if (playerSum === 21){
           dealerHand[1] = 6
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/6S.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
        }
@@ -2091,7 +2295,8 @@ if (playerSum === 21){
           dealerHand[1] = 7
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/7S.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
        }
@@ -2099,7 +2304,8 @@ if (playerSum === 21){
           dealerHand[1] = 8
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/8S.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
        }
@@ -2107,7 +2313,8 @@ if (playerSum === 21){
           dealerHand[1] = 9
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/9S.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;
        }
@@ -2116,7 +2323,8 @@ if (playerSum === 21){
           dealerHand[1] = 10
           let dealerCard = document.createElement("img")
           dealerCard.src= "./PNG/10S.png"   
-          dealerCard.setAttribute("width", "100px" )  
+          dealerCard.setAttribute("width", "100px" )
+          dealerCard.setAttribute("class", "png-white")  
           dealerHandDiv.appendChild(dealerCard)
           break;      
        } 
@@ -2167,11 +2375,13 @@ console.log(`Player 1 Hand Sum is : ${playerSum}`)
 let dealerSumTracker = document.createElement("p")
 dealerSumTrackerDiv.appendChild(dealerSumTracker)
 dealerSumTracker.innerText = dealerSum
+dealerSumTracker.setAttribute("class", "edit-dealer-tracker");
 
 
 let playerOneSumTracker = document.createElement("p")
 playerOneSumTrackerDiv.appendChild(playerOneSumTracker)
 playerOneSumTracker.innerText =playerSum
+playerOneSumTracker.setAttribute("class", "edit-player-tracker");
 
 
 
@@ -2195,7 +2405,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 10
          let player1Card = document.createElement("img")
          player1Card.src="./PNG/JD.png" 
-         player1Card.setAttribute("width", "100px" )   
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")   
          player1Div.appendChild(player1Card)
          break;
       }
@@ -2203,7 +2414,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/QD.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
    
@@ -2212,7 +2424,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/KD.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
         
@@ -2221,7 +2434,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 11
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/AD.png"
-         player1Card.setAttribute("width", "100px" )     
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")     
          player1Div.appendChild(player1Card)
          break;
       
@@ -2230,7 +2444,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 2
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/2D.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
    
@@ -2239,7 +2454,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 3
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/3D.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
     
@@ -2248,7 +2464,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 4
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/4D.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -2257,7 +2474,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 5
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/5D.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -2266,7 +2484,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 6
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/6D.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -2275,7 +2494,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 7
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/7D.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -2284,7 +2504,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 8
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/8D.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -2293,7 +2514,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 9
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/9D.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -2303,7 +2525,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/10D.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -2315,7 +2538,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 10
          let player1Card = document.createElement("img")
          player1Card.src="./PNG/JH.png" 
-         player1Card.setAttribute("width", "100px" )   
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")   
          player1Div.appendChild(player1Card)
          break;
       }
@@ -2323,7 +2547,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/QH.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
    
@@ -2332,7 +2557,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/KH.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
         
@@ -2341,7 +2567,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 11
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/AH.png"
-         player1Card.setAttribute("width", "100px" )     
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")     
          player1Div.appendChild(player1Card)
       
       }
@@ -2349,7 +2576,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 2
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/2H.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
    
@@ -2358,7 +2586,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 3
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/3H.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
     
@@ -2367,7 +2596,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 4
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/4H.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -2376,7 +2606,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 5
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/5H.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -2385,7 +2616,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 6
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/6H.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -2394,7 +2626,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 7
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/7H.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -2403,7 +2636,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 8
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/8H.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -2412,7 +2646,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 9
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/9H.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -2422,7 +2657,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/10H.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -2433,7 +2669,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 10
          let player1Card = document.createElement("img")
          player1Card.src="./PNG/JC.png" 
-         player1Card.setAttribute("width", "100px" )   
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")   
          player1Div.appendChild(player1Card)
          break;
       }
@@ -2441,7 +2678,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/QC.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
    
@@ -2450,7 +2688,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/KC.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
         
@@ -2459,7 +2698,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 11
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/AC.png"
-         player1Card.setAttribute("width", "100px" )     
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")     
          player1Div.appendChild(player1Card)
          break;
       
@@ -2468,7 +2708,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 2
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/2C.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
    
@@ -2477,7 +2718,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 3
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/3C.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
     
@@ -2486,7 +2728,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 4
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/4C.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -2495,7 +2738,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 5
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/5C.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -2504,7 +2748,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 6
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/6C.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -2513,7 +2758,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 7
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/7C.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -2522,7 +2768,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 8
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/8C.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -2531,7 +2778,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 9
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/9C.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -2541,7 +2789,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/10C.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       
@@ -2553,7 +2802,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 10
          let player1Card = document.createElement("img")
          player1Card.src="./PNG/JS.png" 
-         player1Card.setAttribute("width", "100px" )   
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")   
          player1Div.appendChild(player1Card)
          break;
       }
@@ -2561,7 +2811,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/QS.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
    
@@ -2570,7 +2821,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/KS.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
         
@@ -2579,7 +2831,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 11
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/AS.png"
-         player1Card.setAttribute("width", "100px" )     
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")     
          player1Div.appendChild(player1Card)
          break;
       
@@ -2588,7 +2841,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 2
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/2S.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
    
@@ -2597,7 +2851,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 3
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/3S.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       }
@@ -2605,7 +2860,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 4
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/4S.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       }
@@ -2613,7 +2869,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 5
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/5C.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       }
@@ -2621,7 +2878,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 6
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/6S.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       }
@@ -2629,7 +2887,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 7
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/7S.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       }
@@ -2637,7 +2896,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 8
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/8S.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       }
@@ -2645,7 +2905,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 9
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/9S.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;
       }
@@ -2654,7 +2915,8 @@ hit.addEventListener('click', function(event){
          player1Hand[player1Hand.length - 1] = 10
          let player1Card = document.createElement("img")
          player1Card.src= "./PNG/10S.png"   
-         player1Card.setAttribute("width", "100px" )  
+         player1Card.setAttribute("width", "100px" )
+         player1Card.setAttribute("class", "png-white-player")  
          player1Div.appendChild(player1Card)
          break;      
       } 
@@ -2669,8 +2931,9 @@ hit.addEventListener('click', function(event){
       
    }
 
-   let playerSum = 0;
+ 
 //Adds The Hand Values
+   let playerSum = 0;
    for(let i= 0  ;i < player1Hand.length; i++ ){
       playerSum += player1Hand[i]
    }
@@ -2818,7 +3081,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src="./PNG/JD.png" 
-         dealerCard.setAttribute("width", "100px" )   
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")   
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -2826,7 +3090,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/QD.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
    
@@ -2835,7 +3100,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/KD.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
         
@@ -2844,7 +3110,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 11
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/AD.png"
-         dealerCard.setAttribute("width", "100px" )     
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")     
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -2853,7 +3120,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 2
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/2D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
    
@@ -2862,7 +3130,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 3
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/3D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
     
@@ -2871,7 +3140,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 4
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/4D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -2880,7 +3150,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 5
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/5D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -2889,7 +3160,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 6
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/6D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -2898,7 +3170,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 7
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/7D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -2907,7 +3180,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 8
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/8D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -2916,7 +3190,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 9
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/9D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -2926,7 +3201,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/10D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -2938,7 +3214,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src="./PNG/JH.png" 
-         dealerCard.setAttribute("width", "100px" )   
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")   
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -2946,7 +3223,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/QH.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
    
@@ -2955,7 +3233,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/KH.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
         
@@ -2964,7 +3243,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 11
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/AH.png"
-         dealerCard.setAttribute("width", "100px" )     
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")     
          dealerHandDiv.appendChild(dealerCard)
       
       }
@@ -2972,7 +3252,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 2
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/2H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
    
@@ -2981,7 +3262,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 3
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/3H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
     
@@ -2990,7 +3272,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 4
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/4H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -2999,7 +3282,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 5
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/5H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -3008,7 +3292,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 6
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/6H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -3017,7 +3302,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 7
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/7H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -3026,7 +3312,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 8
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/8H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -3035,7 +3322,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 9
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/9H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -3045,7 +3333,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/10H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -3056,7 +3345,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src="./PNG/JC.png" 
-         dealerCard.setAttribute("width", "100px" )   
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")   
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -3064,7 +3354,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/QC.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
    
@@ -3073,7 +3364,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/KC.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
         
@@ -3082,7 +3374,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 11
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/AC.png"
-         dealerCard.setAttribute("width", "100px" )     
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")     
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -3091,7 +3384,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 2
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/2C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
    
@@ -3100,7 +3394,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 3
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/3C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
     
@@ -3109,7 +3404,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 4
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/4C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -3118,7 +3414,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 5
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/5C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -3127,7 +3424,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 6
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/6C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -3136,7 +3434,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 7
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/7C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -3145,7 +3444,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 8
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/8C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -3154,7 +3454,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 9
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/9C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -3164,7 +3465,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/10C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -3176,7 +3478,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src="./PNG/JS.png" 
-         dealerCard.setAttribute("width", "100px" )   
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")   
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -3184,7 +3487,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/QS.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
    
@@ -3193,7 +3497,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/KS.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
         
@@ -3202,7 +3507,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 11
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/AS.png"
-         dealerCard.setAttribute("width", "100px" )     
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")     
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -3211,7 +3517,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 2
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/2S.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
    
@@ -3220,7 +3527,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 3
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/3S.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -3228,7 +3536,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 4
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/4S.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -3236,7 +3545,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 5
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/5C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -3244,7 +3554,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 6
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/6S.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -3252,7 +3563,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 7
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/7S.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -3260,7 +3572,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 8
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/8S.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -3268,7 +3581,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 9
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/9S.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -3277,7 +3591,8 @@ hit.addEventListener('click', function(event){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/10S.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;      
       } 
@@ -3314,118 +3629,7 @@ hit.addEventListener('click', function(event){
  }
    }
   else if( playerSum > 21){
-   //Looks for an ACE in Player 1 Hand and subtracts 10 from the total sum // Remove if this is causing problems for Aces
-   for (let i=0; i< player1Hand.length; i++ ){
 
-      
-      
-      if(player1Hand[0]=== 11){
-         console.log("1st Card Ace")
-
-         if(playerSum > 21){
-            playerSum = playerSum - 10
-            console.log(`Player 1 Hand is : ${player1Hand}`)
-            console.log(`Player 1 Hand Sum is : ${playerSum}`)
-            break;
-            
-         }
-         console.log(playerSum)
-         
-         
-      }
-      if(player1Hand[1]=== 11){
-         console.log("2nd Card Ace")
-
-         if(playerSum > 21){
-            playerSum = playerSum - 10
-            console.log(`Player 1 Hand is : ${player1Hand}`)
-            console.log(`Player 1 Hand Sum is : ${playerSum}`)
-            break;
-            
-         }
-         console.log(playerSum)
-         
-         
-      }
-      if(player1Hand[2]=== 11){
-         console.log("3rd Card Ace")
-
-         if(playerSum > 21){
-            playerSum = playerSum - 10
-            console.log(`Player 1 Hand is : ${player1Hand}`)
-            console.log(`Player 1 Hand Sum is : ${playerSum}`)
-            break;
-            
-         }
-         console.log(playerSum)
-         
-         
-      }
-      if(player1Hand[3]=== 11){
-         console.log("4th Card Ace")
-
-         if(playerSum > 21){
-            playerSum = playerSum - 10
-            console.log(`Player 1 Hand is : ${player1Hand}`)
-            console.log(`Player 1 Hand Sum is : ${playerSum}`)
-            break;
-            
-         }
-         console.log(playerSum)
-         
-         
-      }
-      if(player1Hand[4]=== 11){
-         console.log("5th Card Ace")
-
-         if(playerSum > 21){
-            playerSum = playerSum - 10
-            console.log(`Player 1 Hand is : ${player1Hand}`)
-            console.log(`Player 1 Hand Sum is : ${playerSum}`)
-            break;
-            
-         }
-         console.log(playerSum)
-         
-         
-      }
-      if(player1Hand[5]=== 11){
-         console.log("6th Card Ace")
-
-         if(playerSum > 21){
-            playerSum = playerSum - 10
-            console.log(`Player 1 Hand is : ${player1Hand}`)
-            console.log(`Player 1 Hand Sum is : ${playerSum}`)
-            break;
-            
-         }
-         console.log(playerSum)
-         
-         
-      }
-      if(player1Hand[6]=== 11){
-         console.log("7th Card Ace")
-
-         if(playerSum > 21){
-            playerSum = playerSum - 10
-            console.log(`Player 1 Hand is : ${player1Hand}`)
-            console.log(`Player 1 Hand Sum is : ${playerSum}`)
-            break;
-            
-         }
-         console.log(playerSum)
-         
-         
-      }
-
-    
-   
-   
-   
-      
-   
-   
-   }
 
    console.log("Player 1 Cards: ")
    console.log(player1Hand)
@@ -3446,7 +3650,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src="./PNG/JD.png" 
-            dealerCard.setAttribute("width", "100px" )   
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")   
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -3454,7 +3659,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/QD.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
       
@@ -3463,7 +3669,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/KD.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
            
@@ -3472,7 +3679,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 11
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/AD.png"
-            dealerCard.setAttribute("width", "100px" )     
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")     
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -3481,7 +3689,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 2
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/2D.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
       
@@ -3490,7 +3699,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 3
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/3D.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
        
@@ -3499,7 +3709,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 4
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/4D.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -3508,7 +3719,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 5
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/5D.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -3517,7 +3729,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 6
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/6D.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -3526,7 +3739,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 7
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/7D.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -3535,7 +3749,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 8
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/8D.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -3544,7 +3759,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 9
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/9D.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -3554,7 +3770,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/10D.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -3566,7 +3783,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src="./PNG/JH.png" 
-            dealerCard.setAttribute("width", "100px" )   
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")   
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -3574,7 +3792,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/QH.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
       
@@ -3583,7 +3802,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/KH.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
            
@@ -3592,7 +3812,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 11
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/AH.png"
-            dealerCard.setAttribute("width", "100px" )     
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")     
             dealerHandDiv.appendChild(dealerCard)
          
          }
@@ -3600,7 +3821,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 2
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/2H.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
       
@@ -3609,7 +3831,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 3
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/3H.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
        
@@ -3618,7 +3841,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 4
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/4H.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -3627,7 +3851,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 5
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/5H.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -3636,7 +3861,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 6
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/6H.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -3645,7 +3871,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 7
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/7H.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -3654,7 +3881,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 8
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/8H.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -3663,7 +3891,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 9
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/9H.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -3673,7 +3902,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/10H.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -3684,7 +3914,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src="./PNG/JC.png" 
-            dealerCard.setAttribute("width", "100px" )   
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")   
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -3692,7 +3923,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/QC.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
       
@@ -3701,7 +3933,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/KC.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
            
@@ -3710,7 +3943,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 11
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/AC.png"
-            dealerCard.setAttribute("width", "100px" )     
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")     
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -3719,7 +3953,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 2
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/2C.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
       
@@ -3728,7 +3963,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 3
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/3C.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
        
@@ -3737,7 +3973,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 4
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/4C.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -3746,7 +3983,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 5
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/5C.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -3755,7 +3993,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 6
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/6C.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -3764,7 +4003,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 7
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/7C.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -3773,7 +4013,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 8
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/8C.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -3782,7 +4023,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 9
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/9C.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -3792,7 +4034,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/10C.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -3804,7 +4047,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src="./PNG/JS.png" 
-            dealerCard.setAttribute("width", "100px" )   
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")   
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -3812,7 +4056,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/QS.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
       
@@ -3821,7 +4066,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/KS.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
            
@@ -3830,7 +4076,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 11
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/AS.png"
-            dealerCard.setAttribute("width", "100px" )     
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")     
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -3839,7 +4086,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 2
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/2S.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
       
@@ -3848,7 +4096,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 3
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/3S.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -3856,7 +4105,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 4
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/4S.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -3864,7 +4114,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 5
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/5C.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -3872,7 +4123,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 6
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/6S.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -3880,7 +4132,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 7
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/7S.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -3888,7 +4141,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 8
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/8S.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -3896,7 +4150,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 9
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/9S.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -3905,7 +4160,8 @@ hit.addEventListener('click', function(event){
             dealerHand[1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/10S.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;      
          } 
@@ -4066,7 +4322,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src="./PNG/JD.png" 
-         dealerCard.setAttribute("width", "100px" )   
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")   
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -4074,7 +4331,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/QD.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
    
@@ -4083,7 +4341,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/KD.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
         
@@ -4092,7 +4351,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 11
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/AD.png"
-         dealerCard.setAttribute("width", "100px" )     
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")     
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -4101,7 +4361,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 2
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/2D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
    
@@ -4110,7 +4371,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 3
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/3D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
     
@@ -4119,7 +4381,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 4
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/4D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -4128,7 +4391,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 5
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/5D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -4137,7 +4401,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 6
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/6D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -4146,7 +4411,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 7
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/7D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -4155,7 +4421,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 8
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/8D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -4164,7 +4431,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 9
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/9D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -4174,7 +4442,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/10D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -4186,7 +4455,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src="./PNG/JH.png" 
-         dealerCard.setAttribute("width", "100px" )   
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")   
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -4194,7 +4464,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/QH.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
    
@@ -4203,7 +4474,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/KH.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
         
@@ -4212,7 +4484,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 11
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/AH.png"
-         dealerCard.setAttribute("width", "100px" )     
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")     
          dealerHandDiv.appendChild(dealerCard)
       
       }
@@ -4220,7 +4493,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 2
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/2H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
    
@@ -4229,7 +4503,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 3
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/3H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
     
@@ -4238,7 +4513,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 4
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/4H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -4247,7 +4523,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 5
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/5H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -4256,7 +4533,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 6
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/6H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -4265,7 +4543,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 7
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/7H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -4274,7 +4553,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 8
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/8H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -4283,7 +4563,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 9
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/9H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -4293,7 +4574,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/10H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -4304,7 +4586,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src="./PNG/JC.png" 
-         dealerCard.setAttribute("width", "100px" )   
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")   
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -4312,7 +4595,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/QC.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
    
@@ -4321,7 +4605,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/KC.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
         
@@ -4330,7 +4615,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 11
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/AC.png"
-         dealerCard.setAttribute("width", "100px" )     
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")     
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -4339,7 +4625,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 2
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/2C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
    
@@ -4348,7 +4635,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 3
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/3C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
     
@@ -4357,7 +4645,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 4
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/4C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -4366,7 +4655,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 5
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/5C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -4375,7 +4665,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 6
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/6C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -4384,7 +4675,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 7
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/7C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -4393,7 +4685,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 8
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/8C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -4402,7 +4695,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 9
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/9C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -4412,7 +4706,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/10C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -4424,7 +4719,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src="./PNG/JS.png" 
-         dealerCard.setAttribute("width", "100px" )   
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")   
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -4432,7 +4728,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/QS.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
    
@@ -4441,7 +4738,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/KS.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
         
@@ -4450,7 +4748,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 11
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/AS.png"
-         dealerCard.setAttribute("width", "100px" )     
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")     
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -4459,7 +4758,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 2
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/2S.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
    
@@ -4468,7 +4768,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 3
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/3S.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -4476,7 +4777,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 4
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/4S.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -4484,7 +4786,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 5
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/5C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -4492,7 +4795,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 6
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/6S.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -4500,7 +4804,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 7
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/7S.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -4508,7 +4813,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 8
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/8S.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -4516,7 +4822,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 9
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/9S.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -4525,7 +4832,8 @@ stand.addEventListener('click', function(){
          dealerHand[1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/10S.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;      
       } 
@@ -4690,7 +4998,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src="./PNG/JD.png" 
-            dealerCard.setAttribute("width", "100px" )   
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")   
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -4698,7 +5007,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/QD.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
       
@@ -4707,7 +5017,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/KD.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
            
@@ -4716,7 +5027,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 11
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/AD.png"
-            dealerCard.setAttribute("width", "100px" )     
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")     
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -4725,7 +5037,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 2
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/2D.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
       
@@ -4734,7 +5047,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 3
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/3D.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
        
@@ -4743,7 +5057,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 4
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/4D.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -4752,7 +5067,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 5
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/5D.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -4761,7 +5077,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 6
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/6D.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -4770,7 +5087,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 7
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/7D.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -4779,7 +5097,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 8
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/8D.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -4788,7 +5107,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 9
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/9D.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -4798,7 +5118,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/10D.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -4810,7 +5131,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src="./PNG/JH.png" 
-            dealerCard.setAttribute("width", "100px" )   
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")   
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -4818,7 +5140,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/QH.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
       
@@ -4827,7 +5150,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/KH.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
            
@@ -4836,7 +5160,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 11
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/AH.png"
-            dealerCard.setAttribute("width", "100px" )     
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")     
             dealerHandDiv.appendChild(dealerCard)
          
          }
@@ -4844,7 +5169,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 2
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/2H.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
       
@@ -4853,7 +5179,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 3
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/3H.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
        
@@ -4862,7 +5189,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 4
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/4H.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -4871,7 +5199,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 5
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/5H.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -4880,7 +5209,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 6
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/6H.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -4889,7 +5219,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 7
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/7H.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -4898,7 +5229,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 8
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/8H.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -4907,7 +5239,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 9
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/9H.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -4917,7 +5250,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/10H.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -4928,7 +5262,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src="./PNG/JC.png" 
-            dealerCard.setAttribute("width", "100px" )   
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")   
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -4936,7 +5271,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/QC.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
       
@@ -4945,7 +5281,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/KC.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
            
@@ -4954,7 +5291,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 11
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/AC.png"
-            dealerCard.setAttribute("width", "100px" )     
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")     
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -4963,7 +5301,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 2
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/2C.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
       
@@ -4972,7 +5311,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 3
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/3C.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
        
@@ -4981,7 +5321,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 4
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/4C.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -4990,7 +5331,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 5
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/5C.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -4999,7 +5341,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 6
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/6C.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -5008,7 +5351,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 7
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/7C.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -5017,7 +5361,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 8
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/8C.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -5026,7 +5371,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 9
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/9C.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -5036,7 +5382,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/10C.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -5048,7 +5395,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src="./PNG/JS.png" 
-            dealerCard.setAttribute("width", "100px" )   
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")   
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -5056,7 +5404,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/QS.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
       
@@ -5065,7 +5414,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/KS.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
            
@@ -5074,7 +5424,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 11
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/AS.png"
-            dealerCard.setAttribute("width", "100px" )     
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")     
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -5083,7 +5434,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 2
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/2S.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
       
@@ -5092,7 +5444,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 3
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/3S.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -5100,7 +5453,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 4
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/4S.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -5108,7 +5462,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 5
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/5C.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -5116,7 +5471,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 6
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/6S.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -5124,7 +5480,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 7
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/7S.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -5132,7 +5489,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 8
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/8S.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -5140,7 +5498,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 9
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/9S.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -5149,7 +5508,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/10S.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;      
          } 
@@ -5329,7 +5689,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src="./PNG/JD.png" 
-            dealerCard.setAttribute("width", "100px" )   
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")   
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -5337,7 +5698,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/QD.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
       
@@ -5346,7 +5708,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/KD.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
            
@@ -5355,7 +5718,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 11
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/AD.png"
-            dealerCard.setAttribute("width", "100px" )     
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")     
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -5364,7 +5728,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 2
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/2D.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
       
@@ -5373,7 +5738,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 3
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/3D.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
        
@@ -5382,7 +5748,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 4
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/4D.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -5391,7 +5758,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 5
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/5D.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -5400,7 +5768,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 6
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/6D.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -5409,7 +5778,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 7
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/7D.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -5418,7 +5788,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 8
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/8D.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -5427,7 +5798,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 9
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/9D.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -5437,7 +5809,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/10D.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -5449,7 +5822,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src="./PNG/JH.png" 
-            dealerCard.setAttribute("width", "100px" )   
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")   
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -5457,7 +5831,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/QH.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
       
@@ -5466,7 +5841,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/KH.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
            
@@ -5475,7 +5851,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 11
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/AH.png"
-            dealerCard.setAttribute("width", "100px" )     
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")     
             dealerHandDiv.appendChild(dealerCard)
          
          }
@@ -5483,7 +5860,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 2
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/2H.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
       
@@ -5492,7 +5870,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 3
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/3H.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
        
@@ -5501,7 +5880,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 4
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/4H.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -5510,7 +5890,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 5
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/5H.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -5519,7 +5900,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 6
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/6H.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -5528,7 +5910,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 7
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/7H.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -5537,7 +5920,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 8
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/8H.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -5546,7 +5930,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 9
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/9H.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -5556,7 +5941,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/10H.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -5567,7 +5953,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src="./PNG/JC.png" 
-            dealerCard.setAttribute("width", "100px" )   
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")   
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -5575,7 +5962,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/QC.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
       
@@ -5584,7 +5972,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/KC.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
            
@@ -5593,7 +5982,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 11
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/AC.png"
-            dealerCard.setAttribute("width", "100px" )     
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")     
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -5602,7 +5992,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 2
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/2C.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
       
@@ -5611,7 +6002,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 3
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/3C.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
        
@@ -5620,7 +6012,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 4
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/4C.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -5629,7 +6022,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 5
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/5C.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -5638,7 +6032,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 6
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/6C.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -5647,7 +6042,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 7
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/7C.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -5656,7 +6052,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 8
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/8C.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -5665,7 +6062,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 9
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/9C.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -5675,7 +6073,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/10C.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -5687,7 +6086,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src="./PNG/JS.png" 
-            dealerCard.setAttribute("width", "100px" )   
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")   
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -5695,7 +6095,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/QS.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
       
@@ -5704,7 +6105,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/KS.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
            
@@ -5713,7 +6115,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 11
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/AS.png"
-            dealerCard.setAttribute("width", "100px" )     
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")     
             dealerHandDiv.appendChild(dealerCard)
             break;
          
@@ -5722,7 +6125,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 2
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/2S.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
       
@@ -5731,7 +6135,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 3
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/3S.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -5739,7 +6144,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 4
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/4S.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -5747,7 +6153,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 5
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/5C.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -5755,7 +6162,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 6
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/6S.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -5763,7 +6171,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 7
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/7S.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -5771,7 +6180,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 8
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/8S.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -5779,7 +6189,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 9
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/9S.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;
          }
@@ -5788,7 +6199,8 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerHand[dealerHand.length - 1] = 10
             let dealerCard = document.createElement("img")
             dealerCard.src= "./PNG/10S.png"   
-            dealerCard.setAttribute("width", "100px" )  
+            dealerCard.setAttribute("width", "100px" )
+            dealerCard.setAttribute("class", "png-white")  
             dealerHandDiv.appendChild(dealerCard)
             break;      
          } 
@@ -5966,7 +6378,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src="./PNG/JD.png" 
-         dealerCard.setAttribute("width", "100px" )   
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")   
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -5974,7 +6387,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/QD.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
    
@@ -5983,7 +6397,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/KD.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
         
@@ -5992,7 +6407,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 11
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/AD.png"
-         dealerCard.setAttribute("width", "100px" )     
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")     
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -6001,7 +6417,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 2
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/2D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
    
@@ -6010,7 +6427,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 3
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/3D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
     
@@ -6019,7 +6437,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 4
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/4D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -6028,7 +6447,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 5
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/5D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -6037,7 +6457,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 6
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/6D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -6046,7 +6467,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 7
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/7D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -6055,7 +6477,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 8
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/8D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -6064,7 +6487,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 9
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/9D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -6074,7 +6498,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/10D.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -6086,7 +6511,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src="./PNG/JH.png" 
-         dealerCard.setAttribute("width", "100px" )   
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")   
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -6094,7 +6520,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/QH.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
    
@@ -6103,7 +6530,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/KH.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
         
@@ -6112,7 +6540,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 11
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/AH.png"
-         dealerCard.setAttribute("width", "100px" )     
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")     
          dealerHandDiv.appendChild(dealerCard)
       
       }
@@ -6120,7 +6549,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 2
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/2H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
    
@@ -6129,7 +6559,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 3
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/3H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
     
@@ -6138,7 +6569,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 4
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/4H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -6147,7 +6579,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 5
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/5H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -6156,7 +6589,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 6
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/6H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -6165,7 +6599,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 7
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/7H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -6174,7 +6609,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 8
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/8H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -6183,7 +6619,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 9
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/9H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -6193,7 +6630,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/10H.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -6204,7 +6642,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src="./PNG/JC.png" 
-         dealerCard.setAttribute("width", "100px" )   
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")   
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -6212,7 +6651,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/QC.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
    
@@ -6221,7 +6661,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/KC.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
         
@@ -6230,7 +6671,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 11
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/AC.png"
-         dealerCard.setAttribute("width", "100px" )     
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")     
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -6239,7 +6681,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 2
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/2C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
    
@@ -6248,7 +6691,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 3
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/3C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
     
@@ -6257,7 +6701,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 4
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/4C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -6266,7 +6711,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 5
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/5C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -6275,7 +6721,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 6
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/6C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -6284,7 +6731,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 7
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/7C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -6293,7 +6741,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 8
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/8C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -6302,7 +6751,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 9
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/9C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -6312,7 +6762,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/10C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -6324,7 +6775,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src="./PNG/JS.png" 
-         dealerCard.setAttribute("width", "100px" )   
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")   
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -6332,7 +6784,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/QS.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
    
@@ -6341,7 +6794,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/KS.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
         
@@ -6350,7 +6804,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 11
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/AS.png"
-         dealerCard.setAttribute("width", "100px" )     
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")     
          dealerHandDiv.appendChild(dealerCard)
          break;
       
@@ -6359,7 +6814,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 2
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/2S.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
    
@@ -6368,7 +6824,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 3
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/3S.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -6376,7 +6833,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 4
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/4S.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -6384,7 +6842,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 5
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/5C.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -6392,7 +6851,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 6
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/6S.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -6400,7 +6860,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 7
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/7S.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -6408,7 +6869,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 8
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/8S.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -6416,7 +6878,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 9
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/9S.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;
       }
@@ -6425,7 +6888,8 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerHand[dealerHand.length - 1] = 10
          let dealerCard = document.createElement("img")
          dealerCard.src= "./PNG/10S.png"   
-         dealerCard.setAttribute("width", "100px" )  
+         dealerCard.setAttribute("width", "100px" )
+         dealerCard.setAttribute("class", "png-white")  
          dealerHandDiv.appendChild(dealerCard)
          break;      
       } 
@@ -6601,7 +7065,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 10
       let dealerCard = document.createElement("img")
       dealerCard.src="./PNG/JD.png" 
-      dealerCard.setAttribute("width", "100px" )   
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")   
       dealerHandDiv.appendChild(dealerCard)
       break;
    }
@@ -6609,7 +7074,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 10
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/QD.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
 
@@ -6618,7 +7084,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 10
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/KD.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
      
@@ -6627,7 +7094,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 11
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/AD.png"
-      dealerCard.setAttribute("width", "100px" )     
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")     
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -6636,7 +7104,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 2
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/2D.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
 
@@ -6645,7 +7114,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 3
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/3D.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
  
@@ -6654,7 +7124,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 4
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/4D.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -6663,7 +7134,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 5
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/5D.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -6672,7 +7144,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 6
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/6D.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -6681,7 +7154,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 7
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/7D.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -6690,7 +7164,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 8
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/8D.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -6699,7 +7174,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 9
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/9D.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -6709,7 +7185,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 10
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/10D.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -6721,7 +7198,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 10
       let dealerCard = document.createElement("img")
       dealerCard.src="./PNG/JH.png" 
-      dealerCard.setAttribute("width", "100px" )   
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")   
       dealerHandDiv.appendChild(dealerCard)
       break;
    }
@@ -6729,7 +7207,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 10
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/QH.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
 
@@ -6738,7 +7217,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 10
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/KH.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
      
@@ -6747,7 +7227,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 11
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/AH.png"
-      dealerCard.setAttribute("width", "100px" )     
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")     
       dealerHandDiv.appendChild(dealerCard)
    
    }
@@ -6755,7 +7236,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 2
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/2H.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
 
@@ -6764,7 +7246,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 3
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/3H.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
  
@@ -6773,7 +7256,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 4
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/4H.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -6782,7 +7266,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 5
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/5H.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -6791,7 +7276,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 6
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/6H.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -6800,7 +7286,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 7
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/7H.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -6809,7 +7296,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 8
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/8H.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -6818,7 +7306,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 9
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/9H.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -6828,7 +7317,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 10
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/10H.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -6839,7 +7329,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 10
       let dealerCard = document.createElement("img")
       dealerCard.src="./PNG/JC.png" 
-      dealerCard.setAttribute("width", "100px" )   
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")   
       dealerHandDiv.appendChild(dealerCard)
       break;
    }
@@ -6847,7 +7338,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 10
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/QC.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
 
@@ -6856,7 +7348,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 10
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/KC.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
      
@@ -6865,7 +7358,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 11
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/AC.png"
-      dealerCard.setAttribute("width", "100px" )     
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")     
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -6874,7 +7368,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 2
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/2C.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
 
@@ -6883,7 +7378,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 3
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/3C.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
  
@@ -6892,7 +7388,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 4
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/4C.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -6901,7 +7398,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 5
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/5C.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -6910,7 +7408,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 6
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/6C.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -6919,7 +7418,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 7
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/7C.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -6928,7 +7428,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 8
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/8C.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -6937,7 +7438,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 9
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/9C.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -6947,7 +7449,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 10
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/10C.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -6959,7 +7462,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 10
       let dealerCard = document.createElement("img")
       dealerCard.src="./PNG/JS.png" 
-      dealerCard.setAttribute("width", "100px" )   
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")   
       dealerHandDiv.appendChild(dealerCard)
       break;
    }
@@ -6967,7 +7471,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 10
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/QS.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
 
@@ -6976,7 +7481,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 10
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/KS.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
      
@@ -6985,7 +7491,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 11
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/AS.png"
-      dealerCard.setAttribute("width", "100px" )     
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")     
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -6994,7 +7501,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 2
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/2S.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
 
@@ -7003,7 +7511,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 3
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/3S.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    }
@@ -7011,7 +7520,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 4
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/4S.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    }
@@ -7019,7 +7529,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 5
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/5C.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    }
@@ -7027,7 +7538,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 6
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/6S.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    }
@@ -7035,7 +7547,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 7
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/7S.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    }
@@ -7043,7 +7556,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 8
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/8S.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    }
@@ -7051,7 +7565,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 9
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/9S.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    }
@@ -7060,7 +7575,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 10
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/10S.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;      
    } 
@@ -7237,7 +7753,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 10
       let dealerCard = document.createElement("img")
       dealerCard.src="./PNG/JD.png" 
-      dealerCard.setAttribute("width", "100px" )   
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")   
       dealerHandDiv.appendChild(dealerCard)
       break;
    }
@@ -7245,7 +7762,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 10
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/QD.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
 
@@ -7254,7 +7772,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 10
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/KD.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
      
@@ -7263,7 +7782,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 11
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/AD.png"
-      dealerCard.setAttribute("width", "100px" )     
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")     
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -7272,7 +7792,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 2
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/2D.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
 
@@ -7281,7 +7802,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 3
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/3D.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
  
@@ -7290,7 +7812,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 4
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/4D.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -7299,7 +7822,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 5
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/5D.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -7308,7 +7832,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 6
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/6D.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -7317,7 +7842,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 7
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/7D.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -7326,7 +7852,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 8
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/8D.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -7335,7 +7862,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 9
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/9D.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -7345,7 +7873,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 10
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/10D.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -7357,7 +7886,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 10
       let dealerCard = document.createElement("img")
       dealerCard.src="./PNG/JH.png" 
-      dealerCard.setAttribute("width", "100px" )   
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")   
       dealerHandDiv.appendChild(dealerCard)
       break;
    }
@@ -7365,7 +7895,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 10
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/QH.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
 
@@ -7374,7 +7905,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 10
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/KH.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
      
@@ -7383,7 +7915,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 11
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/AH.png"
-      dealerCard.setAttribute("width", "100px" )     
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")     
       dealerHandDiv.appendChild(dealerCard)
    
    }
@@ -7391,7 +7924,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 2
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/2H.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
 
@@ -7400,7 +7934,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 3
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/3H.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
  
@@ -7409,7 +7944,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 4
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/4H.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -7418,7 +7954,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 5
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/5H.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -7427,7 +7964,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 6
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/6H.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -7436,7 +7974,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 7
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/7H.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -7445,7 +7984,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 8
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/8H.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -7454,7 +7994,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 9
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/9H.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -7464,7 +8005,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 10
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/10H.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -7475,7 +8017,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 10
       let dealerCard = document.createElement("img")
       dealerCard.src="./PNG/JC.png" 
-      dealerCard.setAttribute("width", "100px" )   
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")   
       dealerHandDiv.appendChild(dealerCard)
       break;
    }
@@ -7483,7 +8026,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 10
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/QC.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
 
@@ -7492,7 +8036,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 10
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/KC.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
      
@@ -7501,7 +8046,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 11
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/AC.png"
-      dealerCard.setAttribute("width", "100px" )     
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")     
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -7510,7 +8056,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 2
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/2C.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
 
@@ -7519,7 +8066,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 3
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/3C.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
  
@@ -7528,7 +8076,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 4
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/4C.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -7537,7 +8086,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 5
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/5C.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -7546,7 +8096,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 6
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/6C.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -7555,7 +8106,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 7
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/7C.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -7564,7 +8116,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 8
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/8C.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -7573,7 +8126,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 9
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/9C.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -7583,7 +8137,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 10
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/10C.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -7595,7 +8150,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 10
       let dealerCard = document.createElement("img")
       dealerCard.src="./PNG/JS.png" 
-      dealerCard.setAttribute("width", "100px" )   
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")   
       dealerHandDiv.appendChild(dealerCard)
       break;
    }
@@ -7603,7 +8159,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 10
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/QS.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
 
@@ -7612,7 +8169,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 10
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/KS.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
      
@@ -7621,7 +8179,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 11
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/AS.png"
-      dealerCard.setAttribute("width", "100px" )     
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")     
       dealerHandDiv.appendChild(dealerCard)
       break;
    
@@ -7630,7 +8189,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 2
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/2S.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
 
@@ -7639,7 +8199,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 3
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/3S.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    }
@@ -7647,7 +8208,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 4
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/4S.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    }
@@ -7655,7 +8217,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 5
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/5C.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    }
@@ -7663,7 +8226,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 6
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/6S.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    }
@@ -7671,7 +8235,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 7
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/7S.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    }
@@ -7679,7 +8244,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 8
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/8S.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    }
@@ -7687,7 +8253,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 9
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/9S.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;
    }
@@ -7696,7 +8263,8 @@ for (let i=dealerHand.length - 1; i <= dealerHand.length; i++ ){
       dealerHand[dealerHand.length - 1] = 10
       let dealerCard = document.createElement("img")
       dealerCard.src= "./PNG/10S.png"   
-      dealerCard.setAttribute("width", "100px" )  
+      dealerCard.setAttribute("width", "100px" )
+      dealerCard.setAttribute("class", "png-white")  
       dealerHandDiv.appendChild(dealerCard)
       break;      
    } 
