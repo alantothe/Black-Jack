@@ -97,6 +97,44 @@ let hand = firstCard
 
 return hand 
 }
+
+
+function CustomAlert (dialog){
+   let winW = window.innerWidth;
+   let winH = window.innerHeight;
+   let dialogoverlay = document.getElementById('dialogoverlay');
+   let dialogbox = document.getElementById( 'dialogbox');
+   dialogoverlay.style.display = "block";
+   dialogoverlay.style.height = winH+"px";
+   dialogbox.style.left = (winW/2) - (550 * .5)+"px";
+   dialogbox.style.top = "250px";
+   dialogbox.style.display = "block";
+ 
+   document.getElementById( 'dialogboxbody') . innerHTML = dialog;
+
+   }
+
+function dealerAddCard(){
+//This is pushing the 1st card from the desk into dealer hand but its a string. 
+dealerHand.push(DrawCard(Shoe))
+
+
+return dealerHand
+
+  
+
+}
+
+function playerAddCard(){
+   //This is pushing the 1st card from the desk into player 1 hand but its a string. 
+   player1Hand.push(DrawCard(Shoe))
+
+   return player1Hand
+
+}
+
+
+
 //! Hands
 console.log(Shoe)
 let dealerHand = []
@@ -114,9 +152,7 @@ deal.addEventListener('click', function(event){
    
    event.preventDefault()
    deal.remove()
-//This is pushing the 1st card from the desk into dealer hand but its a string. 
-   dealerHand.push(DrawCard(Shoe))
-
+   dealerAddCard()
   
 //This For loop will  change the string into a number & add photos into the div
    for (let i=0; i < dealerHand.length; i++ ){
@@ -646,13 +682,16 @@ deal.addEventListener('click', function(event){
 
       
    }
+
+
 //This adds the fake back card 
 let dealerCardFake = document.createElement("img")
 dealerCardFake.src="./PNG/Back.png" 
 dealerCardFake.setAttribute("width", "102px" )   
 dealerHandDiv.appendChild(dealerCardFake)
-//This is pushing the 1st card from the desk into player 1 hand but its a string. 
-   player1Hand.push(DrawCard(Shoe))
+
+
+playerAddCard()
 //This For loop will  change the 1st string into a number & add photos into the div
    for (let i=0; i < player1Hand.length; i++ ){
       let result = player1Hand[i]
@@ -1182,8 +1221,7 @@ dealerHandDiv.appendChild(dealerCardFake)
       
    }
 
-   player1Hand.push(DrawCard(Shoe))
-   
+playerAddCard()
  //This For loop will  change the 2nd string into a number & add photos into the div
    for (let i=1; i < player1Hand.length; i++ ){
       let result = player1Hand[i]
@@ -2352,14 +2390,38 @@ if (playerSum === 21){
   }
 
 if(dealerSum === playerSum) {
-alert("Push !")
+   function alertAll (){
+      CustomAlert("PUSH!")
+      
+
+   }
+
+   setTimeout (alertAll, 1200)
+
+   function refresh(){
+      location.reload();
+
+   }
+   setTimeout (refresh, 2800)
 console.log(`Dealer Hand is : ${dealerHand}`)
 console.log(`Dealer Hand Sum is : ${dealerSum}`)
 console.log(`Player 1 Hand is : ${player1Hand}`)
 console.log(`Player 1 Hand Sum is : ${playerSum}`)
 } 
 else{
-alert("Player 1 Wins! Black Jack")
+   function alertAll (){
+      CustomAlert("Black Jack Player 1 Wins")
+      
+
+   }
+
+   setTimeout (alertAll, 1200)
+
+   function refresh(){
+      location.reload();
+
+   }
+   setTimeout (refresh, 2800)
 console.log(`Dealer Hand is : ${dealerHand}`)
 console.log(`Dealer Hand Sum is : ${dealerSum}`)
 console.log(`Player 1 Hand is : ${player1Hand}`)
@@ -2378,12 +2440,13 @@ dealerSumTracker.innerText = dealerSum
 dealerSumTracker.setAttribute("class", "edit-dealer-tracker");
 
 
+
 let playerOneSumTracker = document.createElement("p")
 playerOneSumTrackerDiv.appendChild(playerOneSumTracker)
 playerOneSumTracker.innerText =playerSum
 playerOneSumTracker.setAttribute("class", "edit-player-tracker");
 
-
+   
 
 //!Hit
 hit.addEventListener('click', function(event){
@@ -3065,10 +3128,7 @@ hit.addEventListener('click', function(event){
       console.log(`Player 1 Hand Sum is : ${playerSum}`)
    }
    else if(playerSum === 21){
-
-      
-
-       //Removes Fake Back Card
+   //Removes Fake Back Card
    dealerCardFake.remove()
    // Draws Dealers Real 2nd Card
    dealerHand.push(DrawCard(Shoe))
@@ -3603,10 +3663,7 @@ hit.addEventListener('click', function(event){
    // Below Adds Hands
    let dealerSum = 0 
    let playerSum = 0
- 
- 
- 
-   for (let i=0; i< dealerHand.length; i++ ){
+    for (let i=0; i< dealerHand.length; i++ ){
  
     dealerSum += dealerHand[i];
   }
@@ -3618,10 +3675,26 @@ hit.addEventListener('click', function(event){
  
  
  }
+ // Alert 
+ function alertAll (){
+   CustomAlert("PUSH")
+   
+
+}
+
+setTimeout (alertAll, 1200)
+
+function refresh(){
+   location.reload();
+
+}
+setTimeout (refresh, 2800)
+
+
  if(dealerHand != 21){
 
       console.log("BlackJack!")
-      alert("Black Jack Player 1 Wins!")
+      CustomAlert("Black Jack Player 1 Wins!")
       console.log(`Dealer Hand is : ${dealerHand}`)
       console.log(`Dealer Hand Sum is : ${dealerSum}`)
       console.log(`Player 1 Hand is : ${player1Hand}`)
@@ -3636,7 +3709,8 @@ hit.addEventListener('click', function(event){
    console.log("Player 1 Hand Total")
    console.log(playerSum)
    console.log("Player 1 Busted")
-   alert("Player 1 Busted")
+
+ 
       //Removes Fake Back Card
       dealerCardFake.remove()
       // Draws Dealers Real 2nd Card
@@ -4169,6 +4243,27 @@ hit.addEventListener('click', function(event){
       
          
       }
+
+      dealerSum = 0 
+      for (let i=0; i< dealerHand.length; i++ ){
+    
+       dealerSum += dealerHand[i];
+     }
+
+     function alertAll (){
+      CustomAlert("Player 1 Bust! Dealer Wins ")
+      
+
+   }
+
+   setTimeout (alertAll, 1200)
+
+   function refresh(){
+      location.reload();
+
+   }
+   setTimeout (refresh, 2800)
+   
    
 }
 
@@ -4312,7 +4407,8 @@ stand.addEventListener('click', function(){
    //Removes Fake Back Card
    dealerCardFake.remove()
    // Draws Dealers Real 2nd Card
-   dealerHand.push(DrawCard(Shoe))
+   dealerAddCard()
+   setTimeout (dealerAddCard, 1500)
    // Below gives 2nd Card a picture 
    for (let i=1; i < dealerHand.length; i++ ){
       let result = dealerHand[i]
@@ -4968,7 +5064,21 @@ for (let i=0; i< dealerHand.length; i++ ){
    if( dealerSum === 21){
 
       if(dealerSum === playerSum) {
-         alert("Push !")
+         function alertAll (){
+            CustomAlert("PUSH")
+            
+      
+         }
+      
+         setTimeout (alertAll, 1200)
+      
+         function refresh(){
+            location.reload();
+      
+         }
+         setTimeout (refresh, 2800)
+   
+         
          console.log(`Dealer Hand is : ${dealerHand}`)
          console.log(`Dealer Hand Sum is : ${dealerSum}`)
          console.log(`Player 1 Hand is : ${player1Hand}`)
@@ -4976,7 +5086,21 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerSumTracker.innerText =dealerSum
       } 
       else{
-      alert("Dealer Wins! Black Jack")
+         function alertAll (){
+            CustomAlert("Black Jack! Dealer Wins")
+            
+      
+         }
+      
+         setTimeout (alertAll, 1200)
+      
+         function refresh(){
+            location.reload();
+      
+         }
+         setTimeout (refresh, 2800)
+   
+         
       console.log(`Dealer Hand is : ${dealerHand}`)
       console.log(`Dealer Hand Sum is : ${dealerSum}`)
       console.log(`Player 1 Hand is : ${player1Hand}`)
@@ -5650,7 +5774,21 @@ for (let i=0; i< dealerHand.length; i++ ){
       if( dealerSum === 21){
 
          if(dealerSum === playerSum) {
-            alert("Push !")
+            function alertAll (){
+               CustomAlert("PUSH")
+               
+         
+            }
+         
+            setTimeout (alertAll, 1200)
+         
+            function refresh(){
+               location.reload();
+         
+            }
+            setTimeout (refresh, 2800)
+      
+            
             console.log(`Dealer Hand is: `)
             console.log(dealerHand)
             console.log(`Dealer Hand Sum is: `)
@@ -5662,7 +5800,21 @@ for (let i=0; i< dealerHand.length; i++ ){
             dealerSumTracker.innerText =dealerSum
          } 
          else{
-         alert("Dealer Wins! Black Jack")
+            function alertAll (){
+               CustomAlert("Black Jack! Dealer Wins!")
+               
+         
+            }
+         
+            setTimeout (alertAll, 1200)
+         
+            function refresh(){
+               location.reload();
+         
+            }
+            setTimeout (refresh, 2800)
+      
+            
          console.log(`Dealer Hand is: `)
          console.log(dealerHand)
          console.log(`Dealer Hand Sum is: `)
@@ -6339,13 +6491,24 @@ for (let i=0; i< dealerHand.length; i++ ){
 
     
 
-   //-----------------------------------------------------------------------------  4 Cards
+    // Based on the four cards the dealer "bot" will act accordingly   
 
    if( dealerSum === 21){
-      console.log("Black Jack")
-      alert("Black Jack")
+
       if(dealerSum === playerSum){
-         console.log("Push!")
+         function alertAll (){
+            CustomAlert("PUSH")
+            
+      
+         }
+      
+         setTimeout (alertAll, 1200)
+      
+         function refresh(){
+            location.reload();
+      
+         }
+         setTimeout (refresh, 2800)
          console.log(`Dealer Hand is : ${dealerHand}`)
          console.log(`Dealer Hand Sum is : ${dealerSum}`)
          console.log(`Player 1 Hand is : ${player1Hand}`)
@@ -6353,8 +6516,19 @@ for (let i=0; i< dealerHand.length; i++ ){
          dealerSumTracker.innerText =dealerSum
       }
       else{
-         console.log("Dealer Wins")
-         alert("Dealer Wins!")
+         function alertAll (){
+            CustomAlert("Black Jack! Dealer Wins!")
+            
+      
+         }
+      
+         setTimeout (alertAll, 1200)
+      
+         function refresh(){
+            location.reload();
+      
+         }
+         setTimeout (refresh, 2800)
          console.log(`Dealer Hand is : ${dealerHand}`)
          console.log(`Dealer Hand Sum is : ${dealerSum}`)
          console.log(`Player 1 Hand is : ${player1Hand}`)
@@ -7024,16 +7198,44 @@ for (let i=0; i< dealerHand.length; i++ ){
 
   //Based on the 5 cards the bot will act accordingly 
   if(dealerSum === playerSum) {
-   alert("Push !")
+   CustomAlert("Push !")
    console.log(`Dealer Hand is : ${dealerHand}`)
    console.log(`Dealer Hand Sum is : ${dealerSum}`)
    console.log(`Player 1 Hand is : ${player1Hand}`)
    console.log(`Player 1 Hand Sum is : ${playerSum}`)
 }
 else if( dealerSum === 21){
-   alert("Black Jack")
+   function alertAll (){
+      CustomAlert("Black Jack! Player 1 Wins!")
+      
+
+   }
+
+   setTimeout (alertAll, 1200)
+
+   function refresh(){
+      location.reload();
+
+   }
+   setTimeout (refresh, 2800)
+
+   
    if(dealerSum === playerSum){
-      console.log("Push!")
+      function alertAll (){
+         CustomAlert("PUSH")
+         
+   
+      }
+   
+      setTimeout (alertAll, 1200)
+   
+      function refresh(){
+         location.reload();
+   
+      }
+      setTimeout (refresh, 2800)
+
+      
       console.log(`Dealer Hand is : ${dealerHand}`)
       console.log(`Dealer Hand Sum is : ${dealerSum}`)
       console.log(`Player 1 Hand is : ${player1Hand}`)
@@ -7042,7 +7244,7 @@ else if( dealerSum === 21){
    }
    else{
       console.log("Dealer Wins")
-      alert("Dealer Wins!")
+      CustomAlert("Dealer Wins!")
       console.log(`Dealer Hand is : ${dealerHand}`)
       console.log(`Dealer Hand Sum is : ${dealerSum}`)
       console.log(`Player 1 Hand is : ${player1Hand}`)
@@ -7708,9 +7910,23 @@ for (let i=0; i< dealerHand.length; i++ ){
 
 
 }
-
+ // Based on the six cards the dealer "bot" will act accordingly   
 if(dealerSum === playerSum) {
-   alert("Push !")
+   function alertAll (){
+      CustomAlert("PUSH")
+      
+
+   }
+
+   setTimeout (alertAll, 1200)
+
+   function refresh(){
+      location.reload();
+
+   }
+   setTimeout (refresh, 2800)
+
+   
    console.log(`Dealer Hand is : ${dealerHand}`)
    console.log(`Dealer Hand Sum is : ${dealerSum}`)
    console.log(`Player 1 Hand is : ${player1Hand}`)
@@ -7719,9 +7935,23 @@ if(dealerSum === playerSum) {
 }
 //----------------------------------------------------------------------------- 6 Cards
 else if( dealerSum === 21){
-   alert("Black Jack")
+   
    if(dealerSum === playerSum){
-      console.log("Push!")
+      function alertAll (){
+         CustomAlert("PUSH")
+         
+   
+      }
+   
+      setTimeout (alertAll, 1200)
+   
+      function refresh(){
+         location.reload();
+   
+      }
+      setTimeout (refresh, 2800)
+
+      
       console.log(`Dealer Hand is : ${dealerHand}`)
       console.log(`Dealer Hand Sum is : ${dealerSum}`)
       console.log(`Player 1 Hand is : ${player1Hand}`)
@@ -7729,8 +7959,21 @@ else if( dealerSum === 21){
       dealerSumTracker.innerText =dealerSum
    }
    else{
-      console.log("Dealer Wins")
-      alert("Dealer Wins!")
+      function alertAll (){
+         CustomAlert("Black Jack! Dealer Wins!")
+         
+   
+      }
+   
+      setTimeout (alertAll, 1200)
+   
+      function refresh(){
+         location.reload();
+   
+      }
+      setTimeout (refresh, 2800)
+
+      
       console.log(`Dealer Hand is : ${dealerHand}`)
       console.log(`Dealer Hand Sum is : ${dealerSum}`)
       console.log(`Player 1 Hand is : ${player1Hand}`)
@@ -8287,9 +8530,21 @@ for (let i=0; i< dealerHand.length; i++ ){
 }
 //----------------------------------------------------------------------------- 6 Cards
 else if ( dealerSum >= 17 && dealerSum <=20 && dealerSum > playerSum){
-   console.log("Dealer wins")
+   function alertAll (){
+      CustomAlert("Dealer Wins!")
+      
+
+   }
+
+   setTimeout (alertAll, 1200)
+
+   function refresh(){
+      location.reload();
+
+   }
+   setTimeout (refresh, 2800)
+
    
-   alert("Dealer Wins!")
 
    console.log(`Dealer Hand is : ${dealerHand}`)
    console.log(`Dealer Hand Sum is : ${dealerSum}`)
@@ -8301,7 +8556,21 @@ else if ( dealerSum >= 17 && dealerSum <=20 && dealerSum > playerSum){
 //----------------------------------------------------------------------------- 6 Cards
 else if(dealerSum >= 17 && dealerSum <=20 && dealerSum < playerSum  ){
 
-   alert("Player 1 Wins!")
+   function alertAll (){
+      CustomAlert("Player 1 Wins!")
+      
+
+   }
+
+   setTimeout (alertAll, 1200)
+
+   function refresh(){
+      location.reload();
+
+   }
+   setTimeout (refresh, 2800)
+
+   
 
    console.log(`Dealer Hand is : ${dealerHand}`)
    console.log(`Dealer Hand Sum is : ${dealerSum}`)
@@ -8312,8 +8581,21 @@ else if(dealerSum >= 17 && dealerSum <=20 && dealerSum < playerSum  ){
 }
 //----------------------------------------------------------------------------- 6 Cards
 else if(dealerSum > 21){
- console.log("Dealer Bust")
- alert("Dealer BUST")
+   function alertAll (){
+      CustomAlert("Dealer BUST! Player 1 Wins!")
+      
+
+   }
+
+   setTimeout (alertAll, 1200)
+
+   function refresh(){
+      location.reload();
+
+   }
+   setTimeout (refresh, 2800)
+
+   
  console.log(`Dealer Hand Sum is : ${dealerSum}`)
  
  console.log(`Player 1 Hand Sum is : ${playerSum}`)
@@ -8322,9 +8604,21 @@ else if(dealerSum > 21){
 }
 //-----------------------------------------------------------------------------  5 Cards
 else if ( dealerSum >= 17 && dealerSum <=20 && dealerSum > playerSum){
-   console.log("Dealer wins")
+   function alertAll (){
+      CustomAlert("Dealer Wins!")
+      
+
+   }
+
+   setTimeout (alertAll, 1200)
+
+   function refresh(){
+      location.reload();
+
+   }
+   setTimeout (refresh, 2800)
+
    
-   alert("Dealer Wins!")
 
    console.log(`Dealer Hand is : ${dealerHand}`)
    console.log(`Dealer Hand Sum is : ${dealerSum}`)
@@ -8336,7 +8630,21 @@ else if ( dealerSum >= 17 && dealerSum <=20 && dealerSum > playerSum){
 //----------------------------------------------------------------------------- 5 Cards
 else if(dealerSum >= 17 && dealerSum <=20 && dealerSum < playerSum  ){
 
-   alert("Player 1 Wins!")
+   function alertAll (){
+      CustomAlert("Player 1 Wins")
+      
+
+   }
+
+   setTimeout (alertAll, 1200)
+
+   function refresh(){
+      location.reload();
+
+   }
+   setTimeout (refresh, 2800)
+
+   
 
    console.log(`Dealer Hand is : ${dealerHand}`)
    console.log(`Dealer Hand Sum is : ${dealerSum}`)
@@ -8347,8 +8655,21 @@ else if(dealerSum >= 17 && dealerSum <=20 && dealerSum < playerSum  ){
 }
 //-----------------------------------------------------------------------------  5 Cards
 else if(dealerSum > 21){
-   console.log("Dealer BUST")
-   alert("Dealer Bust")
+   function alertAll (){
+      CustomAlert("Dealer BUST! Player 1 Wins!")
+      
+
+   }
+
+   setTimeout (alertAll, 1200)
+
+   function refresh(){
+      location.reload();
+
+   }
+   setTimeout (refresh, 2800)
+
+   
    console.log(`Dealer Hand Sum is : ${dealerSum}`)
  
    console.log(`Player 1 Hand Sum is : ${playerSum}`)
@@ -8356,8 +8677,21 @@ else if(dealerSum > 21){
 }
 //----------------------------------------------------------------------------- 5 Cards 
 else if(dealerSum === playerSum) {
-   alert("Push !")
-   console.log(`Dealer Hand is: `)
+   function alertAll (){
+      CustomAlert("PUSH")
+      
+
+   }
+
+   setTimeout (alertAll, 1200)
+
+   function refresh(){
+      location.reload();
+
+   }
+   setTimeout (refresh, 2800)
+
+   
    console.log(dealerHand)
    console.log(`Dealer Hand Sum is: `)
    console.log(dealerSum)
@@ -8374,9 +8708,21 @@ else if(dealerSum === playerSum) {
    //-----------------------------------------------------------------------------  4 Cards
 
    else if ( dealerSum >= 17 && dealerSum <=20 && dealerSum > playerSum){
-      console.log("Dealer wins")
+      function alertAll (){
+         CustomAlert("Dealer Wins!")
+         
+   
+      }
+   
+      setTimeout (alertAll, 1200)
+   
+      function refresh(){
+         location.reload();
+   
+      }
+      setTimeout (refresh, 2800)
+
       
-      alert("Dealer Wins!")
 
       console.log(`Dealer Hand is : ${dealerHand}`)
       console.log(`Dealer Hand Sum is : ${dealerSum}`)
@@ -8389,7 +8735,21 @@ else if(dealerSum === playerSum) {
 
    else if(dealerSum >= 17 && dealerSum <=20 && dealerSum < playerSum  ){
 
-      alert("Player 1 Wins!")
+      function alertAll (){
+         CustomAlert("Player 1 Wins!")
+         
+   
+      }
+   
+      setTimeout (alertAll, 1200)
+   
+      function refresh(){
+         location.reload();
+   
+      }
+      setTimeout (refresh, 2800)
+
+      
 
       console.log(`Dealer Hand is : ${dealerHand}`)
       console.log(`Dealer Hand Sum is : ${dealerSum}`)
@@ -8401,9 +8761,21 @@ else if(dealerSum === playerSum) {
    //-----------------------------------------------------------------------------  4 Cards
 
    else if(dealerSum > 21){
+      function alertAll (){
+         CustomAlert("Dealer BUST! Player 1 Wins!")
+         
+   
+      }
+   
+      setTimeout (alertAll, 1200)
+   
+      function refresh(){
+         location.reload();
+   
+      }
+      setTimeout (refresh, 2800)
+
       
-      console.log("Dealer BUST")
-      alert("Dealer Bust")
       console.log(`Dealer Hand Sum is : ${dealerSum}`)
  
       console.log(`Player 1 Hand Sum is : ${playerSum}`)
@@ -8412,7 +8784,21 @@ else if(dealerSum === playerSum) {
    }
    //-----------------------------------------------------------------------------  4 Cards
    else if(dealerSum === playerSum) {
-      alert("Push !")
+      function alertAll (){
+         CustomAlert("PUSH")
+         
+   
+      }
+   
+      setTimeout (alertAll, 1200)
+   
+      function refresh(){
+         location.reload();
+   
+      }
+      setTimeout (refresh, 2800)
+
+      
       console.log(`Dealer Hand is: `)
       console.log(dealerHand)
       console.log(`Dealer Hand Sum is: `)
@@ -8438,9 +8824,21 @@ else if(dealerSum === playerSum) {
       //----------------------------------------------------------------------------- 3 Cards 
 
       else if ( dealerSum >= 17 && dealerSum <=20 && dealerSum > playerSum){
-         console.log("Dealer wins")
+         function alertAll (){
+            CustomAlert("Dealer Wins!")
+            
+      
+         }
+      
+         setTimeout (alertAll, 1200)
+      
+         function refresh(){
+            location.reload();
+      
+         }
+         setTimeout (refresh, 2800)
+   
          
-         alert("Dealer Wins!")
    
          console.log(`Dealer Hand is: `)
          console.log(dealerHand)
@@ -8457,8 +8855,21 @@ else if(dealerSum === playerSum) {
 
       else if(dealerSum >= 17 && dealerSum <=20 && dealerSum < playerSum  ){
 
-         alert("Player 1 Wins!")
+         function alertAll (){
+            CustomAlert("Player 1 Wins")
+            
+      
+         }
+      
+         setTimeout (alertAll, 1200)
+      
+         function refresh(){
+            location.reload();
+      
+         }
+         setTimeout (refresh, 2800)
    
+         
          console.log(`Dealer Hand is: `)
          console.log(dealerHand)
          console.log(`Dealer Hand Sum is: `)
@@ -8473,7 +8884,21 @@ else if(dealerSum === playerSum) {
       //-----------------------------------------------------------------------------  3 Cards
 
       else if(dealerSum > 21){
-               alert("DEALER BUSTED")
+         function alertAll (){
+            CustomAlert("Dealer BUST! Player 1 Wins")
+            
+      
+         }
+      
+         setTimeout (alertAll, 1200)
+      
+         function refresh(){
+            location.reload();
+      
+         }
+         setTimeout (refresh, 2800)
+   
+         
                console.log(`Dealer Hand Sum is : ${dealerSum}`)
  
                console.log(`Player 1 Hand Sum is : ${playerSum}`)
@@ -8481,7 +8906,21 @@ else if(dealerSum === playerSum) {
       }
       //-----------------------------------------------------------------------------  3 cards
       else if(dealerSum === playerSum) {
-         alert("Push !")
+         function alertAll (){
+            CustomAlert("PUSH")
+            
+      
+         }
+      
+         setTimeout (alertAll, 1200)
+      
+         function refresh(){
+            location.reload();
+      
+         }
+         setTimeout (refresh, 2800)
+   
+         
          console.log("Push!")
          console.log(`Dealer Hand is: `)
          console.log(dealerHand)
@@ -8499,9 +8938,21 @@ else if(dealerSum === playerSum) {
    }
    //-----------------------------------------------------------------------------2 Cards  
    else if ( dealerSum >= 17 && dealerSum <=20 && dealerSum > playerSum){
-      console.log("Dealer wins")
-      alert("Dealer Wins!")
+      function alertAll (){
+         CustomAlert("Dealer Wins!")
+         
+   
+      }
+   
+      setTimeout (alertAll, 1200)
+   
+      function refresh(){
+         location.reload();
+   
+      }
+      setTimeout (refresh, 2800)
 
+      
       console.log(`Dealer Hand is: `)
       console.log(dealerHand)
       console.log(`Dealer Hand Sum is: `)
@@ -8516,8 +8967,21 @@ else if(dealerSum === playerSum) {
    //----------------------------------------------------------------------------- 2 Cards 
    else if(dealerSum >= 17 && dealerSum <=20 && dealerSum < playerSum  ){
 
-      alert("Player 1 Wins!")
+      function alertAll (){
+         CustomAlert("Player 1 Wins!")
+         
+   
+      }
+   
+      setTimeout (alertAll, 1200)
+   
+      function refresh(){
+         location.reload();
+   
+      }
+      setTimeout (refresh, 2800)
 
+      
       console.log(`Dealer Hand is: `)
       console.log(dealerHand)
       console.log(`Dealer Hand Sum is: `)
@@ -8530,7 +8994,21 @@ else if(dealerSum === playerSum) {
    }
    //----------------------------------------------------------------------------- 2 Cards  
    else if(dealerSum === playerSum) {
-      alert("Push !")
+      function alertAll (){
+         CustomAlert("PUSH")
+         
+   
+      }
+   
+      setTimeout (alertAll, 1200)
+   
+      function refresh(){
+         location.reload();
+   
+      }
+      setTimeout (refresh, 2800)
+
+      
       console.log(`Dealer Hand is : ${dealerHand}`)
       console.log(`Dealer Hand Sum is : ${dealerSum}`)
       console.log(`Player 1 Hand is : ${player1Hand}`)
