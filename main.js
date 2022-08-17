@@ -3105,48 +3105,119 @@ hit.addEventListener('click', function(event){
        
     }
  }
- //Checking for Ace for Player 1
- for (let i=0; i< player1Hand.length; i++ ){
+// search for Ace in player 1 hand and minus 10 if there is an ACE 
+for (let i=0; i< player1Hand.length; i++ ){
+
+      
+      
+   if(player1Hand[0]=== 11){
+      console.log("First Card Ace")
+
+      if(playerSum > 21){
+         playerSum = playerSum - 10
+         console.log(`Player 1 Hand is : ${player1Hand}`)
+         console.log(`Player 1 Hand Sum is : ${playerSum}`)
+         break;
+         
+      }
+      console.log(playerSum)
+      
+      
+   }
+   if(player1Hand[1]=== 11){
+      console.log("First Card Ace")
+
+      if(playerSum > 21){
+         playerSum = playerSum - 10
+         console.log(`Player 1 Hand is : ${player1Hand}`)
+         console.log(`Player 1 Hand Sum is : ${playerSum}`)
+         break;
+         
+      }
+      console.log(playerSum)
+      
+      
+   }
+   if(player1Hand[2]=== 11){
+      console.log("First Card Ace")
+
+      if(playerSum > 21){
+         playerSum = playerSum - 10
+         console.log(`Player 1 Hand is : ${player1Hand}`)
+         console.log(`Player 1 Hand Sum is : ${playerSum}`)
+         break;
+         
+      }
+      console.log(playerSum)
+      
+      
+   }
+   if(player1Hand[3]=== 11){
+      console.log("First Card Ace")
+
+      if(playerSum > 21){
+         playerSum = playerSum - 10
+         console.log(`Player 1 Hand is : ${player1Hand}`)
+         console.log(`Player 1 Hand Sum is : ${playerSum}`)
+         break;
+         
+      }
+      console.log(playerSum)
+      
+      
+   }
+   if(player1Hand[4]=== 11){
+      console.log("First Card Ace")
+
+      if(playerSum > 21){
+         playerSum = playerSum - 10
+         console.log(`Player 1 Hand is : ${player1Hand}`)
+         console.log(`Player 1 Hand Sum is : ${playerSum}`)
+         break;
+         
+      }
+      console.log(playerSum)
+      
+      
+   }
+   if(player1Hand[5]=== 11){
+      console.log("First Card Ace")
+
+      if(playerSum > 21){
+         playerSum = playerSum - 10
+         console.log(`Player 1 Hand is : ${player1Hand}`)
+         console.log(`Player 1 Hand Sum is : ${playerSum}`)
+         break;
+         
+      }
+      console.log(playerSum)
+      
+      
+   }
+   if(player1Hand[6]=== 11){
+      console.log("First Card Ace")
+
+      if(playerSum > 21){
+         playerSum = playerSum - 10
+         console.log(`Player 1 Hand is : ${player1Hand}`)
+         console.log(`Player 1 Hand Sum is : ${playerSum}`)
+         break;
+         
+      }
+      console.log(playerSum)
+      
+      
+   }
+
  
- //Not needed?
-    // if(player1Hand[0]=== 11 && player1Hand[1]=== 11){
-    //    console.log("2 Aces in Player Hand")
-    //    console.log(playerSum)
-    //    break;
-       
-    // }
- 
- 
- 
-    // if(player1Hand[0]=== 11){
-    //    console.log("First Card Ace")
-    //    if(playerSum > 21){
-    //       player1Hand[0] = 1
-    //    }
-    //    console.log(playerSum)
-    //    break;
-       
-    // }
- 
-    // if(player1Hand[1]=== 11){
-    //    console.log("Second Card Ace")
-    //    if(playerSum > 21){
-    //       player1Hand[1] = 1
-    //    }
-    //    console.log(playerSum)
-    //    break;
-       
-    // }
- 
- 
- 
- 
- 
- 
-    
- 
- 
- }
+
+
+
+   
+
+
+}
+
 
 
 
@@ -8750,6 +8821,8 @@ else if(dealerSum > 21){
 }
 //----------------------------------------------------------------------------- 5 Cards 
 else if(dealerSum === playerSum) {
+   gamba(playerWin)
+   balance.innerText = `Balance: ${playerBalance} USD`
    function alertAll (){
       alert("PUSH")
       
@@ -8863,6 +8936,8 @@ else if(dealerSum === playerSum) {
    }
    //-----------------------------------------------------------------------------  4 Cards
    else if(dealerSum === playerSum) {
+      gamba(playerWin)
+      balance.innerText = `Balance: ${playerBalance} USD`
       function alertAll (){
          alert("PUSH")
          
@@ -8991,6 +9066,8 @@ else if(dealerSum === playerSum) {
       }
       //-----------------------------------------------------------------------------  3 cards
       else if(dealerSum === playerSum) {
+         gamba(playerWin)
+         balance.innerText = `Balance: ${playerBalance} USD`
          function alertAll (){
             alert("PUSH")
             
@@ -9083,6 +9160,10 @@ else if(dealerSum === playerSum) {
    }
    //----------------------------------------------------------------------------- 2 Cards  
    else if(dealerSum === playerSum) {
+
+      gamba(playerWin)
+      balance.innerText = `Balance: ${playerBalance} USD`
+
       function alertAll (){
          alert("PUSH")
          
