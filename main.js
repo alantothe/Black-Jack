@@ -98,22 +98,6 @@ let hand = firstCard
 return hand 
 }
 
-
-function CustomAlert (dialog){
-   let winW = window.innerWidth;
-   let winH = window.innerHeight;
-   let dialogoverlay = document.getElementById('dialogoverlay');
-   let dialogbox = document.getElementById( 'dialogbox');
-   dialogoverlay.style.display = "block";
-   dialogoverlay.style.height = winH+"px";
-   dialogbox.style.left = (winW/2) - (550 * .5)+"px";
-   dialogbox.style.top = "250px";
-   dialogbox.style.display = "block";
- 
-   document.getElementById( 'dialogboxbody') . innerHTML = dialog;
-
-   }
-
 function dealerAddCard(){
 //This is pushing the 1st card from the desk into dealer hand but its a string. 
 dealerHand.push(DrawCard(Shoe))
@@ -133,22 +117,99 @@ function playerAddCard(){
 
 }
 
+function gamba (playerWin){
+
+   if (playerWin === true) {
+      let betAmount = Number(bet.value) 
+      winAmount = betAmount * 2
+
+      playerBalance = playerBalance + winAmount
+
+      
+
+      return playerBalance
+
+      
+      
+   }
+
+   if (playerWin === false) {
+
+
+      return playerBalance
+
+      
+      
+   }
+   else{
+      playerBalance = playerBalance + betAmount
+
+      return playerBalance
+
+   }
+
+
+
+}
+
 
 
 //! Hands
 console.log(Shoe)
+let playerBalance = 10000
 let dealerHand = []
 let player1Hand = []
 //! Query Selector  
 let deal = document.querySelector("#deal")
+let bet = document.querySelector("#bet")
+let balanceDiv = document.querySelector("#balance-div")
 let dealerHandDiv = document.querySelector("#dealer-cards") 
 let player1Div = document.querySelector("#player1-cards") 
 let hit = document.querySelector("#hit")
 let stand = document.querySelector("#stand")
 let dealerSumTrackerDiv = document.querySelector("#dealer-sum-tracker")
 let playerOneSumTrackerDiv = document.querySelector("#player1-sum-tracker")
+let balance = document.createElement("h3")
+
 //! Event Listeners 
+
+
+addEventListener('load', function(event){
+
+
+
+
+   event.preventDefault()
+   
+
+  
+balanceDiv.appendChild(balance)
+balance.innerText = `Balance: ${playerBalance} USD`
+balance.setAttribute("id", "start-balance");
+
+
+
+
+
+
+
+
+
+
+
+
+})
+
 deal.addEventListener('click', function(event){
+
+   playerBalance = playerBalance - Number(bet.value)
+   balance.innerText = `Balance: ${playerBalance} USD`
+   console.log(playerBalance)
+
+
+
+
+   
    
    event.preventDefault()
    deal.remove()
@@ -2391,12 +2452,12 @@ if (playerSum === 21){
 
 if(dealerSum === playerSum) {
    function alertAll (){
-      CustomAlert("PUSH!")
+      alert("PUSH!")
       
 
    }
 
-   setTimeout (alertAll, 1200)
+   setTimeout (alertAll, 2000)
 
    function refresh(){
       location.reload();
@@ -2407,15 +2468,23 @@ console.log(`Dealer Hand is : ${dealerHand}`)
 console.log(`Dealer Hand Sum is : ${dealerSum}`)
 console.log(`Player 1 Hand is : ${player1Hand}`)
 console.log(`Player 1 Hand Sum is : ${playerSum}`)
+
+
+
 } 
 else{
+   playerWin = true
+   gamba(playerWin)
+   balance.innerText = `Balance: ${playerBalance} USD`
+  
+
    function alertAll (){
-      CustomAlert("Black Jack Player 1 Wins")
+      alert("Black Jack Player 1 Wins")
       
 
    }
 
-   setTimeout (alertAll, 1200)
+   setTimeout (alertAll, 2000)
 
    function refresh(){
       location.reload();
@@ -3675,40 +3744,61 @@ hit.addEventListener('click', function(event){
  
  
  }
- // Alert 
- function alertAll (){
-   CustomAlert("PUSH")
-   
 
-}
+ if (playerSum === dealerSum){
+   playerWin = undefined
+   gamba(playerWin)
+   balance.innerText = `Balance: ${playerBalance} USD`
+  
+   function alertAll (){
+     alert("PUSH")
+     
+  
+  }
+  
+  setTimeout (alertAll, 2000)
+  
+  function refresh(){
+     location.reload();
+  
+  }
+  setTimeout (refresh, 2800)
+  
 
-setTimeout (alertAll, 1200)
-
-function refresh(){
-   location.reload();
-
-}
-setTimeout (refresh, 2800)
-
-
- if(dealerHand != 21){
-
-      console.log("BlackJack!")
-      CustomAlert("Black Jack Player 1 Wins!")
-      console.log(`Dealer Hand is : ${dealerHand}`)
-      console.log(`Dealer Hand Sum is : ${dealerSum}`)
-      console.log(`Player 1 Hand is : ${player1Hand}`)
-      console.log(`Player 1 Hand Sum is : ${playerSum}`)
  }
+
+ else{
+   playerWin = true
+   gamba(playerWin)
+   balance.innerText = `Balance: ${playerBalance} USD`
+  
+   function alertAll (){
+     alert("Black Jack Player 1 Wins")
+     
+  
+  }
+  
+  setTimeout (alertAll, 2000)
+  
+  function refresh(){
+     location.reload();
+  
+  }
+  setTimeout (refresh, 2800)
+  
+ }
+
    }
   else if( playerSum > 21){
 
-
+   
    console.log("Player 1 Cards: ")
    console.log(player1Hand)
    console.log("Player 1 Hand Total")
    console.log(playerSum)
    console.log("Player 1 Busted")
+
+   
 
  
       //Removes Fake Back Card
@@ -4250,13 +4340,18 @@ setTimeout (refresh, 2800)
        dealerSum += dealerHand[i];
      }
 
-     function alertAll (){
-      CustomAlert("Player 1 Bust! Dealer Wins ")
+   
+   playerWin = false
+   gamba(playerWin)
+   balance.innerText = `Balance: ${playerBalance} USD`
+   function alertAll (){
+      alert("Player 1 Bust! Dealer Wins ")
+ 
       
 
    }
 
-   setTimeout (alertAll, 1200)
+   setTimeout (alertAll, 2000)
 
    function refresh(){
       location.reload();
@@ -5065,12 +5160,12 @@ for (let i=0; i< dealerHand.length; i++ ){
 
       if(dealerSum === playerSum) {
          function alertAll (){
-            CustomAlert("PUSH")
+            alert("PUSH")
             
       
          }
       
-         setTimeout (alertAll, 1200)
+         setTimeout (alertAll, 2000)
       
          function refresh(){
             location.reload();
@@ -5087,12 +5182,12 @@ for (let i=0; i< dealerHand.length; i++ ){
       } 
       else{
          function alertAll (){
-            CustomAlert("Black Jack! Dealer Wins")
+            alert("Black Jack! Dealer Wins")
             
       
          }
       
-         setTimeout (alertAll, 1200)
+         setTimeout (alertAll, 2000)
       
          function refresh(){
             location.reload();
@@ -5775,12 +5870,12 @@ for (let i=0; i< dealerHand.length; i++ ){
 
          if(dealerSum === playerSum) {
             function alertAll (){
-               CustomAlert("PUSH")
+               alert("PUSH")
                
          
             }
          
-            setTimeout (alertAll, 1200)
+            setTimeout (alertAll, 2000)
          
             function refresh(){
                location.reload();
@@ -5801,12 +5896,12 @@ for (let i=0; i< dealerHand.length; i++ ){
          } 
          else{
             function alertAll (){
-               CustomAlert("Black Jack! Dealer Wins!")
+               alert("Black Jack! Dealer Wins!")
                
          
             }
          
-            setTimeout (alertAll, 1200)
+            setTimeout (alertAll, 2000)
          
             function refresh(){
                location.reload();
@@ -6497,12 +6592,12 @@ for (let i=0; i< dealerHand.length; i++ ){
 
       if(dealerSum === playerSum){
          function alertAll (){
-            CustomAlert("PUSH")
+            alert("PUSH")
             
       
          }
       
-         setTimeout (alertAll, 1200)
+         setTimeout (alertAll, 2000)
       
          function refresh(){
             location.reload();
@@ -6517,12 +6612,12 @@ for (let i=0; i< dealerHand.length; i++ ){
       }
       else{
          function alertAll (){
-            CustomAlert("Black Jack! Dealer Wins!")
+            alert("Black Jack! Dealer Wins!")
             
       
          }
       
-         setTimeout (alertAll, 1200)
+         setTimeout (alertAll, 2000)
       
          function refresh(){
             location.reload();
@@ -7198,7 +7293,7 @@ for (let i=0; i< dealerHand.length; i++ ){
 
   //Based on the 5 cards the bot will act accordingly 
   if(dealerSum === playerSum) {
-   CustomAlert("Push !")
+   alert("Push !")
    console.log(`Dealer Hand is : ${dealerHand}`)
    console.log(`Dealer Hand Sum is : ${dealerSum}`)
    console.log(`Player 1 Hand is : ${player1Hand}`)
@@ -7206,12 +7301,12 @@ for (let i=0; i< dealerHand.length; i++ ){
 }
 else if( dealerSum === 21){
    function alertAll (){
-      CustomAlert("Black Jack! Player 1 Wins!")
+      alert("Black Jack! Player 1 Wins!")
       
 
    }
 
-   setTimeout (alertAll, 1200)
+   setTimeout (alertAll, 2000)
 
    function refresh(){
       location.reload();
@@ -7222,12 +7317,12 @@ else if( dealerSum === 21){
    
    if(dealerSum === playerSum){
       function alertAll (){
-         CustomAlert("PUSH")
+         alert("PUSH")
          
    
       }
    
-      setTimeout (alertAll, 1200)
+      setTimeout (alertAll, 2000)
    
       function refresh(){
          location.reload();
@@ -7244,7 +7339,7 @@ else if( dealerSum === 21){
    }
    else{
       console.log("Dealer Wins")
-      CustomAlert("Dealer Wins!")
+      alert("Dealer Wins!")
       console.log(`Dealer Hand is : ${dealerHand}`)
       console.log(`Dealer Hand Sum is : ${dealerSum}`)
       console.log(`Player 1 Hand is : ${player1Hand}`)
@@ -7913,12 +8008,12 @@ for (let i=0; i< dealerHand.length; i++ ){
  // Based on the six cards the dealer "bot" will act accordingly   
 if(dealerSum === playerSum) {
    function alertAll (){
-      CustomAlert("PUSH")
+      alert("PUSH")
       
 
    }
 
-   setTimeout (alertAll, 1200)
+   setTimeout (alertAll, 2000)
 
    function refresh(){
       location.reload();
@@ -7938,12 +8033,12 @@ else if( dealerSum === 21){
    
    if(dealerSum === playerSum){
       function alertAll (){
-         CustomAlert("PUSH")
+         alert("PUSH")
          
    
       }
    
-      setTimeout (alertAll, 1200)
+      setTimeout (alertAll, 2000)
    
       function refresh(){
          location.reload();
@@ -7960,12 +8055,12 @@ else if( dealerSum === 21){
    }
    else{
       function alertAll (){
-         CustomAlert("Black Jack! Dealer Wins!")
+         alert("Black Jack! Dealer Wins!")
          
    
       }
    
-      setTimeout (alertAll, 1200)
+      setTimeout (alertAll, 2000)
    
       function refresh(){
          location.reload();
@@ -8531,12 +8626,12 @@ for (let i=0; i< dealerHand.length; i++ ){
 //----------------------------------------------------------------------------- 6 Cards
 else if ( dealerSum >= 17 && dealerSum <=20 && dealerSum > playerSum){
    function alertAll (){
-      CustomAlert("Dealer Wins!")
+      alert("Dealer Wins!")
       
 
    }
 
-   setTimeout (alertAll, 1200)
+   setTimeout (alertAll, 2000)
 
    function refresh(){
       location.reload();
@@ -8555,14 +8650,17 @@ else if ( dealerSum >= 17 && dealerSum <=20 && dealerSum > playerSum){
 }
 //----------------------------------------------------------------------------- 6 Cards
 else if(dealerSum >= 17 && dealerSum <=20 && dealerSum < playerSum  ){
+   playerWin = true
+   gamba(playerWin)
+   balance.innerText = `Balance: ${playerBalance} USD`
 
    function alertAll (){
-      CustomAlert("Player 1 Wins!")
+      alert("Player 1 Wins!")
       
 
    }
 
-   setTimeout (alertAll, 1200)
+   setTimeout (alertAll, 2000)
 
    function refresh(){
       location.reload();
@@ -8581,13 +8679,16 @@ else if(dealerSum >= 17 && dealerSum <=20 && dealerSum < playerSum  ){
 }
 //----------------------------------------------------------------------------- 6 Cards
 else if(dealerSum > 21){
+   playerWin = true
+   gamba(playerWin)
+   balance.innerText = `Balance: ${playerBalance} USD`
    function alertAll (){
-      CustomAlert("Dealer BUST! Player 1 Wins!")
+      alert("Dealer BUST! Player 1 Wins!")
       
 
    }
 
-   setTimeout (alertAll, 1200)
+   setTimeout (alertAll, 2000)
 
    function refresh(){
       location.reload();
@@ -8605,12 +8706,12 @@ else if(dealerSum > 21){
 //-----------------------------------------------------------------------------  5 Cards
 else if ( dealerSum >= 17 && dealerSum <=20 && dealerSum > playerSum){
    function alertAll (){
-      CustomAlert("Dealer Wins!")
+      alert("Dealer Wins!")
       
 
    }
 
-   setTimeout (alertAll, 1200)
+   setTimeout (alertAll, 2000)
 
    function refresh(){
       location.reload();
@@ -8629,14 +8730,17 @@ else if ( dealerSum >= 17 && dealerSum <=20 && dealerSum > playerSum){
 }
 //----------------------------------------------------------------------------- 5 Cards
 else if(dealerSum >= 17 && dealerSum <=20 && dealerSum < playerSum  ){
+   playerWin = true
+   gamba(playerWin)
+   balance.innerText = `Balance: ${playerBalance} USD`
 
    function alertAll (){
-      CustomAlert("Player 1 Wins")
+      alert("Player 1 Wins")
       
 
    }
 
-   setTimeout (alertAll, 1200)
+   setTimeout (alertAll, 2000)
 
    function refresh(){
       location.reload();
@@ -8655,13 +8759,16 @@ else if(dealerSum >= 17 && dealerSum <=20 && dealerSum < playerSum  ){
 }
 //-----------------------------------------------------------------------------  5 Cards
 else if(dealerSum > 21){
+   playerWin = true
+   gamba(playerWin)
+   balance.innerText = `Balance: ${playerBalance} USD`
    function alertAll (){
-      CustomAlert("Dealer BUST! Player 1 Wins!")
+      alert("Dealer BUST! Player 1 Wins!")
       
 
    }
 
-   setTimeout (alertAll, 1200)
+   setTimeout (alertAll, 2000)
 
    function refresh(){
       location.reload();
@@ -8678,12 +8785,12 @@ else if(dealerSum > 21){
 //----------------------------------------------------------------------------- 5 Cards 
 else if(dealerSum === playerSum) {
    function alertAll (){
-      CustomAlert("PUSH")
+      alert("PUSH")
       
 
    }
 
-   setTimeout (alertAll, 1200)
+   setTimeout (alertAll, 2000)
 
    function refresh(){
       location.reload();
@@ -8709,12 +8816,12 @@ else if(dealerSum === playerSum) {
 
    else if ( dealerSum >= 17 && dealerSum <=20 && dealerSum > playerSum){
       function alertAll (){
-         CustomAlert("Dealer Wins!")
+         alert("Dealer Wins!")
          
    
       }
    
-      setTimeout (alertAll, 1200)
+      setTimeout (alertAll, 2000)
    
       function refresh(){
          location.reload();
@@ -8734,14 +8841,17 @@ else if(dealerSum === playerSum) {
    //-----------------------------------------------------------------------------  4 Cards
 
    else if(dealerSum >= 17 && dealerSum <=20 && dealerSum < playerSum  ){
+      playerWin = true
+      gamba(playerWin)
+      balance.innerText = `Balance: ${playerBalance} USD`
 
       function alertAll (){
-         CustomAlert("Player 1 Wins!")
+         alert("Player 1 Wins!")
          
    
       }
    
-      setTimeout (alertAll, 1200)
+      setTimeout (alertAll, 2000)
    
       function refresh(){
          location.reload();
@@ -8761,13 +8871,16 @@ else if(dealerSum === playerSum) {
    //-----------------------------------------------------------------------------  4 Cards
 
    else if(dealerSum > 21){
+      playerWin = true
+      gamba(playerWin)
+      balance.innerText = `Balance: ${playerBalance} USD`
       function alertAll (){
-         CustomAlert("Dealer BUST! Player 1 Wins!")
+         alert("Dealer BUST! Player 1 Wins!")
          
    
       }
    
-      setTimeout (alertAll, 1200)
+      setTimeout (alertAll, 2000)
    
       function refresh(){
          location.reload();
@@ -8785,12 +8898,12 @@ else if(dealerSum === playerSum) {
    //-----------------------------------------------------------------------------  4 Cards
    else if(dealerSum === playerSum) {
       function alertAll (){
-         CustomAlert("PUSH")
+         alert("PUSH")
          
    
       }
    
-      setTimeout (alertAll, 1200)
+      setTimeout (alertAll, 2000)
    
       function refresh(){
          location.reload();
@@ -8825,12 +8938,12 @@ else if(dealerSum === playerSum) {
 
       else if ( dealerSum >= 17 && dealerSum <=20 && dealerSum > playerSum){
          function alertAll (){
-            CustomAlert("Dealer Wins!")
+            alert("Dealer Wins!")
             
       
          }
       
-         setTimeout (alertAll, 1200)
+         setTimeout (alertAll, 2000)
       
          function refresh(){
             location.reload();
@@ -8854,14 +8967,17 @@ else if(dealerSum === playerSum) {
       //----------------------------------------------------------------------------- 3 Cards 
 
       else if(dealerSum >= 17 && dealerSum <=20 && dealerSum < playerSum  ){
+         playerWin = true
+         gamba(playerWin)
+         balance.innerText = `Balance: ${playerBalance} USD`
 
          function alertAll (){
-            CustomAlert("Player 1 Wins")
+            alert("Player 1 Wins")
             
       
          }
       
-         setTimeout (alertAll, 1200)
+         setTimeout (alertAll, 2000)
       
          function refresh(){
             location.reload();
@@ -8884,13 +9000,16 @@ else if(dealerSum === playerSum) {
       //-----------------------------------------------------------------------------  3 Cards
 
       else if(dealerSum > 21){
+         playerWin = true
+         gamba(playerWin)
+         balance.innerText = `Balance: ${playerBalance} USD`
          function alertAll (){
-            CustomAlert("Dealer BUST! Player 1 Wins")
+            alert("Dealer BUST! Player 1 Wins")
             
       
          }
       
-         setTimeout (alertAll, 1200)
+         setTimeout (alertAll, 2000)
       
          function refresh(){
             location.reload();
@@ -8907,12 +9026,12 @@ else if(dealerSum === playerSum) {
       //-----------------------------------------------------------------------------  3 cards
       else if(dealerSum === playerSum) {
          function alertAll (){
-            CustomAlert("PUSH")
+            alert("PUSH")
             
       
          }
       
-         setTimeout (alertAll, 1200)
+         setTimeout (alertAll, 2000)
       
          function refresh(){
             location.reload();
@@ -8939,12 +9058,12 @@ else if(dealerSum === playerSum) {
    //-----------------------------------------------------------------------------2 Cards  
    else if ( dealerSum >= 17 && dealerSum <=20 && dealerSum > playerSum){
       function alertAll (){
-         CustomAlert("Dealer Wins!")
+         alert("Dealer Wins!")
          
    
       }
    
-      setTimeout (alertAll, 1200)
+      setTimeout (alertAll, 2000)
    
       function refresh(){
          location.reload();
@@ -8966,14 +9085,18 @@ else if(dealerSum === playerSum) {
    }
    //----------------------------------------------------------------------------- 2 Cards 
    else if(dealerSum >= 17 && dealerSum <=20 && dealerSum < playerSum  ){
+      playerWin = true
+      gamba(playerWin)
+      balance.innerText = `Balance: ${playerBalance} USD`
+     
 
       function alertAll (){
-         CustomAlert("Player 1 Wins!")
+         alert("Player 1 Wins!")
          
    
       }
    
-      setTimeout (alertAll, 1200)
+      setTimeout (alertAll, 2000)
    
       function refresh(){
          location.reload();
@@ -8995,12 +9118,12 @@ else if(dealerSum === playerSum) {
    //----------------------------------------------------------------------------- 2 Cards  
    else if(dealerSum === playerSum) {
       function alertAll (){
-         CustomAlert("PUSH")
+         alert("PUSH")
          
    
       }
    
-      setTimeout (alertAll, 1200)
+      setTimeout (alertAll, 2000)
    
       function refresh(){
          location.reload();
