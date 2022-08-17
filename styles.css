@@ -192,7 +192,29 @@ background: rgb(255, 255, 255)
 
 
 
+#balance-div{
 
+    background-color: #000;
+    
+    display: grid;
+    grid-template-columns: repeat(15 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    ". . . . . . . start-balance . . . . . . ."
+    ;
+
+}
+
+#play-again {
+    grid-area: play-again;
+    font-size: 30px;
+    background-color: rgb(49, 49, 49);
+    color: #fff;
+    text-align: center;
+    border-radius: 30px;
+    size: 50%;
+
+}
 
 
 
@@ -234,42 +256,42 @@ background: rgb(255, 255, 255)
         
     
     display: grid;
-    grid-template-columns: repeat(28 1fr);
+    grid-template-columns: repeat(12 1fr);
     grid-template-rows: repeat(32 1fr) ;
     grid-template-areas: 
-    ". . . . . . . . . . . . . . . . . . . . . . . . . . . ."
-    ". . . . . . . . . . . . . . . . . . . . . . . . . . . ."
-    ". . . . . . . . . . . . . . . . . . . . . . . . . . . ."
-    ". . . . . . . . . . . . . . . . . . . . . . . . . . . ."
-    ". . . . . . . . . . . . . . . . . . . . . . . . . . . ."
-    ". . . . . . . . . . . . . . . . . . . . . . . . . . . ."
-    ". . . . . . . . . . . . . . . . . . . . . . . . . . . ."
-    ". . . . . . . . . . . . start-balance start-balance start-balance start-balance . . . . . . . . . . . ."
-    ". . . . . . . . . . . . title title title title . . . . . . . . . . . ."
-    ". . . . . . . . . . . . title title title title . . . . . . . . . . . ."
-    ". . . . . . . . . . . . dealer-cards dealer-cards h2-dealer dealer-sum-tracker . . . . . . . . . . . ."
-    ". . . . . . . . . . . . dealer-cards dealer-cards h2-dealer dealer-sum-tracker . . . . . . . . . . . ."
-    ". . . . . . . . . . . . player1-cards player1-cards h2-player-one player1-sum-tracker . . . . . . . . . . . ."
-    ". . . . . . . . . . . . player1-cards player1-cards h2-player-one player1-sum-tracker . . . . . . . . . . . ."
-    ". . . . . . . . . . . . . . . . . . . . . . . . . . . ."
-    ". . . . . . . . . . . . . . . . . . . . . . . . . . . ."
-    ". . . . . . . . . . . . . . . . . . . . . . . . . . . ."
-    ". . . . . . . . . . . . . . . . . . . . . . . . . . . ."
-    ". . . . . . . . . . . . hit hit stand stand . . . . . . . . . . . ."
-    ". . . . . . . . . . . . deal deal deal deal . . . . . . . . . . . ."
-    ". . . . . . . . . . . . . . . . . . . . . . . . . . . ."
-    ". . . . . . . . . . . . . . . . . . . . . . . . . . . ."
-    ". . . . . . . . . . . . bet bet bet bet . . . . . . . . . . . ."
-    ". . . . . . . . . . . . . . . . . . . . . . . . . . . ."
-    ". . . . . . . . . . . . . . . . . . . . . . . . . . . ."
-    ". . . . . . . . . . . . . . . . . . . . . . . . . . . ."
-    ". . . . . . . . . . . . . . . . . . . . . . . . . . . ."
-    ". . . . . . . . . . . . . . . . . . . . . . . . . . . ."
-    ". . . . . . . . . . . . . . . . . . . . . . . . . . . ."
-    ". . . . . . . . . . . . . . . . . . . . . . . . . . . ."
-    ". . . . . . . . . . . . . . . . . . . . . . . . . . . ."
-    ". . . . . . . . . . . . . . . . . . . . . . . . . . . ."
-    ". . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . title title title title . . . ."
+    ". . . . title title title title . . . ."
+    ". . . .  dealer-cards dealer-cards h2-dealer dealer-sum-tracker . . . ."
+    ". . . .  dealer-cards dealer-cards h2-dealer dealer-sum-tracker . . . ."
+    ". . . . player1-cards player1-cards h2-player-one player1-sum-tracker . . . ."
+    ". . . . player1-cards player1-cards h2-player-one player1-sum-tracker . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . play-again play-again play-again play-again . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . hit hit stand stand . . . ."
+    ". . . . deal deal deal deal . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . bet bet bet bet . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
+    ". . . . . . . . . . . ."
 
     
     ;

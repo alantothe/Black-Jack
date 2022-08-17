@@ -154,6 +154,8 @@ function gamba (playerWin){
 
 
 
+
+
 //! Hands
 console.log(Shoe)
 let playerBalance = 10000
@@ -167,9 +169,13 @@ let dealerHandDiv = document.querySelector("#dealer-cards")
 let player1Div = document.querySelector("#player1-cards") 
 let hit = document.querySelector("#hit")
 let stand = document.querySelector("#stand")
+let playAgain = document.querySelector("#play-again")
 let dealerSumTrackerDiv = document.querySelector("#dealer-sum-tracker")
 let playerOneSumTrackerDiv = document.querySelector("#player1-sum-tracker")
 let balance = document.createElement("h3")
+let dealerCardFake = document.createElement("img")
+let dealerSumTracker = document.createElement("p")
+let playerOneSumTracker = document.createElement("p")
 
 //! Event Listeners 
 
@@ -212,7 +218,7 @@ deal.addEventListener('click', function(event){
    
    
    event.preventDefault()
-   deal.remove()
+   
    dealerAddCard()
   
 //This For loop will  change the string into a number & add photos into the div
@@ -746,7 +752,7 @@ deal.addEventListener('click', function(event){
 
 
 //This adds the fake back card 
-let dealerCardFake = document.createElement("img")
+
 dealerCardFake.src="./PNG/Back.png" 
 dealerCardFake.setAttribute("width", "102px" )   
 dealerHandDiv.appendChild(dealerCardFake)
@@ -2463,7 +2469,7 @@ if(dealerSum === playerSum) {
       location.reload();
 
    }
-   setTimeout (refresh, 2800)
+   // setTimeout (refresh, 2800)
 console.log(`Dealer Hand is : ${dealerHand}`)
 console.log(`Dealer Hand Sum is : ${dealerSum}`)
 console.log(`Player 1 Hand is : ${player1Hand}`)
@@ -2490,7 +2496,7 @@ else{
       location.reload();
 
    }
-   setTimeout (refresh, 2800)
+   // setTimeout (refresh, 2800)
 console.log(`Dealer Hand is : ${dealerHand}`)
 console.log(`Dealer Hand Sum is : ${dealerSum}`)
 console.log(`Player 1 Hand is : ${player1Hand}`)
@@ -2503,19 +2509,24 @@ console.log(`Player 1 Hand Sum is : ${playerSum}`)
 }
 
 //This section will be for creating an element that will track of the dealer and player 1 sum .
-let dealerSumTracker = document.createElement("p")
+
 dealerSumTrackerDiv.appendChild(dealerSumTracker)
 dealerSumTracker.innerText = dealerSum
 dealerSumTracker.setAttribute("class", "edit-dealer-tracker");
 
 
 
-let playerOneSumTracker = document.createElement("p")
+
 playerOneSumTrackerDiv.appendChild(playerOneSumTracker)
 playerOneSumTracker.innerText =playerSum
 playerOneSumTracker.setAttribute("class", "edit-player-tracker");
 
    
+
+
+}
+)
+
 
 //!Hit
 hit.addEventListener('click', function(event){
@@ -3064,123 +3075,78 @@ hit.addEventListener('click', function(event){
    }
 
  
-//Adds The Hand Values
-   let playerSum = 0;
-   for(let i= 0  ;i < player1Hand.length; i++ ){
-      playerSum += player1Hand[i]
-   }
-//Looks for an ACE in Player 1 Hand and subtracts 10 from the total sum 
-   for (let i=0; i< player1Hand.length; i++ ){
-
-      
-      
-      if(player1Hand[0]=== 11){
-         console.log("1st Card Ace")
-
-         if(playerSum > 21){
-            playerSum = playerSum - 10
-            console.log(`Player 1 Hand is : ${player1Hand}`)
-            console.log(`Player 1 Hand Sum is : ${playerSum}`)
-            break;
-            
-         }
-         console.log(playerSum)
-         
-         
-      }
-      if(player1Hand[1]=== 11){
-         console.log("2nd Card Ace")
-
-         if(playerSum > 21){
-            playerSum = playerSum - 10
-            console.log(`Player 1 Hand is : ${player1Hand}`)
-            console.log(`Player 1 Hand Sum is : ${playerSum}`)
-            break;
-            
-         }
-         console.log(playerSum)
-         
-         
-      }
-      if(player1Hand[2]=== 11){
-         console.log("3rd Card Ace")
-
-         if(playerSum > 21){
-            playerSum = playerSum - 10
-            console.log(`Player 1 Hand is : ${player1Hand}`)
-            console.log(`Player 1 Hand Sum is : ${playerSum}`)
-            break;
-            
-         }
-         console.log(playerSum)
-         
-         
-      }
-      if(player1Hand[3]=== 11){
-         console.log("4th Card Ace")
-
-         if(playerSum > 21){
-            playerSum = playerSum - 10
-            console.log(`Player 1 Hand is : ${player1Hand}`)
-            console.log(`Player 1 Hand Sum is : ${playerSum}`)
-            break;
-            
-         }
-         console.log(playerSum)
-         
-         
-      }
-      if(player1Hand[4]=== 11){
-         console.log("5th Card Ace")
-
-         if(playerSum > 21){
-            playerSum = playerSum - 10
-            console.log(`Player 1 Hand is : ${player1Hand}`)
-            console.log(`Player 1 Hand Sum is : ${playerSum}`)
-            break;
-            
-         }
-         console.log(playerSum)
-         
-         
-      }
-      if(player1Hand[5]=== 11){
-         console.log("6th Card Ace")
-
-         if(playerSum > 21){
-            playerSum = playerSum - 10
-            console.log(`Player 1 Hand is : ${player1Hand}`)
-            console.log(`Player 1 Hand Sum is : ${playerSum}`)
-            break;
-            
-         }
-         console.log(playerSum)
-         
-         
-      }
-      if(player1Hand[6]=== 11){
-         console.log("7th Card Ace")
-
-         if(playerSum > 21){
-            playerSum = playerSum - 10
-            console.log(`Player 1 Hand is : ${player1Hand}`)
-            console.log(`Player 1 Hand Sum is : ${playerSum}`)
-            break;
-            
-         }
-         console.log(playerSum)
-         
-         
-      }
-
+ //! Adds Hand Values 
+ let dealerSum = 0 
+ let playerSum = 0
+ 
+ //Adds The Hand Values
+ for (let i=0; i< dealerHand.length; i++ ){
+ 
+    dealerSum += dealerHand[i];
+ 
+  }
+ for (let i=0; i< player1Hand.length; i++ ){
+ 
+ 
+    playerSum += player1Hand[i];
+ 
+ 
     
-   
-   
-   
-      
-   
-   
-   }
+ 
+ 
+ }
+ //Checking for Ace for Dealer
+ for (let i=0; i< dealerHand.length; i++ ){
+ 
+    if(dealerHand[0]=== 11 ){
+       console.log("Ace in Dealer Hand")
+       console.log("Insurance? Y/N?")
+ 
+       
+    }
+ }
+ //Checking for Ace for Player 1
+ for (let i=0; i< player1Hand.length; i++ ){
+ 
+ //Not needed?
+    // if(player1Hand[0]=== 11 && player1Hand[1]=== 11){
+    //    console.log("2 Aces in Player Hand")
+    //    console.log(playerSum)
+    //    break;
+       
+    // }
+ 
+ 
+ 
+    // if(player1Hand[0]=== 11){
+    //    console.log("First Card Ace")
+    //    if(playerSum > 21){
+    //       player1Hand[0] = 1
+    //    }
+    //    console.log(playerSum)
+    //    break;
+       
+    // }
+ 
+    // if(player1Hand[1]=== 11){
+    //    console.log("Second Card Ace")
+    //    if(playerSum > 21){
+    //       player1Hand[1] = 1
+    //    }
+    //    console.log(playerSum)
+    //    break;
+       
+    // }
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 
+ 
+ }
 
 
 
@@ -3762,7 +3728,7 @@ hit.addEventListener('click', function(event){
      location.reload();
   
   }
-  setTimeout (refresh, 2800)
+//   setTimeout (refresh, 2800)
   
 
  }
@@ -3784,7 +3750,7 @@ hit.addEventListener('click', function(event){
      location.reload();
   
   }
-  setTimeout (refresh, 2800)
+//   setTimeout (refresh, 2800)
   
  }
 
@@ -4357,7 +4323,7 @@ hit.addEventListener('click', function(event){
       location.reload();
 
    }
-   setTimeout (refresh, 2800)
+   // setTimeout (refresh, 2800)
    
    
 }
@@ -5167,11 +5133,11 @@ for (let i=0; i< dealerHand.length; i++ ){
       
          setTimeout (alertAll, 2000)
       
-         function refresh(){
-            location.reload();
+         // function refresh(){
+         //    location.reload();
       
-         }
-         setTimeout (refresh, 2800)
+         // }
+         // setTimeout (refresh, 2800)
    
          
          console.log(`Dealer Hand is : ${dealerHand}`)
@@ -5189,11 +5155,11 @@ for (let i=0; i< dealerHand.length; i++ ){
       
          setTimeout (alertAll, 2000)
       
-         function refresh(){
-            location.reload();
+         // function refresh(){
+         //    location.reload();
       
-         }
-         setTimeout (refresh, 2800)
+         // }
+         // setTimeout (refresh, 2800)
    
          
       console.log(`Dealer Hand is : ${dealerHand}`)
@@ -5881,7 +5847,7 @@ for (let i=0; i< dealerHand.length; i++ ){
                location.reload();
          
             }
-            setTimeout (refresh, 2800)
+            // setTimeout (refresh, 2800)
       
             
             console.log(`Dealer Hand is: `)
@@ -5907,7 +5873,7 @@ for (let i=0; i< dealerHand.length; i++ ){
                location.reload();
          
             }
-            setTimeout (refresh, 2800)
+            // setTimeout (refresh, 2800)
       
             
          console.log(`Dealer Hand is: `)
@@ -6599,11 +6565,11 @@ for (let i=0; i< dealerHand.length; i++ ){
       
          setTimeout (alertAll, 2000)
       
-         function refresh(){
-            location.reload();
+         // function refresh(){
+         //    location.reload();
       
-         }
-         setTimeout (refresh, 2800)
+         // }
+         // setTimeout (refresh, 2800)
          console.log(`Dealer Hand is : ${dealerHand}`)
          console.log(`Dealer Hand Sum is : ${dealerSum}`)
          console.log(`Player 1 Hand is : ${player1Hand}`)
@@ -6619,11 +6585,11 @@ for (let i=0; i< dealerHand.length; i++ ){
       
          setTimeout (alertAll, 2000)
       
-         function refresh(){
-            location.reload();
+         // function refresh(){
+         //    location.reload();
       
-         }
-         setTimeout (refresh, 2800)
+         // }
+         // setTimeout (refresh, 2800)
          console.log(`Dealer Hand is : ${dealerHand}`)
          console.log(`Dealer Hand Sum is : ${dealerSum}`)
          console.log(`Player 1 Hand is : ${player1Hand}`)
@@ -7312,7 +7278,7 @@ else if( dealerSum === 21){
       location.reload();
 
    }
-   setTimeout (refresh, 2800)
+   // setTimeout (refresh, 2800)
 
    
    if(dealerSum === playerSum){
@@ -7328,7 +7294,7 @@ else if( dealerSum === 21){
          location.reload();
    
       }
-      setTimeout (refresh, 2800)
+      // setTimeout (refresh, 2800)
 
       
       console.log(`Dealer Hand is : ${dealerHand}`)
@@ -8019,7 +7985,7 @@ if(dealerSum === playerSum) {
       location.reload();
 
    }
-   setTimeout (refresh, 2800)
+   // setTimeout (refresh, 2800)
 
    
    console.log(`Dealer Hand is : ${dealerHand}`)
@@ -8044,7 +8010,7 @@ else if( dealerSum === 21){
          location.reload();
    
       }
-      setTimeout (refresh, 2800)
+      // setTimeout (refresh, 2800)
 
       
       console.log(`Dealer Hand is : ${dealerHand}`)
@@ -8066,7 +8032,7 @@ else if( dealerSum === 21){
          location.reload();
    
       }
-      setTimeout (refresh, 2800)
+      // setTimeout (refresh, 2800)
 
       
       console.log(`Dealer Hand is : ${dealerHand}`)
@@ -8637,7 +8603,7 @@ else if ( dealerSum >= 17 && dealerSum <=20 && dealerSum > playerSum){
       location.reload();
 
    }
-   setTimeout (refresh, 2800)
+   // setTimeout (refresh, 2800)
 
    
 
@@ -8666,7 +8632,7 @@ else if(dealerSum >= 17 && dealerSum <=20 && dealerSum < playerSum  ){
       location.reload();
 
    }
-   setTimeout (refresh, 2800)
+   // setTimeout (refresh, 2800)
 
    
 
@@ -8694,7 +8660,7 @@ else if(dealerSum > 21){
       location.reload();
 
    }
-   setTimeout (refresh, 2800)
+   // setTimeout (refresh, 2800)
 
    
  console.log(`Dealer Hand Sum is : ${dealerSum}`)
@@ -8717,7 +8683,7 @@ else if ( dealerSum >= 17 && dealerSum <=20 && dealerSum > playerSum){
       location.reload();
 
    }
-   setTimeout (refresh, 2800)
+   // setTimeout (refresh, 2800)
 
    
 
@@ -8746,7 +8712,7 @@ else if(dealerSum >= 17 && dealerSum <=20 && dealerSum < playerSum  ){
       location.reload();
 
    }
-   setTimeout (refresh, 2800)
+   // setTimeout (refresh, 2800)
 
    
 
@@ -8774,7 +8740,7 @@ else if(dealerSum > 21){
       location.reload();
 
    }
-   setTimeout (refresh, 2800)
+   // setTimeout (refresh, 2800)
 
    
    console.log(`Dealer Hand Sum is : ${dealerSum}`)
@@ -8796,7 +8762,7 @@ else if(dealerSum === playerSum) {
       location.reload();
 
    }
-   setTimeout (refresh, 2800)
+   // setTimeout (refresh, 2800)
 
    
    console.log(dealerHand)
@@ -8827,7 +8793,7 @@ else if(dealerSum === playerSum) {
          location.reload();
    
       }
-      setTimeout (refresh, 2800)
+      // setTimeout (refresh, 2800)
 
       
 
@@ -8857,7 +8823,7 @@ else if(dealerSum === playerSum) {
          location.reload();
    
       }
-      setTimeout (refresh, 2800)
+      // setTimeout (refresh, 2800)
 
       
 
@@ -8886,7 +8852,7 @@ else if(dealerSum === playerSum) {
          location.reload();
    
       }
-      setTimeout (refresh, 2800)
+      // setTimeout (refresh, 2800)
 
       
       console.log(`Dealer Hand Sum is : ${dealerSum}`)
@@ -8909,7 +8875,7 @@ else if(dealerSum === playerSum) {
          location.reload();
    
       }
-      setTimeout (refresh, 2800)
+      // setTimeout (refresh, 2800)
 
       
       console.log(`Dealer Hand is: `)
@@ -8945,11 +8911,11 @@ else if(dealerSum === playerSum) {
       
          setTimeout (alertAll, 2000)
       
-         function refresh(){
-            location.reload();
+         // function refresh(){
+         //    location.reload();
       
-         }
-         setTimeout (refresh, 2800)
+         // }
+         // setTimeout (refresh, 2800)
    
          
    
@@ -8979,11 +8945,11 @@ else if(dealerSum === playerSum) {
       
          setTimeout (alertAll, 2000)
       
-         function refresh(){
-            location.reload();
+         // function refresh(){
+         //    location.reload();
       
-         }
-         setTimeout (refresh, 2800)
+         // }
+         // setTimeout (refresh, 2800)
    
          
          console.log(`Dealer Hand is: `)
@@ -9011,11 +8977,11 @@ else if(dealerSum === playerSum) {
       
          setTimeout (alertAll, 2000)
       
-         function refresh(){
-            location.reload();
+         // function refresh(){
+         //    location.reload();
       
-         }
-         setTimeout (refresh, 2800)
+         // }
+         // setTimeout (refresh, 2800)
    
          
                console.log(`Dealer Hand Sum is : ${dealerSum}`)
@@ -9033,11 +8999,11 @@ else if(dealerSum === playerSum) {
       
          setTimeout (alertAll, 2000)
       
-         function refresh(){
-            location.reload();
+         // function refresh(){
+         //    location.reload();
       
-         }
-         setTimeout (refresh, 2800)
+         // }
+         // setTimeout (refresh, 2800)
    
          
          console.log("Push!")
@@ -9069,7 +9035,7 @@ else if(dealerSum === playerSum) {
          location.reload();
    
       }
-      setTimeout (refresh, 2800)
+      // setTimeout (refresh, 2800)
 
       
       console.log(`Dealer Hand is: `)
@@ -9102,7 +9068,7 @@ else if(dealerSum === playerSum) {
          location.reload();
    
       }
-      setTimeout (refresh, 2800)
+      // setTimeout (refresh, 2800)
 
       
       console.log(`Dealer Hand is: `)
@@ -9129,7 +9095,7 @@ else if(dealerSum === playerSum) {
          location.reload();
    
       }
-      setTimeout (refresh, 2800)
+      // setTimeout (refresh, 2800)
 
       
       console.log(`Dealer Hand is : ${dealerHand}`)
@@ -9147,8 +9113,55 @@ else if(dealerSum === playerSum) {
 
 
 })
-}
-)
+
+// playAgain.addEventListener('click', function(){
+
+//    player1Hand = []
+//    dealerHand = []
+//    playerSum = 0
+//    dealerSum = 0
+//    document.getElementById('#dealer-cards').innerHTML = ""
+//    document.getElementById('#player1-cards').innerHTML = ""
+//    document.getElementById('#player1-sum-tracker').innerHTML = ""
+//    document.getElementById('#dealer-sum-tracker').innerHTML = ""
+
+//    console.log(player1Hand)
+//    console.log(dealerHand)
+//    console.log(playerSum)
+//    console.log(dealerSum)
+   
+   
+
+
+
+
+
+
+
+// })
+
+$( "#play-again" ).click(function() {
+
+
+
+   player1Hand = []
+   dealerHand = []
+   playerSum = 0
+   dealerSum = 0
+   
+   $('#dealer-cards').empty();
+   $('#player1-cards').empty();
+   $('#player1-sum-tracker').empty();
+   $('#dealer-sum-tracker').empty();
+
+   console.log(player1Hand)
+   console.log(dealerHand)
+   console.log(playerSum)
+   console.log(dealerSum)
+
+
+
+ });
 
 
 
